@@ -1,0 +1,3 @@
+.cover :global(img) {
+  object-fit: cover;
+}
