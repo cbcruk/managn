@@ -5,4 +5,9 @@ module.exports = withTM({
   images: {
     domains: ['dl.airtable.com'],
   },
+  i18n: {
+    locales: ['ko', 'en'],
+    defaultLocale: 'ko',
+    localeDetection: true,
+  },
 })

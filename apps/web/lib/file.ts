@@ -19,8 +19,8 @@ export async function writeFile({ fileName, data }) {
   await fs.writeFile(path, data)
 }
 
-export async function getDirFiles() {
-  const directory = path.join(process.cwd(), '.cached')
+export async function getDirFiles(dir: string) {
+  const directory = path.join(process.cwd(), dir)
   const filenames = await fs.readdir(directory)
 
   return filenames

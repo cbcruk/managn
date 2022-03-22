@@ -1,0 +1,7 @@
+{
+  "nav": {
+    "previous": "Previous page",
+    "next": "Next page",
+    "page_of": "Page {{current}} of {{total}}"
+  }
+}
