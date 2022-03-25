@@ -17,7 +17,7 @@ export async function getStaticProps({ locale }) {
         records: getMinifyData(data),
         pagination: [null, 2, files.length],
       },
-      lng: locale,
+      locale,
       lngDict,
     },
     revalidate: 60,
