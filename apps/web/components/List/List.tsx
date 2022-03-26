@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import Image from 'next/image'
+import { MAX_WIDTH } from '../../constants'
 import styles from './List.module.css'
 
 export function List({ list }) {
@@ -14,7 +15,12 @@ export function List({ list }) {
             <div
               className={clsx([styles.cover, 'rounded-3xl', 'overflow-hidden'])}
             >
-              <Image src={item.image} alt="" width={360} height={360} />
+              <Image
+                src={item.image}
+                alt=""
+                width={MAX_WIDTH}
+                height={MAX_WIDTH}
+              />
             </div>
             <div className="flex flex-col p-4 py-4 text-neutral-100">
               <div className="flex flex-wrap items-end gap-1 text-2xl">

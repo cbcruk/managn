@@ -1,5 +1,6 @@
 import clsx, { ClassValue } from 'clsx'
 import { ReactNode } from 'react'
+import { MAX_WIDTH } from '../../constants'
 
 interface Props {
   className?: ClassValue
@@ -8,6 +9,8 @@ interface Props {
 
 export function Container({ className, children }: Props) {
   return (
-    <div className={clsx('max-w-[360px] mx-auto', className)}>{children}</div>
+    <div className={clsx(`max-w-[${MAX_WIDTH}px] mx-auto`, className)}>
+      {children}
+    </div>
   )
 }
