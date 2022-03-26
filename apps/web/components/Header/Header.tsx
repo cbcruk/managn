@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Container } from '../Container'
+import { I18nSelect } from '../I18nSelect/I18nSelect'
 import { Search } from '../Icons'
 
 export function Header() {
@@ -16,8 +17,8 @@ export function Header() {
             </a>
           </Link>
         </div>
-        <div className="flex hidden">
-          <Search />
+        <div className="flex">
+          <I18nSelect />
         </div>
       </Container>
     </div>

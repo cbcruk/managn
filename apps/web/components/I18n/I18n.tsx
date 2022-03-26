@@ -2,12 +2,13 @@ import { useRef, useState, useEffect } from 'react'
 import rosetta from 'rosetta'
 import { I18nContext } from './context'
 import ko from '../../locales/ko.json'
+import { DEFAULT_LOCALE } from './constants'
 
 export type LngDict = typeof ko
 
 const i18n = rosetta<LngDict>()
 
-i18n.locale('ko')
+i18n.locale(DEFAULT_LOCALE)
 
 export default function I18n({ children, locale, lngDict }) {
   const activeLocaleRef = useRef(locale)
