@@ -19,6 +19,7 @@ function getParams(offset: string) {
   const params = new URLSearchParams()
   params.append('pageSize', `${PAGE_SIZE}`)
   params.append('view', 'Grid view')
+  params.append('filterByFormula', `SEARCH({status}, 'release')`)
 
   if (offset) {
     params.append('offset', offset)
