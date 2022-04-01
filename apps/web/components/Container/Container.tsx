@@ -9,8 +9,6 @@ interface Props {
 
 export function Container({ className, children }: Props) {
   return (
-    <div className={clsx(`max-w-[${MAX_WIDTH}px] mx-auto`, className)}>
-      {children}
-    </div>
+    <div className={clsx(`max-w-[414px] mx-auto`, className)}>{children}</div>
   )
 }
