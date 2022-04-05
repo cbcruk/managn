@@ -19,7 +19,7 @@ function getParams(offset: string) {
   const params = new URLSearchParams()
   params.append('pageSize', `${PAGE_SIZE}`)
   params.append('view', 'Grid view')
-  params.append('filterByFormula', `SEARCH({status}, 'release')`)
+  params.append('filterByFormula', `AND({status}, 'release')`)
 
   if (offset) {
     params.append('offset', offset)
@@ -40,7 +40,7 @@ export function getMinifyData(data) {
       title_ko: fields?.title_ko ?? '',
       authors: fields?.authors ?? '',
       authors_ko: fields?.authors_ko ?? '',
-      image: fields.attachments[0]?.thumbnails.large.url,
+      image: fields.attachments?.[0]?.thumbnails.large.url,
     }
   })
 }
