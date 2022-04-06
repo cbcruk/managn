@@ -7,6 +7,9 @@ export function List({ list }) {
   return (
     <div className="flex flex-col pb-4 gap-4">
       {list.map((item) => {
+        const authors = (values) =>
+          Array.isArray(values) ? values.join(', ') : ''
+
         return (
           <div
             key={item.id}
@@ -36,8 +39,8 @@ export function List({ list }) {
                 )}
               </div>
               <div className="py-1 text-sm">
-                {item.authors_ko}{' '}
-                <span className="text-xs">({item.authors})</span>
+                {authors(item.authors_ko)}{' '}
+                <span className="text-xs">({authors(item.authors)})</span>
               </div>
               <div className="flex justify-end py-4 hidden">
                 <a
