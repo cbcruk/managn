@@ -6,7 +6,7 @@ export function Manga({ list, pagination }) {
   return (
     <Container className="p-4">
       <List list={list} />
-      <Nav pagination={pagination} />
+      {pagination && <Nav pagination={pagination} />}
     </Container>
   )
 }

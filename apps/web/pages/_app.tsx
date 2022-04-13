@@ -9,8 +9,12 @@ function App({ Component, pageProps }) {
       <Head>
         <title>managn</title>
       </Head>
-      <Header />
-      <Component {...pageProps} />
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <div className="grow">
+          <Component {...pageProps} />
+        </div>
+      </div>
     </I18n>
   )
 }

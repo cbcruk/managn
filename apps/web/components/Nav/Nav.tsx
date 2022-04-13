@@ -5,7 +5,7 @@ import useI18n from '../../hooks/useI18n'
 
 function LinkButton({ page, className, children }) {
   return (
-    <Link href={`/page/${page}`}>
+    <Link href={`/manga/${page}`}>
       <a
         className={clsx(
           'inline-flex justify-center h-[32px] min-w-[90px] p-2 rounded-full text-xs text-center',

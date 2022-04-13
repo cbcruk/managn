@@ -1,15 +1,21 @@
 import clsx from 'clsx'
 import Image from 'next/image'
+import Link from 'next/link'
 import { MAX_WIDTH } from '../../constants'
 import styles from './List.module.css'
+
+function AuthorLink({ id, className, children }) {
+  return (
+    <Link href={`/authors/${id}`}>
+      <a className={className}>{children}</a>
+    </Link>
+  )
+}
 
 export function List({ list }) {
   return (
     <div className="flex flex-col pb-4 gap-4">
       {list.map((item) => {
-        const authors = (values) =>
-          Array.isArray(values) ? values.join(', ') : ''
-
         return (
           <div
             key={item.id}
@@ -39,8 +45,14 @@ export function List({ list }) {
                 )}
               </div>
               <div className="py-1 text-sm">
-                {authors(item.authors_ko)}{' '}
-                <span className="text-xs">({authors(item.authors)})</span>
+                {item.table2.map((id, index) => {
+                  return (
+                    <AuthorLink key={id} id={id} className={styles.author}>
+                      {item.authors_ko[index]}{' '}
+                      <span className="text-xs">({item.authors[index]})</span>
+                    </AuthorLink>
+                  )
+                })}
               </div>
               <div className="flex justify-end py-4 hidden">
                 <a

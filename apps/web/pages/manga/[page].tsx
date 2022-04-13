@@ -1,5 +1,5 @@
 import { Manga } from '../../components/Manga'
-import { getAllRecords } from '../../lib/airtable'
+import { getAllManga } from '../../lib/airtable'
 import { getDirFiles, getFile, writeFile } from '../../lib/file'
 
 function Page({ data }) {
@@ -22,7 +22,7 @@ export async function getStaticProps({ params, locale }) {
 }
 
 export async function getStaticPaths() {
-  const records = await getAllRecords()
+  const records = await getAllManga()
   const locales = await getDirFiles('locales')
   const paths = []
 
