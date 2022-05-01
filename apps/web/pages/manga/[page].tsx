@@ -11,12 +11,11 @@ function Page({ data }) {
 }
 
 export async function getStaticProps({ params, locale }) {
-  const contents = await getFile({ fileName: `${params.page}` })
-  const data = JSON.parse(contents)
+  const contents = await getFile({ fileName: `/[page]/${params.page}` })
   const { default: lngDict = {} } = await import(`../../locales/${locale}.json`)
 
   return {
-    props: { data, locale, lngDict },
+    props: { data: JSON.parse(contents), locale, lngDict },
     revalidate: 60,
   }
 }
@@ -34,7 +33,7 @@ export async function getStaticPaths() {
     const pagination = [prev, next, total]
 
     await writeFile({
-      fileName: `${index}`,
+      fileName: `/[page]/${index}`,
       data: JSON.stringify({
         records: record,
         pagination,

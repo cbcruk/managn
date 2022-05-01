@@ -1,8 +1,11 @@
 import Link from 'next/link'
 import { Container } from '../../components/Container'
 import { getAllAuthors } from '../../lib/airtable'
+import { Author } from '../../lib/types'
 
-function Authors({ data }) {
+type Props = { data: Author[] }
+
+function Authors({ data }: Props) {
   return (
     <Container>
       <div className="flex flex-col items-start">
@@ -14,12 +17,12 @@ function Authors({ data }) {
             >
               <Link href={`/authors/${author.id}`}>
                 <a className="text-lg">
-                  {author.author_ko}{' '}
-                  <span className="text-sm">({author.author})</span>
+                  {author.fields.author_ko}{' '}
+                  <span className="text-sm">({author.fields.author})</span>
                 </a>
               </Link>
               <div className="text-xs text-neutral-400">
-                {author.title_ko?.join(', ')}
+                {author.fields.title_ko?.join(', ')}
               </div>
             </div>
           )

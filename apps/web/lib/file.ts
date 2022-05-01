@@ -1,6 +1,10 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 
+export function isExist(path) {
+  return fs.access(path)
+}
+
 function getFilePath({ fileName }) {
   const result = path.join(process.cwd(), '.cached', `${fileName}.json`)
   return result

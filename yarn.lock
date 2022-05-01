@@ -65,6 +65,11 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
+"@cbcruk/airtable@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@cbcruk/airtable/-/airtable-0.0.9.tgz#d0fe6e51d54eef60b3ec615a95f73b2a11c38e8a"
+  integrity sha512-6Vu1N870A7mdr1mFOKkpieqCIGaxE/eDqfcIaIrCnxTXTdVBt0i3qdgLspNOQ+v7Quc4zdThksy3ogf8AOc7ug==
+
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"

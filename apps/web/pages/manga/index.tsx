@@ -1,5 +1,5 @@
 import { Manga } from '../../components/Manga'
-import { getManga, getMinifyData } from '../../lib/airtable'
+import { getManga } from '../../lib/airtable'
 import { getDirFiles } from '../../lib/file'
 
 function Index({ data }) {
@@ -14,7 +14,7 @@ export async function getStaticProps({ locale }) {
   return {
     props: {
       data: {
-        records: getMinifyData(data.records),
+        records: data.records,
         pagination: [null, 2, files.length],
       },
       locale,
