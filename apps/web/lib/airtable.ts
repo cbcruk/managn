@@ -1,13 +1,6 @@
 import { getList, getListAll } from '@cbcruk/airtable'
+import { getFile, isExist, writeFile } from './file'
 import { Author, Manga } from './types'
-
-export function wait() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(true)
-    }, 1000)
-  })
-}
 
 export async function getManga(params = {}) {
   const data = await getList<Manga>({
@@ -33,8 +26,46 @@ export async function getManga(params = {}) {
 }
 
 export async function getAllManga() {
+  if (process.env.NODE_ENV === 'development') {
+    const cached = await isExist('allmanga')
+
+    if (cached) {
+      const data = await getFile({ fileName: 'allmanga' })
+      return JSON.parse(data)
+    }
+  }
+
   const data = await getListAll(getManga)
+  await writeFile({
+    fileName: 'allmanga',
+    data: JSON.stringify(data),
+  })
+
   return data
+}
+
+export async function setCacheAllManga(records) {
+  const paths = []
+
+  for (const record of records) {
+    const total = records.length
+    const index = paths.length + 1
+    const prev = index === 1 ? null : index - 1
+    const next = index === total ? null : index + 1
+    const pagination = [prev, next, total]
+
+    await writeFile({
+      fileName: `/[page]/${index}`,
+      data: JSON.stringify({
+        records: record,
+        pagination,
+      }),
+    })
+
+    paths.push(index)
+  }
+
+  return paths
 }
 
 export async function findMangaById({ id }) {
@@ -82,6 +113,36 @@ export async function getAuthor(params = {}) {
 }
 
 export async function getAllAuthors() {
+  if (process.env.NODE_ENV === 'development') {
+    const cached = await isExist('allauthors')
+
+    if (cached) {
+      const data = await getFile({ fileName: 'allauthors' })
+      return JSON.parse(data).flatMap((r) => r)
+    }
+  }
+
   const data = await getListAll(getAuthor)
+
+  await writeFile({
+    fileName: 'allauthors',
+    data: JSON.stringify(data),
+  })
+
   return data.flatMap((r) => r)
+}
+
+export async function setCacheAuthors(authors) {
+  const mangas = await getAllManga()
+
+  for (const author of authors) {
+    const data = mangas
+      .flatMap((r) => r)
+      .filter((manga) => manga.table2.includes(author.fields.record_id))
+
+    await writeFile({
+      fileName: `/[author]/${author.fields.record_id}`,
+      data: JSON.stringify(data),
+    })
+  }
 }

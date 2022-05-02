@@ -1,6 +1,6 @@
 import { Manga } from '../../components/Manga'
-import { getAllManga } from '../../lib/airtable'
-import { getDirFiles, getFile, writeFile } from '../../lib/file'
+import { getAllManga, setCacheAllManga } from '../../lib/airtable'
+import { getDirFiles, getFile } from '../../lib/file'
 
 function Page({ data }) {
   if (!data) {
@@ -22,26 +22,8 @@ export async function getStaticProps({ params, locale }) {
 
 export async function getStaticPaths() {
   const records = await getAllManga()
+  const paths = await setCacheAllManga(records)
   const locales = await getDirFiles('locales')
-  const paths = []
-
-  for (const record of records) {
-    const total = records.length
-    const index = paths.length + 1
-    const prev = index === 1 ? null : index - 1
-    const next = index === total ? null : index + 1
-    const pagination = [prev, next, total]
-
-    await writeFile({
-      fileName: `/[page]/${index}`,
-      data: JSON.stringify({
-        records: record,
-        pagination,
-      }),
-    })
-
-    paths.push(index)
-  }
 
   const pathsWithLocale = locales.flatMap((locale) => {
     return paths.map((page) => {

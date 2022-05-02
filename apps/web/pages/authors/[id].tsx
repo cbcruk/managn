@@ -1,14 +1,9 @@
-import { AirtableResponse } from '@cbcruk/airtable'
 import { Manga } from '../../components/Manga'
-import { getAllAuthors, getAllManga } from '../../lib/airtable'
-import { getDirFiles, getFile, writeFile } from '../../lib/file'
+import { getAllAuthors, setCacheAuthors } from '../../lib/airtable'
+import { getDirFiles, getFile } from '../../lib/file'
 import { Author } from '../../lib/types'
 
-type Props = {
-  data: AirtableResponse<Author>
-}
-
-function Author({ data }: Props) {
+function Author({ data }) {
   if (!data) {
     return null
   }
@@ -28,25 +23,14 @@ export async function getStaticProps({ params, locale }) {
 
 export async function getStaticPaths() {
   const authors = await getAllAuthors()
-  const mangas = await getAllManga()
   const locales = await getDirFiles('locales')
-  const ids = authors.map((author) => author.id)
 
-  for (const author of authors) {
-    const data = mangas
-      .flatMap((r) => r)
-      .filter((manga) => manga.table2.includes(author.fields.record_id))
-
-    await writeFile({
-      fileName: `/[author]/${author.fields.record_id}`,
-      data: JSON.stringify(data),
-    })
-  }
+  await setCacheAuthors(authors)
 
   const pathsWithLocale = locales.flatMap((locale) => {
-    return ids.map((id) => {
+    return authors.map((author) => {
       return {
-        params: { id: `${id}` },
+        params: { id: `${author.id}` },
         locale: locale.replace('.json', ''),
       }
     })
