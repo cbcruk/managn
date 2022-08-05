@@ -2,11 +2,21 @@ import { getList, getListAll } from '@cbcruk/airtable'
 import { getFile, isExist, writeFile } from './file'
 import { Author, Manga } from './types'
 
+export const PAGE_SIZE = 20
+
+export const paginationFormula = ({ start, end }) =>
+  `AND(AND({status}, 'release'), AND({index} >= ${start}, {index} <= ${end}))`
+
+export function getLastPage(total: number) {
+  return Math.ceil(total / PAGE_SIZE)
+}
+
 export async function getManga(params = {}) {
   const data = await getList<Manga>({
     url: '/Table%201',
     params: {
       filterByFormula: `AND({status}, 'release')`,
+      sort: [{ field: 'index' }],
       ...params,
     },
   })
@@ -76,22 +86,22 @@ export async function findMangaById({ id }) {
   return data
 }
 
-export async function getIndex() {
-  const data = await getList({
-    url: '/Table%203',
+export async function getLastIndex() {
+  const data = await getList<Manga>({
+    url: '/Table%201',
     params: {
-      pageSize: '1',
+      pageSize: 1,
       sort: [
         {
           field: 'index',
           direction: 'desc',
         },
       ],
-      fields: ['table1', 'desc'],
+      fields: ['index'],
     },
   })
 
-  return data
+  return data.records?.[0].fields.index
 }
 
 export async function getAuthor(params = {}) {
