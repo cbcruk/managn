@@ -15,7 +15,14 @@ function Authors({ data }: Props) {
               key={author.id}
               className="text-neutral-100 rounded-full py-2 px-4 m-1"
             >
-              <Link href={`/authors/${author.id}`}>
+              <Link
+                href={{
+                  pathname: `/search`,
+                  query: {
+                    authors: author.fields.author,
+                  },
+                }}
+              >
                 <a className="text-lg">
                   {author.fields.author_ko}{' '}
                   <span className="text-sm">({author.fields.author})</span>
