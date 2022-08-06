@@ -4,8 +4,10 @@ import { Author, Manga } from './types'
 
 export const PAGE_SIZE = 20
 
+const releaseFormula = `AND({status}, 'release')`
+
 export const paginationFormula = ({ start, end }) =>
-  `AND(AND({status}, 'release'), AND({index} >= ${start}, {index} <= ${end}))`
+  `AND(${releaseFormula}, AND({index} >= ${start}, {index} <= ${end}))`
 
 export function getLastPage(total: number) {
   return Math.ceil(total / PAGE_SIZE)
@@ -133,11 +135,6 @@ export async function getAllAuthors() {
   }
 
   const data = await getListAll(getAuthor)
-
-  await writeFile({
-    fileName: 'allauthors',
-    data: JSON.stringify(data),
-  })
 
   return data.flatMap((r) => r)
 }

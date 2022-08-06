@@ -4,9 +4,16 @@ import Link from 'next/link'
 import { MAX_WIDTH } from '../../constants'
 import styles from './List.module.css'
 
-function AuthorLink({ id, className, children }) {
+function AuthorLink({ authors, className, children }) {
   return (
-    <Link href={`/authors/${id}`}>
+    <Link
+      href={{
+        pathname: `/search`,
+        query: {
+          authors,
+        },
+      }}
+    >
       <a className={className}>{children}</a>
     </Link>
   )
@@ -45,9 +52,13 @@ export function List({ list }) {
                 )}
               </div>
               <div className="py-1 text-sm">
-                {item.table2.map((id, index) => {
+                {item.authors.map((id, index) => {
                   return (
-                    <AuthorLink key={id} id={id} className={styles.author}>
+                    <AuthorLink
+                      key={id}
+                      authors={item.authors}
+                      className={styles.author}
+                    >
                       {item.authors_ko[index]}{' '}
                       <span className="text-xs">({item.authors[index]})</span>
                     </AuthorLink>
