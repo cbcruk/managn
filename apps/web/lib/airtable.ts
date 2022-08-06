@@ -23,18 +23,7 @@ export async function getManga(params = {}) {
     },
   })
 
-  return Object.assign(data, {
-    records: data.records.map((record) => {
-      const { id, fields } = record
-      const { attachments, ...restFields } = fields
-
-      return {
-        id,
-        ...restFields,
-        image: attachments?.[0]?.thumbnails.large.url,
-      }
-    }),
-  })
+  return data
 }
 
 export async function getAllManga() {

@@ -2,7 +2,12 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 import { MAX_WIDTH } from '../../constants'
+import { Manga } from '../../lib/types'
 import styles from './List.module.css'
+
+type Props = {
+  list: Manga[]
+}
 
 function AuthorLink({ authors, className, children }) {
   return (
@@ -19,10 +24,12 @@ function AuthorLink({ authors, className, children }) {
   )
 }
 
-export function List({ list }) {
+export function List({ list }: Props) {
   return (
     <div className="flex flex-col pb-4 gap-4">
       {list.map((item) => {
+        const { fields } = item
+
         return (
           <div
             key={item.id}
@@ -32,7 +39,7 @@ export function List({ list }) {
               className={clsx([styles.cover, 'rounded-3xl', 'overflow-hidden'])}
             >
               <Image
-                src={item.image}
+                src={fields.attachments?.[0].thumbnails.large.url}
                 alt=""
                 width={MAX_WIDTH}
                 height={MAX_WIDTH}
@@ -41,26 +48,26 @@ export function List({ list }) {
             <div className="flex flex-col p-4 py-4 text-neutral-100">
               <div className="flex flex-wrap items-end gap-1 text-2xl">
                 <span className="inline-flex">
-                  {item.title_ko || item.title}
+                  {fields.title_ko || fields.title}
                 </span>
-                {item.title_ko && (
+                {fields.title_ko && (
                   <span className="inline-flex">
-                    {item.title && (
-                      <span className="text-sm">({item.title})</span>
+                    {fields.title && (
+                      <span className="text-sm">({fields.title})</span>
                     )}
                   </span>
                 )}
               </div>
               <div className="py-1 text-sm">
-                {item.authors.map((id, index) => {
+                {fields.authors.map((id, index) => {
                   return (
                     <AuthorLink
                       key={id}
-                      authors={item.authors}
+                      authors={fields.authors}
                       className={styles.author}
                     >
-                      {item.authors_ko[index]}{' '}
-                      <span className="text-xs">({item.authors[index]})</span>
+                      {fields.authors_ko[index]}{' '}
+                      <span className="text-xs">({fields.authors[index]})</span>
                     </AuthorLink>
                   )
                 })}
