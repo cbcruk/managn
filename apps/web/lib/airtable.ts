@@ -89,6 +89,7 @@ export async function getLastIndex() {
         },
       ],
       fields: ['index'],
+      filterByFormula: `AND({status}, 'release')`,
     },
   })
 
