@@ -33,12 +33,19 @@ export function Nav({ pagination = [] }) {
         })}
       </span>
       <div className="flex justify-end items-center gap-2">
-        <LinkButton page={prev} className="border border-red-200 text-red-200">
-          {i18n.t('nav.previous')}
-        </LinkButton>
-        <LinkButton page={next} className="bg-red-200">
-          {i18n.t('nav.next')}
-        </LinkButton>
+        {current !== 1 && (
+          <LinkButton
+            page={prev}
+            className="border border-red-200 text-red-200"
+          >
+            {i18n.t('nav.previous')}
+          </LinkButton>
+        )}
+        {total !== parseInt(current as string, 10) && (
+          <LinkButton page={next} className="bg-red-200">
+            {i18n.t('nav.next')}
+          </LinkButton>
+        )}
       </div>
     </div>
   )
