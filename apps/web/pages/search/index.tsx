@@ -10,7 +10,7 @@ function Search({ data }) {
 }
 
 const searchFormula = ({ authors }) =>
-  `AND(SEARCH({authors}, '${authors}'), AND({status}, 'release'))`
+  `AND(SEARCH('${authors}', {authors}), AND({status}, 'release'))`
 
 export async function getServerSideProps({ locale, query }) {
   const data = await getManga({

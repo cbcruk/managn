@@ -60,14 +60,16 @@ export function List({ list }: Props) {
               </div>
               <div className="py-1 text-sm">
                 {fields.authors.map((id, index) => {
+                  const author = fields.authors[index]
+
                   return (
                     <AuthorLink
                       key={id}
-                      authors={fields.authors}
+                      authors={author}
                       className={styles.author}
                     >
                       {fields.authors_ko[index]}{' '}
-                      <span className="text-xs">({fields.authors[index]})</span>
+                      <span className="text-xs">({author})</span>
                     </AuthorLink>
                   )
                 })}
