@@ -1,11 +1,6 @@
+import { getLastIndex, paginationFormula } from '@cbcruk/next-utils'
 import { Manga } from '../../components/Manga'
-import {
-  getLastIndex,
-  getLastPage,
-  getManga,
-  PAGE_SIZE,
-  paginationFormula,
-} from '../../lib/airtable'
+import { getLastPage, getManga, PAGE_SIZE } from '../../lib/airtable'
 import { getDirFiles } from '../../lib/file'
 
 function Page({ data }) {

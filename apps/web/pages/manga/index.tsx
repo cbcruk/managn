@@ -1,10 +1,6 @@
+import { getLastIndex, paginationFormula } from '@cbcruk/next-utils'
 import { Manga } from '../../components/Manga'
-import {
-  getLastIndex,
-  getLastPage,
-  getManga,
-  paginationFormula,
-} from '../../lib/airtable'
+import { getLastPage, getManga } from '../../lib/airtable'
 
 function Index({ data }) {
   return <Manga list={data.records} pagination={data.pagination} />

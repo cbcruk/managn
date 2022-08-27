@@ -1,13 +1,8 @@
-import { getList, getListAll } from '@cbcruk/airtable'
+import { getList, getListAll, releaseFormula } from '@cbcruk/next-utils'
 import { getFile, isExist, writeFile } from './file'
 import { Author, Manga } from './types'
 
 export const PAGE_SIZE = 20
-
-const releaseFormula = `AND({status}, 'release')`
-
-export const paginationFormula = ({ start, end }) =>
-  `AND(${releaseFormula}, AND({index} >= ${start}, {index} <= ${end}))`
 
 export function getLastPage(total: number) {
   return Math.ceil(total / PAGE_SIZE)
@@ -17,7 +12,7 @@ export async function getManga(params = {}) {
   const data = await getList<Manga>({
     url: '/Table%201',
     params: {
-      filterByFormula: `AND({status}, 'release')`,
+      filterByFormula: releaseFormula(),
       sort: [{ field: 'index' }],
       ...params,
     },
@@ -71,29 +66,10 @@ export async function setCacheAllManga(records) {
 
 export async function findMangaById({ id }) {
   const data = await getManga({
-    filterByFormula: `AND(AND({table2}, SEARCH('${id}', {table2})), AND({status}, 'release'))`,
+    filterByFormula: `AND(AND({table2}, SEARCH('${id}', {table2})), ${releaseFormula()})`,
   })
 
   return data
-}
-
-export async function getLastIndex() {
-  const data = await getList<Manga>({
-    url: '/Table%201',
-    params: {
-      pageSize: 1,
-      sort: [
-        {
-          field: 'index',
-          direction: 'desc',
-        },
-      ],
-      fields: ['index'],
-      filterByFormula: `AND({status}, 'release')`,
-    },
-  })
-
-  return data.records?.[0].fields.index
 }
 
 export async function getAuthor(params = {}) {
