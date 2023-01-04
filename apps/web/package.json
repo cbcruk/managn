@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@cbcruk/next-utils": "^0.0.13-alpha.2",
+    "@cbcruk/next-utils": "^0.0.13-alpha.4",
     "autoprefixer": "^10.4.2",
     "clsx": "^1.1.1",
     "next": "12.1.0",
