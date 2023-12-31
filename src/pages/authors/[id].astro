@@ -1,0 +1,42 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content'
+import Layout from '../../layouts/Layout.astro'
+import { Books } from '@components/Books'
+
+type Props = {
+  data: {
+    author: CollectionEntry<'authors'>
+    books: CollectionEntry<'books'>[]
+  }
+}
+
+export async function getStaticPaths() {
+  const authors = await getCollection('authors')
+  const books = await getCollection('books')
+
+  return authors.map((author) => {
+    return {
+      params: {
+        id: author.id,
+      },
+      props: {
+        data: {
+          author,
+          books: author.data.books.map((authorBook) =>
+            books.find((book) => book.id === authorBook.id)
+          ),
+        },
+      },
+    }
+  })
+}
+
+export const prerender = true
+
+const { id } = Astro.params
+const { data } = Astro.props
+---
+
+<Layout data-id={id} title={`managn - ${data.author.data.name_ko}`}>
+  <Books data={data.books} />
+</Layout>

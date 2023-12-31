@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content'
+import Layout from '@layouts/Layout.astro'
+import { Books } from '@components/Books'
+import { Nav, NavButton, NavButtonGroup } from '@components/Nav'
+
+const allBooks = await getCollection(
+  'books',
+  ({ data }) => data.status === 'release'
+)
+const posts = allBooks.toSorted(() => Math.random() - 0.5).slice(0, 20)
+---
+
+<Layout title="managn">
+  <Books data={posts} />
+  <Nav>
+    <NavButtonGroup>
+      <NavButton href="/books/1" className="bg-red-200">더보기</NavButton>
+    </NavButtonGroup>
+  </Nav>
+</Layout>

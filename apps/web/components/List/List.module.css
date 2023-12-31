@@ -1,7 +1,0 @@
-.cover :global(img) {
-  object-fit: cover;
-}
-
-.author:not(:last-of-type)::after {
-  content: ', ';
-}

@@ -1,7 +1,0 @@
-{
-  "nav": {
-    "previous": "이전 페이지",
-    "next": "다음 페이지",
-    "page_of": "{{total}} 중 {{current}}페이지"
-  }
-}

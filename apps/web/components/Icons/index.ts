@@ -1,6 +1,0 @@
-export * from './Search'
-export * from './Language'
-export * from './AutoStories'
-export * from './Home'
-export * from './People'
-export * from './Bookmarks'
