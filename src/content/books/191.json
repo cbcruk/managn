@@ -1,16 +1,15 @@
 {
+  "id": 191,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%98%E3%82%A6%E3%83%AC%E3%83%BC%E3%82%AB-%E3%82%B8%E3%82%A7%E3%83%83%E3%83%84%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B2%A9%E6%98%8E%E5%9D%87-ebook/dp/B00DMUJ3C6/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=RKZZD1AGEROL&keywords=%E3%83%98%E3%82%A6%E3%83%AC%E3%83%BC%E3%82%AB&qid=1648983250&s=digital-text&sprefix=%E3%83%98%E3%82%A6%E3%83%AC%E3%83%BC%E3%82%AB%2Cdigital-text%2C198&sr=1-1",
-  "title_ko": "유레카",
-  "title_ja": "ヘウレーカ",
-  "author": [
-    "51"
+  "link": "https://www.amazon.co.jp/%E3%82%AA%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%EF%BC%81-1%E5%B7%BB-%E5%B0%BE%E7%80%AC-%E3%81%82%E3%81%8D%E3%82%89-ebook/dp/B01N1NNNZR/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=B77MZCJRI6P&keywords=%E3%82%AA%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%EF%BC%81&qid=1648983350&s=digital-text&sprefix=%E3%82%AA%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88+%2Cdigital-text%2C171&sr=1-1",
+  "title_ko": "온사이트",
+  "title_ja": "オンサイト！",
+  "authors": [
+    {
+      "id": 114,
+      "name_ko": "오제 아키라",
+      "name_ja": "尾瀬あきら"
+    }
   ],
-  "author_ko": [
-    "이와아키 히토시"
-  ],
-  "author_ja": [
-    "岩明均"
-  ],
-  "cover": "./assets/191.png"
+  "cover": "./assets/191.webp"
 }

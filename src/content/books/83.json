@@ -1,16 +1,20 @@
 {
+  "id": 83,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B1%B1%E5%8F%A3%E3%81%A4%E3%81%B0%E3%81%95-ebook/dp/B07873642C/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1N8E3JBL7Y0TD&keywords=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89&qid=1646793754&sprefix=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89%2Caps%2C182&sr=8-1",
-  "title_ko": "블루 피리어드",
-  "title_ja": "ブルーピリオド",
-  "author": [
-    "84"
+  "link": "https://www.amazon.co.jp/%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%94%E3%83%BC%E3%82%AF-1-%E5%BF%97%E5%90%8D%E5%9D%82%E9%AB%98%E6%AC%A1-ebook/dp/B01MUX40RM/ref=sr_1_7?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=IBKCICNE6K25&keywords=%E7%B2%82%E7%94%B0%E6%99%83%E5%AE%8F&qid=1646793820&sprefix=%E7%B2%82%E7%94%B0%E6%99%83%E5%AE%8F%2Caps%2C175&sr=8-7",
+  "title_ko": "몽키 피크",
+  "title_ja": "モンキーピーク",
+  "authors": [
+    {
+      "id": 85,
+      "name_ko": "시나사카 코지",
+      "name_ja": "志名坂高次"
+    },
+    {
+      "id": 86,
+      "name_ko": "쿠메타 아키히로",
+      "name_ja": "粂田晃宏"
+    }
   ],
-  "author_ko": [
-    "야마구치 츠바사"
-  ],
-  "author_ja": [
-    "山口つばさ"
-  ],
-  "cover": "./assets/83.jpeg"
+  "cover": "./assets/83.webp"
 }

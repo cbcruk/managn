@@ -1,16 +1,15 @@
 {
+  "id": 244,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%92%E3%83%A1%E3%82%A2%E3%83%8E%EF%BD%9E%E3%83%AB%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A4%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%8F%A4%E8%B0%B7%E5%AE%9F-ebook/dp/B018QCSY06/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1650097671&sr=1-1",
-  "title_ko": "낮비",
-  "title_ja": "ヒメアノ～ル",
-  "author": [
-    "117"
+  "link": "https://www.amazon.co.jp/%E5%85%AB%E9%9B%B2%E3%81%95%E3%82%93%E3%81%AF%E9%A4%8C%E3%81%A5%E3%81%91%E3%81%8C%E3%81%97%E3%81%9F%E3%81%84%E3%80%82-1%E5%B7%BB-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%89%88%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E9%87%8C%E8%A6%8B%EF%BC%B5-ebook/dp/B01LAEBRY2/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=J14KVRS4ZE0M&keywords=%E5%85%AB%E9%9B%B2%E3%81%95%E3%82%93%E3%81%AF%E9%A4%8C%E3%81%A5%E3%81%91%E3%81%8C%E3%81%97%E3%81%9F%E3%81%84&qid=1649489258&sprefix=%E5%85%AB%E9%9B%B2%E3%81%95%E3%82%93%E3%81%AF%E9%A4%8C%E3%81%A5%E3%81%91%E3%81%8C%E3%81%97%E3%81%9F%E3%81%84%2Caps%2C175&sr=8-2",
+  "title_ko": "야쿠모 씨는 밥을 먹이고 싶어.",
+  "title_ja": "八雲さんは餌づけがしたい",
+  "authors": [
+    {
+      "id": 180,
+      "name_ko": "사토미U",
+      "name_ja": "里見Ｕ"
+    }
   ],
-  "author_ko": [
-    "후루야 미노루"
-  ],
-  "author_ja": [
-    "古谷実"
-  ],
-  "cover": "./assets/244.jpeg"
+  "cover": "./assets/244.webp"
 }

@@ -1,16 +1,15 @@
 {
+  "id": 178,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E4%BC%8A%E8%97%A4%E6%BD%A4%E4%BA%8C%E3%81%AE%E7%8C%AB%E6%97%A5%E8%A8%98-%E3%82%88%E3%82%93%EF%BC%86%E3%82%80%E3%83%BC-%E4%BC%8A%E8%97%A4%E6%BD%A4%E4%BA%8C-ebook/dp/B00UUQ448I/ref=sr_1_12?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2EHAE544RFTMR&keywords=%E4%BC%8A%E8%97%A4+%E6%BD%A4%E4%BA%8C&qid=1648980231&sprefix=%E4%BC%8A%E8%97%A4+%E6%BD%A4%E4%BA%8C%2Caps%2C179&sr=8-12",
-  "title_ko": "이토 준지의 고양이 일기 욘&무",
-  "title_ja": "伊藤潤二の猫日記　よん＆む",
-  "author": [
-    "70"
+  "link": "https://www.amazon.co.jp/%E5%BC%8F%E3%81%AE%E5%89%8D%E6%97%A5-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%CE%B1-%E7%A9%82%E7%A9%8D-ebook/dp/B00CIRE5FE/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3K4282U2SU304&keywords=%E7%B5%90%E5%A9%9A%E5%BC%8F%E3%81%AE%E5%89%8D%E6%97%A5&qid=1648980695&s=digital-text&sprefix=%E7%B5%90%E5%A9%9A%E5%BC%8F%E3%81%AE%E5%89%8D%E6%97%A5%2Cdigital-text%2C452&sr=1-2",
+  "title_ko": "결혼식 전날",
+  "title_ja": "式の前日",
+  "authors": [
+    {
+      "id": 157,
+      "name_ko": "호즈미",
+      "name_ja": "穂積"
+    }
   ],
-  "author_ko": [
-    "이토 준지"
-  ],
-  "author_ja": [
-    "伊藤潤二"
-  ],
-  "cover": "./assets/178.png"
+  "cover": "./assets/178.webp"
 }

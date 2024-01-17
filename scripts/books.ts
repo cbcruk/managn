@@ -1,63 +1,82 @@
 import * as fs from 'fs/promises'
-import books from './books.json'
-import authors from './authors.json'
+import { db } from 'db/managn'
+import * as schema from 'db/schema'
+import { sql } from 'drizzle-orm'
+import booksData from './books.json'
 
-const mime = {
-  'image/jpeg': 'jpeg',
-  'image/jpg': 'jpg',
-  'image/png': 'png',
-}
-
-async function main() {
-  const path = './src/content/books'
+async function insert() {
+  const books = booksData.filter((book) => book.fields.status === 'release')
 
   for (const book of books) {
-    const hasAttachments = Boolean(book.fields.attachments)
+    await db.insert(schema.books).values({
+      status: book.fields.status,
+      link: book.fields.link,
+      title_ko: book.fields.title_ko,
+      title_ja: book.fields.title,
+    })
+  }
+}
+
+async function downloadImage() {
+  const mime = {
+    'image/jpeg': 'jpeg',
+    'image/jpg': 'jpg',
+    'image/png': 'png',
+  }
+  const path = `${import.meta.dir}/assets`
+  const books = booksData.filter((book) => book.fields.status === 'release')
+
+  for (const book of books) {
+    const attachment = book.fields.attachments?.[0]
+
+    if (attachment) {
+      const response = await fetch(attachment.url, {
+        headers: {
+          'Content-Type': attachment.type,
+        },
+      })
+      const extension = mime[attachment.type]
+      const blob = await response.blob()
+      const data = new DataView(await blob.arrayBuffer())
+
+      await fs.writeFile(`${path}/${book.fields.index}.${extension}`, data)
+    }
+  }
+}
+
+async function toJSON() {
+  const path = './src/content/books'
+  const authorsData = await db.select().from(schema.authors)
+  const booksData = await db
+    .select()
+    .from(schema.books)
+    .where(sql`status = 'release'`)
+  const bookAuthorsData = await db.select().from(schema.book_authors)
+
+  for (const book of booksData) {
+    const authorIds = bookAuthorsData
+      .filter((bookAuthor) => bookAuthor.book_id === book.id)
+      .map((bookAuthor) => bookAuthor.author_id)
+    const authors = authorsData.filter((author) =>
+      authorIds.includes(author.id)
+    )
 
     await fs.writeFile(
-      `${path}/${book.fields.index}.json`,
+      `${path}/${book.id}.json`,
       JSON.stringify(
         {
-          status: book.fields?.status ?? 'draft',
-          link: book.fields?.link ?? null,
-          title_ko: book.fields?.title_ko ?? '',
-          title_ja: book.fields?.title ?? '',
-          author: authors
-            .filter(
-              (author) =>
-                book.fields.authors?.includes(author.name_ja) ||
-                book.fields.authors_ko?.includes(author.name_ko)
-            )
-            .map((author) => `${author.index}`),
-          author_ko: book.fields?.authors_ko ?? [],
-          author_ja: book.fields?.authors ?? [],
-          cover: hasAttachments
-            ? `./assets/${book.fields.index}.${
-                mime[book.fields.attachments?.[0].type ?? '']
-              }`
-            : null,
+          id: book.id,
+          status: book.status,
+          link: book.link,
+          title_ko: book.title_ko,
+          title_ja: book.title_ja,
+          authors,
+          cover: `./assets/${book.id}.webp`,
         },
         null,
         2
       )
     )
-
-    // if (book.fields.attachments) {
-    //   const response = await fetch(book.fields.attachments[0].url, {
-    //     headers: {
-    //       'Content-Type': book.fields.attachments[0].type,
-    //     },
-    //   })
-    //   const blob = await response.blob()
-    //   const data = await blob.arrayBuffer()
-
-    //   const extension = mime[book.fields.attachments[0].type]
-
-    //   await fs.writeFile(
-    //     `${path}/assets/${book.fields.index}.${extension}`,
-    //     data as NodeJS.ArrayBufferView
-    //   )
-    // }
   }
 }
-main()
+toJSON()

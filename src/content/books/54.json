@@ -1,22 +1,15 @@
 {
+  "id": 54,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E4%B8%AD%E9%96%93%E7%AE%A1%E7%90%86%E9%8C%B2%E3%83%88%E3%83%8D%E3%82%AC%E3%83%AF%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A4%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E8%90%A9%E5%8E%9F%E5%A4%A9%E6%99%B4-ebook/dp/B01IUUX6IO/ref=sr_1_9?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=35NROULD0S3KW&keywords=%E4%B8%AD%E9%96%93%E7%AE%A1%E7%90%86%E9%8C%B2%E3%83%88%E3%83%8D%E3%82%AC%E3%83%AF&qid=1646785903&s=digital-text&sprefix=%E4%B8%AD%E9%96%93%E7%AE%A1%E7%90%86%E9%8C%B2%E3%83%88%E3%83%8D%E3%82%AC%E3%83%AF%2Cdigital-text%2C170&sr=1-9",
-  "title_ko": "중간관리록 토네가와",
-  "title_ja": "中間管理録トネガワ",
-  "author": [
-    "55",
-    "57",
-    "58"
+  "link": "https://www.amazon.co.jp/%E3%83%90%E3%82%B9%E3%82%BF%E3%83%96%E3%81%AB%E4%B9%97%E3%81%A3%E3%81%9F%E5%85%84%E5%BC%9F%EF%BD%9E%E5%9C%B0%E7%90%83%E6%B0%B4%E6%B2%A1%E8%A8%98%EF%BD%9E-%EF%BC%9A-1-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%AB%BB%E4%BA%95%E7%A8%94%E6%96%87-ebook/dp/B07DRKV59H/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=GD8O0YQ1974E&keywords=%E3%83%90%E3%82%B9%E3%82%BF%E3%83%96%E3%81%AB%E4%B9%97%E3%81%A3%E3%81%9F%E5%85%84%E5%BC%9F%EF%BD%9E%E5%9C%B0%E7%90%83%E6%B0%B4%E6%B2%A1%E8%A8%98&qid=1646786127&s=digital-text&sprefix=%E3%83%90%E3%82%B9%E3%82%BF%E3%83%96%E3%81%AB%E4%B9%97%E3%81%A3%E3%81%9F%E5%85%84%E5%BC%9F+%E5%9C%B0%E7%90%83%E6%B0%B4%E6%B2%A1%E8%A8%98%2Cdigital-text%2C165&sr=1-2",
+  "title_ko": "욕조에 탄 형제 ~지구 수몰기~",
+  "title_ja": "バスタブに乗った兄弟～地球水没記～",
+  "authors": [
+    {
+      "id": 59,
+      "name_ko": "사쿠라이 토시후미",
+      "name_ja": "櫻井稔文"
+    }
   ],
-  "author_ko": [
-    "하기와라 텐세이",
-    "하시모토 토모히로",
-    "미요시 토모키"
-  ],
-  "author_ja": [
-    "萩原天晴",
-    "橋本智広",
-    "三好智樹"
-  ],
-  "cover": "./assets/54.png"
+  "cover": "./assets/54.webp"
 }

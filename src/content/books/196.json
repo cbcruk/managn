@@ -1,16 +1,15 @@
 {
+  "id": 196,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E6%BC%82%E6%B5%81%E6%95%99%E5%AE%A4%E3%80%94%E6%96%87%E5%BA%AB%E7%89%88%E3%80%95%EF%BC%88%EF%BC%91%EF%BC%89-%E5%B0%8F%E5%AD%A6%E9%A4%A8%E6%96%87%E5%BA%AB-%E6%A5%B3%E5%9B%B3%E3%81%8B%E3%81%9A%E3%81%8A-ebook/dp/B00QMEE7AM/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2MSIAUZENUH6Z&keywords=%E6%BC%82%E6%B5%81%E6%95%99%E5%AE%A4&qid=1648983527&s=digital-text&sprefix=%E6%83%A1%E3%81%AE%E8%8F%AF%2Cdigital-text%2C792&sr=1-1",
-  "title_ko": "표류교실",
-  "title_ja": "漂流教室",
-  "author": [
-    "161"
+  "link": "https://www.amazon.co.jp/MONSTER-%E5%AE%8C%E5%85%A8%E7%89%88-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%ABVer-%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%B5%A6%E6%B2%A2%E7%9B%B4%E6%A8%B9-ebook/dp/B09S3GZL17/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2NSW3Y9O6UG3Q&keywords=%E6%B5%A6%E6%B2%A2%E7%9B%B4%E6%A8%B9&qid=1648986785&s=digital-text&sprefix=%E6%B5%A6%E6%B2%A2%E7%9B%B4%E6%A8%B9%2Cdigital-text%2C211&sr=1-1",
+  "title_ko": "몬스터",
+  "title_ja": "MONSTER",
+  "authors": [
+    {
+      "id": 155,
+      "name_ko": "우라사와 나오키",
+      "name_ja": "浦沢直樹"
+    }
   ],
-  "author_ko": [
-    "우메즈 카즈오"
-  ],
-  "author_ja": [
-    "楳図かずお"
-  ],
-  "cover": "./assets/196.png"
+  "cover": "./assets/196.webp"
 }

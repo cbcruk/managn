@@ -1,19 +1,15 @@
 {
+  "id": 205,
   "status": "release",
-  "link": "https://www.amazon.co.jp/NHK%E3%81%AB%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%EF%BC%81-1-%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9-%E6%BB%9D%E6%9C%AC-%E7%AB%9C%E5%BD%A6-ebook/dp/B0093G7X20/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2ZX8X1JLM6D7Z&keywords=NHK%E3%81%AB%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%21&qid=1648987523&s=digital-text&sprefix=nhk%E3%81%AB%E3%82%88%E3%81%86%E3%81%93%E3%81%9D+%2Cdigital-text%2C419&sr=1-2",
-  "title_ko": "NHK에 어서오세요!",
-  "title_ja": "NHKにようこそ！",
-  "author": [
-    "164",
-    "165"
+  "link": "https://www.amazon.co.jp/%E3%81%95%E3%81%8F%E3%82%89%E3%82%93%E3%81%BC%E3%82%B7%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%A0%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%8C%97%E5%B4%8E%E6%8B%93-ebook/dp/B009JZH2BC/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1PJ9MZJ0C3B9R&keywords=%E3%81%95%E3%81%8F%E3%82%89%E3%82%93%E3%81%BC%E3%82%B7%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%A0&qid=1648988113&s=digital-text&sprefix=%2Cdigital-text%2C616&sr=1-1",
+  "title_ko": "체리 신드롬",
+  "title_ja": "さくらんぼシンドローム",
+  "authors": [
+    {
+      "id": 167,
+      "name_ko": "키타자키 타쿠",
+      "name_ja": "北崎拓"
+    }
   ],
-  "author_ko": [
-    "타키모토 타츠히코",
-    "오이와 켄지"
-  ],
-  "author_ja": [
-    "滝本竜彦",
-    "大岩ケンヂ"
-  ],
-  "cover": "./assets/205.jpeg"
+  "cover": "./assets/205.webp"
 }

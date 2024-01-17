@@ -1,16 +1,15 @@
 {
+  "id": 181,
   "status": "release",
-  "link": "https://www.amazon.co.jp/gp/product/B06X9VR32F/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1",
-  "title_ko": "설득게임",
-  "title_ja": "説得ゲーム",
-  "author": [
-    "158"
+  "link": null,
+  "title_ko": "파이브 스타 스토리",
+  "title_ja": "ファイブスター物語",
+  "authors": [
+    {
+      "id": 159,
+      "name_ko": "나가노 마모루",
+      "name_ja": "永野護"
+    }
   ],
-  "author_ko": [
-    "도다 세이지"
-  ],
-  "author_ja": [
-    "戸田誠二"
-  ],
-  "cover": "./assets/181.jpeg"
+  "cover": "./assets/181.webp"
 }

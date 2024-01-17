@@ -1,16 +1,15 @@
 {
+  "id": 199,
   "status": "release",
-  "link": "https://www.amazon.co.jp/MONSTER-%E5%AE%8C%E5%85%A8%E7%89%88-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%ABVer-%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%B5%A6%E6%B2%A2%E7%9B%B4%E6%A8%B9-ebook/dp/B09S3GZL17/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2NSW3Y9O6UG3Q&keywords=%E6%B5%A6%E6%B2%A2%E7%9B%B4%E6%A8%B9&qid=1648986785&s=digital-text&sprefix=%E6%B5%A6%E6%B2%A2%E7%9B%B4%E6%A8%B9%2Cdigital-text%2C211&sr=1-1",
-  "title_ko": "몬스터",
-  "title_ja": "MONSTER",
-  "author": [
-    "155"
+  "link": "https://www.amazon.co.jp/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF-1-%E6%89%8B%E5%A1%9A%E6%B2%BB%E8%99%AB-ebook/dp/B00JPXE8T2/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=CBKI750JC7PU&keywords=%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF&qid=1648986422&s=digital-text&sprefix=%E7%94%B0%E4%B8%AD%E6%9C%89%E7%B4%80%2Cdigital-text%2C632&sr=1-2",
+  "title_ko": "블랙잭",
+  "title_ja": "ブラック・ジャック",
+  "authors": [
+    {
+      "id": 154,
+      "name_ko": "데즈카 오사무",
+      "name_ja": "手塚治虫"
+    }
   ],
-  "author_ko": [
-    "우라사와 나오키"
-  ],
-  "author_ja": [
-    "浦沢直樹"
-  ],
-  "cover": "./assets/199.jpeg"
+  "cover": "./assets/199.webp"
 }

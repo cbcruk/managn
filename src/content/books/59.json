@@ -1,16 +1,15 @@
 {
+  "id": 59,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A1%E3%83%96%E3%83%AB%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A4%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%8D%97%E5%8B%9D%E4%B9%85-ebook/dp/B00URE8W0E/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1ZLY7LE501CRC&keywords=%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A1%E3%83%96%E3%83%AB&qid=1646791091&sprefix=%E3%82%B6+%E3%83%95%E3%82%A1%E3%83%96%E3%83%AB+%2Caps%2C209&sr=8-3",
-  "title_ko": "더 페이블",
-  "title_ja": "ザ・ファブル ",
-  "author": [
-    "68"
+  "link": "https://www.amazon.co.jp/%E9%81%94%E4%BA%BA%E4%BC%9D-%EF%BD%9E9%E4%B8%87%E9%87%8C%E3%82%92%E9%A2%A8%E3%81%AB%E4%B9%97%E3%82%8A%EF%BD%9E-%EF%BC%9A-1-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-ebook/dp/B00GYOF1PA/ref=sr_1_23?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3CN43K978OQYR&keywords=%E9%81%94%E4%BA%BA%E4%BC%9D%7E9%E4%B8%87%E9%87%8C%E3%82%92%E9%A2%A8%E3%81%AB%E4%B9%97%E3%82%8A%7E&qid=1646791379&sprefix=%E9%81%94%E4%BA%BA%E4%BC%9D+9%E4%B8%87%E9%87%8C%E3%82%92%E9%A2%A8%E3%81%AB%E4%B9%97%E3%82%8A+%2Caps%2C214&sr=8-23",
+  "title_ko": "달인전 ~ 9만리를 바람에 타고 ~",
+  "title_ja": "達人伝 ～9万里を風に乗り～",
+  "authors": [
+    {
+      "id": 71,
+      "name_ko": "킹곤타",
+      "name_ja": "王欣太"
+    }
   ],
-  "author_ko": [
-    "미나미 카츠히사"
-  ],
-  "author_ja": [
-    "南勝久"
-  ],
-  "cover": "./assets/59.png"
+  "cover": "./assets/59.webp"
 }

@@ -1,16 +1,15 @@
 {
+  "id": 249,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%82%BF%E3%82%B3%E3%83%94%E3%83%BC%E3%81%AE%E5%8E%9F%E7%BD%AA-%E4%B8%8A-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-%E3%82%BF%E3%82%A4%E3%82%B6%E3%83%B35-ebook/dp/B09R9YL6Q8/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=27H2G5JZC2F86&keywords=%E3%82%BF%E3%82%B3%E3%83%94%E3%83%BC%E3%81%AE%E5%8E%9F%E7%BD%AA&qid=1650098001&s=digital-text&sprefix=%E3%82%BF%E3%82%B3%E3%83%94%E3%83%BC%E3%81%AE%E5%8E%9F%E7%BD%AA%2Cdigital-text%2C173&sr=1-2",
-  "title_ko": "타코피의 원죄",
-  "title_ja": "タコピーの原罪",
-  "author": [
-    "181"
+  "link": "https://www.amazon.co.jp/gp/product/B00BB1ZRLE/ref=dbs_a_def_rwt_hsch_vapi_tkin_p4_i1",
+  "title_ko": "캣친",
+  "title_ja": "ケッチン",
+  "authors": [
+    {
+      "id": 22,
+      "name_ko": "키라 타카시",
+      "name_ja": "きらたかし"
+    }
   ],
-  "author_ko": [
-    "타이잔5"
-  ],
-  "author_ja": [
-    "タイザン5"
-  ],
-  "cover": "./assets/249.png"
+  "cover": "./assets/249.webp"
 }

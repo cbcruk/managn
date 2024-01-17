@@ -1,19 +1,15 @@
 {
+  "id": 121,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E7%94%9F%E5%AD%98%EF%BD%9ELife%EF%BD%9E%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A4%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E7%A6%8F%E6%9C%AC%E4%BC%B8%E8%A1%8C-ebook/dp/B00FOFT0OI/ref=sr_1_9?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3M8QA9RF09XSG&keywords=%E3%81%8B%E3%82%8F%E3%81%90%E3%81%A1%E3%81%8B%E3%81%84%E3%81%98&qid=1646801653&sprefix=%E3%81%8B%E3%82%8F%E3%81%90%E3%81%A1%E3%81%8B%E3%81%84%E3%81%98%2Caps%2C205&sr=8-9",
-  "title_ko": "[Mr.스릴러] 생존",
-  "title_ja": "生存～Life～",
-  "author": [
-    "56",
-    "116"
+  "link": "https://www.amazon.co.jp/%E8%A1%8C%E3%81%91%EF%BC%81%E7%A8%B2%E4%B8%AD%E5%8D%93%E7%90%83%E9%83%A8%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A4%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%8F%A4%E8%B0%B7%E5%AE%9F-ebook/dp/B009KWUN7Y/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2YT7T64K68PSD&keywords=%E8%A1%8C%E3%81%91%21%E7%A8%B2%E4%B8%AD%E5%8D%93%E7%90%83%E9%83%A8&qid=1646801798&sprefix=%E3%81%8B%E3%82%8F%E3%81%90%E3%81%A1%E3%81%8B%E3%81%84%E8%A1%8C%E3%81%91+%E7%A8%B2%E4%B8%AD%E5%8D%93%E7%90%83%E9%83%A8%2Caps%2C201&sr=8-1",
+  "title_ko": "이나중 탁구부",
+  "title_ja": "行け！稲中卓球部",
+  "authors": [
+    {
+      "id": 117,
+      "name_ko": "후루야 미노루",
+      "name_ja": "古谷実"
+    }
   ],
-  "author_ko": [
-    "후쿠모토 노부유키",
-    "카와구치 카이지"
-  ],
-  "author_ja": [
-    "福本伸行",
-    "かわぐちかいじ"
-  ],
-  "cover": "./assets/121.jpeg"
+  "cover": "./assets/121.webp"
 }

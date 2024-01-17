@@ -1,16 +1,15 @@
 {
+  "id": 24,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E5%A5%B3%E5%AD%90%E6%94%BB%E5%85%B5-1%E5%B7%BB-%E3%83%90%E3%83%B3%E3%83%81%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9D%BE%E6%9C%AC%E6%AC%A1%E9%83%8E-ebook/dp/B009APDXUU/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3GEF12Z6PMNQO&keywords=%E5%A5%B3%E5%AD%90%E6%94%BB%E5%85%B5&qid=1646528768&s=books&sprefix=%E5%A5%B3%E5%AD%90%E6%94%BB%E5%85%B5%2Cstripbooks%2C179&sr=1-1",
   "title_ko": "여자공병",
   "title_ja": "女子攻兵",
-  "author": [
-    "27"
+  "authors": [
+    {
+      "id": 27,
+      "name_ko": "마츠모토 지로",
+      "name_ja": "松本次郎"
+    }
   ],
-  "author_ko": [
-    "마츠모토 지로"
-  ],
-  "author_ja": [
-    "松本次郎"
-  ],
-  "cover": "./assets/24.jpeg"
+  "cover": "./assets/24.webp"
 }

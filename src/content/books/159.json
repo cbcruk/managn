@@ -1,16 +1,15 @@
 {
+  "id": 159,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E4%B9%9D%E4%BA%95%E8%AB%92%E5%AD%90%E4%BD%9C%E5%93%81%E9%9B%86-%E7%AB%9C%E3%81%AE%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E4%B8%83%E3%81%A4%E3%81%AE%E5%AD%90-HARTA-COMIX-%E4%B9%9D%E4%BA%95-ebook/dp/B00BEPJ2SG/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=HJ20B09KBC55&keywords=%E4%B9%9D%E4%BA%95+%E8%AB%92%E5%AD%90&qid=1646816873&sprefix=%E4%B9%9D%E4%BA%95+%E8%AB%92%E5%AD%90%2Caps%2C163&sr=8-4",
-  "title_ko": "용의 귀여운 일곱 아이",
-  "title_ja": "九井諒子作品集 竜のかわいい七つの子",
-  "author": [
-    "146"
+  "link": "https://www.amazon.co.jp/%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB-1%E5%B7%BB-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%89%88%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E8%8D%92%E5%B7%9D%E5%BC%98-ebook/dp/B009T8RYF8/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=23I3XHR8HHB5Q&keywords=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB&qid=1646817004&sprefix=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB%2Caps%2C190&sr=8-5",
+  "title_ko": "강철의 연금술사",
+  "title_ja": "鋼の錬金術師",
+  "authors": [
+    {
+      "id": 65,
+      "name_ko": "아라카와 히로무",
+      "name_ja": "荒川弘"
+    }
   ],
-  "author_ko": [
-    "쿠이 료코"
-  ],
-  "author_ja": [
-    "九井諒子"
-  ],
-  "cover": "./assets/159.jpeg"
+  "cover": "./assets/159.webp"
 }

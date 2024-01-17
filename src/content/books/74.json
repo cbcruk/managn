@@ -1,16 +1,20 @@
 {
+  "id": 74,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E6%98%B4%E3%81%A8%E3%82%B9%E3%83%BC%E3%81%95%E3%82%93-1%E5%B7%BB-HARTA-COMIX-%E9%82%A3%E6%B4%A5%E5%AD%90-ebook/dp/B0749HQRS2/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=9XD73IFROVLT&keywords=%E6%98%B4%E3%81%A8%E3%82%B9%E3%83%BC%E3%81%95%E3%82%93&qid=1646792153&sprefix=%E6%98%B4%E3%81%A8%E3%82%B9%E3%83%BC%E3%81%95%E3%82%93%2Caps%2C180&sr=8-2",
-  "title_ko": "스바루와 스우 씨",
-  "title_ja": "昴とスーさん",
-  "author": [
-    "74"
+  "link": "https://www.amazon.co.jp/%E4%BA%9C%E4%BA%BA%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%A1%9C%E4%BA%95%E7%94%BB%E9%96%80-ebook/dp/B00BML5V6E/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2J51RFWLJ7UGQ&keywords=%E4%BA%9C%E4%BA%BA&qid=1646792297&sprefix=%E4%BA%9C%E4%BA%BA%2Caps%2C212&sr=8-2",
+  "title_ko": "아인",
+  "title_ja": "亜人",
+  "authors": [
+    {
+      "id": 17,
+      "name_ko": "미우라 츠이나",
+      "name_ja": "三浦追儺"
+    },
+    {
+      "id": 75,
+      "name_ko": "사쿠라이 가몬",
+      "name_ja": "三浦追儺"
+    }
   ],
-  "author_ko": [
-    "타카하시 나츠코"
-  ],
-  "author_ja": [
-    "高橋 那津子"
-  ],
-  "cover": "./assets/74.jpeg"
+  "cover": "./assets/74.webp"
 }

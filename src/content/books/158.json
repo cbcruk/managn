@@ -1,19 +1,15 @@
 {
+  "id": 158,
   "status": "release",
-  "link": "https://www.amazon.co.jp/gp/product/B08TLTJ1XD?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks",
-  "title_ko": "방랑의 에마논",
-  "title_ja": "さすらいエマノン",
-  "author": [
-    "144",
-    "145"
+  "link": "https://www.amazon.co.jp/%E7%AB%9C%E3%81%AE%E5%AD%A6%E6%A0%A1%E3%81%AF%E5%B1%B1%E3%81%AE%E4%B8%8A-%E4%B9%9D%E4%BA%95%E8%AB%92%E5%AD%90-ebook/dp/B00DLT047Q/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=HJ20B09KBC55&keywords=%E4%B9%9D%E4%BA%95+%E8%AB%92%E5%AD%90&qid=1646816873&sprefix=%E4%B9%9D%E4%BA%95+%E8%AB%92%E5%AD%90%2Caps%2C163&sr=8-1",
+  "title_ko": "용의 학교는 산 위에",
+  "title_ja": "竜の学校は山の上",
+  "authors": [
+    {
+      "id": 146,
+      "name_ko": "쿠이 료코",
+      "name_ja": "九井諒子"
+    }
   ],
-  "author_ko": [
-    "카지오 신지",
-    "츠루타 켄지"
-  ],
-  "author_ja": [
-    "梶尾真治",
-    "鶴田謙二"
-  ],
-  "cover": "./assets/158.jpeg"
+  "cover": "./assets/158.webp"
 }

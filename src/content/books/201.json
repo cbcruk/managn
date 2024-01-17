@@ -1,16 +1,15 @@
 {
+  "id": 201,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E6%9C%80%E5%BC%B7%E4%BC%9D%E8%AA%AC-%E9%BB%92%E6%B2%A2-%EF%BC%91-%E7%A6%8F%E6%9C%AC-%E4%BC%B8%E8%A1%8C-ebook/dp/B00E0DMACO/ref=sr_1_12?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=WLL94B6MNWX2&keywords=%E7%A6%8F%E6%9C%AC%E4%BC%B8%E8%A1%8C&qid=1648984374&s=digital-text&sprefix=%E8%AC%8E%E3%81%AE%E5%BD%BC%E5%A5%B3x%2Cdigital-text%2C678&sr=1-12",
-  "title_ko": "최강전설 쿠로사와",
-  "title_ja": "最強伝説　黒沢",
-  "author": [
-    "56"
+  "link": "https://www.amazon.co.jp/gp/product/B00JE7E02Y/ref=dbs_a_def_rwt_hsch_vapi_tkin_p4_i0",
+  "title_ko": "루노",
+  "title_ja": "LUNO",
+  "authors": [
+    {
+      "id": 76,
+      "name_ko": "토우메 케이",
+      "name_ja": "冬目景"
+    }
   ],
-  "author_ko": [
-    "후쿠모토 노부유키"
-  ],
-  "author_ja": [
-    "福本伸行"
-  ],
-  "cover": "./assets/201.png"
+  "cover": "./assets/201.webp"
 }

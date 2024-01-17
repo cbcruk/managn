@@ -1,16 +1,25 @@
 {
+  "id": 77,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF-1%E5%B7%BB-HARTA-COMIX-%E4%B9%9D%E4%BA%95-ebook/dp/B00S0E4JW8/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=17MJB1Y1P20BZ&keywords=%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF&qid=1646792496&sprefix=%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF%2Caps%2C185&sr=8-3",
-  "title_ko": "던전밥",
-  "title_ja": "ダンジョン飯",
-  "author": [
-    "146"
+  "link": "https://www.amazon.co.jp/%E3%81%AF%E3%81%9F%E3%82%89%E3%81%8F%E7%B4%B0%E8%83%9EBLACK-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0-KC-%E5%88%9D%E5%98%89%E5%B1%8B-%E4%B8%80%E7%94%9F/dp/4065120675/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3O7VT3WMQGRKK&keywords=%E3%81%AF%E3%81%9F%E3%82%89%E3%81%8F%E7%B4%B0%E8%83%9E+BLACK&qid=1646792554&sprefix=%E3%81%AF%E3%81%9F%E3%82%89%E3%81%8F%E7%B4%B0%E8%83%9E+black%2Caps%2C176&sr=8-2",
+  "title_ko": "일하는 세포 BLACK",
+  "title_ja": "はたらく細胞BLACK",
+  "authors": [
+    {
+      "id": 77,
+      "name_ko": "하츠요시야 잇세이",
+      "name_ja": "初嘉屋 一生"
+    },
+    {
+      "id": 78,
+      "name_ko": "하라다 시게미츠",
+      "name_ja": "原田 重光"
+    },
+    {
+      "id": 79,
+      "name_ko": "시미즈 아카네",
+      "name_ja": "清水 茜"
+    }
   ],
-  "author_ko": [
-    "쿠이 료코"
-  ],
-  "author_ja": [
-    "九井諒子"
-  ],
-  "cover": "./assets/77.jpeg"
+  "cover": "./assets/77.webp"
 }

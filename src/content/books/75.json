@@ -1,19 +1,15 @@
 {
+  "id": 75,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E4%BA%9C%E4%BA%BA%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%A1%9C%E4%BA%95%E7%94%BB%E9%96%80-ebook/dp/B00BML5V6E/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2J51RFWLJ7UGQ&keywords=%E4%BA%9C%E4%BA%BA&qid=1646792297&sprefix=%E4%BA%9C%E4%BA%BA%2Caps%2C212&sr=8-2",
-  "title_ko": "아인",
-  "title_ja": "亜人",
-  "author": [
-    "17",
-    "75"
+  "link": "https://www.amazon.co.jp/%E7%A9%BA%E9%9B%BB%E3%83%8E%E3%82%A4%E3%82%BA%E3%81%AE%E5%A7%AB%E5%90%9B-1-%E3%83%90%E3%83%BC%E3%82%BA%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%86%AC%E7%9B%AE%E6%99%AF-ebook/dp/B071D7FM39/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=D0I5NTXJVWKD&keywords=%E7%A9%BA%E9%9B%BB%E3%83%8E%E3%82%A4%E3%82%BA%E3%81%AE%E5%A7%AB%E5%90%9B&qid=1646792416&sprefix=%E7%A9%BA%E9%9B%BB%E3%83%8E%E3%82%A4%E3%82%BA%E3%81%AE%E5%A7%AB%E5%90%9B%2Caps%2C175&sr=8-1",
+  "title_ko": "공전 노이즈의 공주",
+  "title_ja": "空電ノイズの姫君",
+  "authors": [
+    {
+      "id": 76,
+      "name_ko": "토우메 케이",
+      "name_ja": "冬目景"
+    }
   ],
-  "author_ko": [
-    "미우라 츠이나",
-    "사쿠라이 가몬"
-  ],
-  "author_ja": [
-    "三浦追儺",
-    "三浦追儺"
-  ],
-  "cover": "./assets/75.jpeg"
+  "cover": "./assets/75.webp"
 }

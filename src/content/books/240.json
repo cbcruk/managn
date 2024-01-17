@@ -1,16 +1,15 @@
 {
+  "id": 240,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E6%9D%B1%E5%B3%B6%E4%B8%B9%E4%B8%89%E9%83%8E%E3%81%AF%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84-1-%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%BA%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9F%B4%E7%94%B0%E3%83%A8%E3%82%AF%E3%82%B5%E3%83%AB-ebook/dp/B07L2MX9LT/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=Y8ML2BXX2HCS&keywords=%E6%9D%B1%E5%B3%B6%E4%B8%B9%E4%B8%89%E9%83%8E%E3%81%AF%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84&qid=1648989866&sprefix=%2Caps%2C172&sr=8-3",
-  "title_ko": "토지마 탄자부로는 가면라이더가 되고 싶어",
-  "title_ja": "東島丹三郎は仮面ライダーになりたい",
-  "author": [
-    "177"
+  "link": "https://www.amazon.co.jp/%E3%82%8F%E3%81%AB%E3%81%A8%E3%81%8B%E3%81%92%E3%81%8E%E3%81%99%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A4%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%8F%A4%E8%B0%B7%E5%AE%9F-ebook/dp/B01FFA9GL8/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=AVR6HH84PG2M&keywords=%E3%82%8F%E3%81%AB%E3%81%A8%E3%81%8B%E3%81%92%E3%81%8E%E3%81%99&qid=1650097601&s=digital-text&sprefix=%E3%82%8F%E3%81%AB%E3%81%A8%E3%81%8B%E3%81%92%E3%81%8E%E3%81%99%2Cdigital-text%2C171&sr=1-1",
+  "title_ko": "심해어",
+  "title_ja": "わにとかげぎす",
+  "authors": [
+    {
+      "id": 117,
+      "name_ko": "후루야 미노루",
+      "name_ja": "古谷実"
+    }
   ],
-  "author_ko": [
-    "시바타 요쿠사루"
-  ],
-  "author_ja": [
-    "柴田ヨクサル"
-  ],
-  "cover": "./assets/240.png"
+  "cover": "./assets/240.webp"
 }

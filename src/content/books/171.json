@@ -1,16 +1,15 @@
 {
+  "id": 171,
   "status": "release",
-  "link": null,
-  "title_ko": "왕도의개",
-  "title_ja": "王道の狗",
-  "author": [
-    "98"
+  "link": "https://www.amazon.co.jp/%E6%96%B0%E8%A3%85%E7%89%88-%E9%AA%A8%E3%81%AE%E9%9F%B3-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B2%A9%E6%98%8E%E5%9D%87-ebook/dp/B00O8K1IQ8/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=IC5C7YXYIWJ5&keywords=%E5%B2%A9%E6%98%8E+%E5%9D%87&qid=1648968420&sprefix=%E9%89%84%E3%82%B3%E3%83%B3%E7%AD%8B%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%88%2Caps%2C700&sr=8-4",
+  "title_ko": "뼈의소리",
+  "title_ja": "骨の音",
+  "authors": [
+    {
+      "id": 51,
+      "name_ko": "이와아키 히토시",
+      "name_ja": "岩明均"
+    }
   ],
-  "author_ko": [
-    "야스히코 요시카즈"
-  ],
-  "author_ja": [
-    "安彦良和"
-  ],
-  "cover": "./assets/171.jpeg"
+  "cover": "./assets/171.webp"
 }

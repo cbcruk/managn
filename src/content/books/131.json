@@ -1,16 +1,15 @@
 {
+  "id": 131,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E6%80%AA%E7%89%A9%E7%8E%8B%E5%A5%B3%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%85%89%E6%B0%B8%E5%BA%B7%E5%89%87-ebook/dp/B00E8BTDIC/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1NV3HQWUELXSV&keywords=%E6%80%AA%E7%89%A9%E7%8E%8B%E5%A5%B3&qid=1646803100&sprefix=%E6%80%AA%E7%89%A9%E7%8E%8B%E5%A5%B3%2Caps%2C184&sr=8-2",
-  "title_ko": "괴물왕녀",
-  "title_ja": "怪物王女",
-  "author": [
-    "125"
+  "link": "https://www.amazon.co.jp/gp/product/B00O2ZEV0Y/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i2?asin=B00O2ZEV0Y&revisionId=&format=4&depth=1",
+  "title_ko": "수혹성 연대기",
+  "title_ja": "碧 水惑星年代記",
+  "authors": [
+    {
+      "id": 127,
+      "name_ko": "오히시 마사루",
+      "name_ja": "大石まさる"
+    }
   ],
-  "author_ko": [
-    "미츠나가 야스노리"
-  ],
-  "author_ja": [
-    "光永康則"
-  ],
-  "cover": "./assets/131.jpeg"
+  "cover": "./assets/131.webp"
 }

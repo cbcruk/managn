@@ -1,16 +1,15 @@
 {
+  "id": 94,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%81%8A%E3%81%8A%E3%81%8D%E3%81%8F%E6%8C%AF%E3%82%8A%E3%81%8B%E3%81%B6%E3%81%A3%E3%81%A6%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%81%B2%E3%81%90%E3%81%A1%E3%82%A2%E3%82%B5-ebook/dp/B00A2MD86E/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3726S9IJUYDSF&keywords=%E3%81%8A%E3%81%8A%E3%81%8D%E3%81%8F%E6%8C%AF%E3%82%8A%E3%81%8B%E3%81%B6%E3%81%A3%E3%81%A6+1&qid=1646794897&sprefix=%E3%81%8A%E3%81%8A%E3%81%8D%E3%81%8F%E6%8C%AF%E3%82%8A%E3%81%8B%E3%81%B6%E3%81%A3%E3%81%A6+1%2Caps%2C178&sr=8-1",
-  "title_ko": "크게 휘두르며",
-  "title_ja": "おおきく振りかぶって",
-  "author": [
-    "95"
+  "link": null,
+  "title_ko": "요츠바랑!",
+  "title_ja": "よつばと!",
+  "authors": [
+    {
+      "id": 96,
+      "name_ko": "아즈마 키요히코",
+      "name_ja": "あずま きよひこ"
+    }
   ],
-  "author_ko": [
-    "히구치 아사"
-  ],
-  "author_ja": [
-    "ひぐちアサ"
-  ],
-  "cover": "./assets/94.jpeg"
+  "cover": "./assets/94.webp"
 }

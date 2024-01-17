@@ -1,16 +1,15 @@
 {
+  "id": 195,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E6%83%A1%E3%81%AE%E8%8F%AF%EF%BC%88%EF%BC%91%EF%BC%89-%E9%80%B1%E5%88%8A%E5%B0%91%E5%B9%B4%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%8A%BC%E8%A6%8B%E4%BF%AE%E9%80%A0-ebook/dp/B009SNA0L4/ref=sr_1_7?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1JES3HEM2H7QI&keywords=%E6%83%A1%E3%81%AE%E8%8F%AF&qid=1648983459&s=digital-text&sprefix=%E6%83%A1%E3%81%AE%E8%8F%AF%2Cdigital-text%2C210&sr=1-7",
-  "title_ko": "악의꽃",
-  "title_ja": "惡の華",
-  "author": [
-    "46"
+  "link": "https://www.amazon.co.jp/%E8%AC%8E%E3%81%AE%E5%BD%BC%E5%A5%B3%EF%BC%B8%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%A4%8D%E8%8A%9D%E7%90%86%E4%B8%80-ebook/dp/B009KYCTBK/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2YYMP5VW1224W&keywords=%E8%AC%8E%E3%81%AE%E5%BD%BC%E5%A5%B3X&qid=1648983983&s=digital-text&sprefix=%E8%AC%8E%E3%81%AE%E5%BD%BC%E5%A5%B3x%2Cdigital-text%2C198&sr=1-2",
+  "title_ko": "수수께기 그녀",
+  "title_ja": "謎の彼女Ｘ",
+  "authors": [
+    {
+      "id": 162,
+      "name_ko": "우에시바 리이치",
+      "name_ja": "植芝理一"
+    }
   ],
-  "author_ko": [
-    "오시미 슈조"
-  ],
-  "author_ja": [
-    "押見修造"
-  ],
-  "cover": "./assets/195.png"
+  "cover": "./assets/195.webp"
 }

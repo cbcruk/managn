@@ -1,16 +1,15 @@
 {
+  "id": 31,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E9%BB%92%E8%A1%97-%EF%BC%91-%E5%B0%91%E5%B9%B4%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%BF%E3%83%83%E3%83%97%EF%BC%81-%E5%B0%8F%E6%B1%A0%E3%83%8E%E3%82%AF%E3%83%88-ebook/dp/B00YTN19DG/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=SP0H372DD691&keywords=%E9%BB%92%E8%A1%97&qid=1646528825&s=books&sprefix=%E9%BB%92%E8%A1%97%2Cstripbooks%2C175&sr=1-1",
-  "title_ko": "",
+  "title_ko": null,
   "title_ja": "黒街",
-  "author": [
-    "33"
+  "authors": [
+    {
+      "id": 33,
+      "name_ko": "코이케 노쿠토",
+      "name_ja": "小池ノクト"
+    }
   ],
-  "author_ko": [
-    "코이케 노쿠토"
-  ],
-  "author_ja": [
-    "小池ノクト"
-  ],
-  "cover": "./assets/31.png"
+  "cover": "./assets/31.webp"
 }

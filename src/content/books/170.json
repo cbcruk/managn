@@ -1,16 +1,15 @@
 {
+  "id": 170,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E8%8C%84%E5%AD%90%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E9%BB%92%E7%94%B0%E7%A1%AB%E9%BB%84-ebook/dp/B00A765REQ/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=I0AGAKVHGMZQ&keywords=%E9%BB%92%E7%94%B0%E7%A1%AB%E9%BB%84&qid=1648966760&sprefix=%E9%BB%92%E7%94%B0%E7%A1%AB%E9%BB%84%2Caps%2C528&sr=8-2",
-  "title_ko": "가지",
-  "title_ja": "茄子",
-  "author": [
-    "152"
+  "link": "https://www.amazon.co.jp/%E9%89%84%E3%82%B3%E3%83%B3%E7%AD%8B%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%88%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9D%BE%E6%9C%AC%E5%A4%A7%E6%B4%8B-ebook/dp/B009JZHPQ4/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=28YNSJF15N4ZY&keywords=%E9%89%84%E3%82%B3%E3%83%B3%E7%AD%8B%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%88&qid=1648967928&sprefix=%E9%89%84%E3%82%B3%E3%83%B3%E7%AD%8B%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%88%2Caps%2C182&sr=8-2",
+  "title_ko": "철콘 근크리트",
+  "title_ja": "鉄コン筋クリート",
+  "authors": [
+    {
+      "id": 10,
+      "name_ko": "마츠모토 타이요",
+      "name_ja": "松本大洋"
+    }
   ],
-  "author_ko": [
-    "구로다 이오우"
-  ],
-  "author_ja": [
-    "黒田硫黄"
-  ],
-  "cover": "./assets/170.jpeg"
+  "cover": "./assets/170.webp"
 }

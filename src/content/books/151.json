@@ -1,16 +1,20 @@
 {
+  "id": 151,
   "status": "release",
-  "link": null,
-  "title_ko": "해귀선",
-  "title_ja": "Tropic of The Sea",
-  "author": [
-    "141"
+  "link": "https://www.amazon.co.jp/DEATH-NOTE-%E3%82%AB%E3%83%A9%E3%83%BC%E7%89%88-1-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-ebook/dp/B00ATLLXN8/ref=sr_1_6?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1RQZRCYKKWDWZ&keywords=%E3%83%87%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88&qid=1646816022&sprefix=%E3%83%87%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88%2Caps%2C181&sr=8-6",
+  "title_ko": "데스노트",
+  "title_ja": "DEATH NOTE",
+  "authors": [
+    {
+      "id": 139,
+      "name_ko": "오바 츠구미",
+      "name_ja": "大場つぐみ"
+    },
+    {
+      "id": 140,
+      "name_ko": "오바타 타케시",
+      "name_ja": "小畑健"
+    }
   ],
-  "author_ko": [
-    "곤 사토시"
-  ],
-  "author_ja": [
-    "Satoshi Kon"
-  ],
-  "cover": "./assets/151.jpg"
+  "cover": "./assets/151.webp"
 }

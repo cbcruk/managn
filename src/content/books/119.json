@@ -1,16 +1,20 @@
 {
+  "id": 119,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E6%A9%9F%E5%8B%95%E8%AD%A6%E5%AF%9F%E3%83%91%E3%83%88%E3%83%AC%E3%82%A4%E3%83%90%E3%83%BC%EF%BC%88%EF%BC%91%EF%BC%89-%E5%B0%91%E5%B9%B4%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%86%E3%81%86%E3%81%8D%E3%81%BE%E3%81%95%E3%81%BF-ebook/dp/B009JZHFYQ/ref=sr_1_7?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1T3NMW0L787QU&keywords=%E6%A9%9F%E5%8B%95%E8%AD%A6%E5%AF%9F%E3%83%91%E3%83%88%E3%83%AC%E3%82%A4%E3%83%90%E3%83%BC&qid=1646801481&sprefix=%E6%A9%9F%E5%8B%95%E8%AD%A6%E5%AF%9F%E3%83%91%E3%83%88%E3%83%AC%E3%82%A4%E3%83%90%E3%83%BC%2Caps%2C182&sr=8-7",
-  "title_ko": "기동경찰 패트레이버",
-  "title_ja": "機動警察パトレイバー",
-  "author": [
-    "115"
+  "link": "https://www.amazon.co.jp/%E5%91%8A%E7%99%BD%EF%BD%9E%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A7%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BD%9E-%E3%83%A4%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E7%A6%8F%E6%9C%AC%E4%BC%B8%E8%A1%8C-ebook/dp/B00FOFT098/ref=sr_1_14?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3M8QA9RF09XSG&keywords=%E3%81%8B%E3%82%8F%E3%81%90%E3%81%A1%E3%81%8B%E3%81%84%E3%81%98&qid=1646801653&sprefix=%E3%81%8B%E3%82%8F%E3%81%90%E3%81%A1%E3%81%8B%E3%81%84%E3%81%98%2Caps%2C205&sr=8-14",
+  "title_ko": "[Mr.스릴러] 고백",
+  "title_ja": "告白～コンフェッション～",
+  "authors": [
+    {
+      "id": 56,
+      "name_ko": "후쿠모토 노부유키",
+      "name_ja": "福本伸行"
+    },
+    {
+      "id": 116,
+      "name_ko": "카와구치 카이지",
+      "name_ja": "かわぐちかいじ"
+    }
   ],
-  "author_ko": [
-    "유우키 마사미"
-  ],
-  "author_ja": [
-    "ゆうきまさみ"
-  ],
-  "cover": "./assets/119.jpeg"
+  "cover": "./assets/119.webp"
 }

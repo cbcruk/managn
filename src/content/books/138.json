@@ -1,16 +1,20 @@
 {
+  "id": 138,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%A8%E3%82%B3%E3%83%8F%E3%83%9E%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97%E7%B4%80%E8%A1%8C%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E8%8A%A6%E5%A5%88%E9%87%8E%E3%81%B2%E3%81%A8%E3%81%97-ebook/dp/B00AA9W658/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1G5T0HH44W0B9&keywords=%E3%83%A8%E3%82%B3%E3%83%8F%E3%83%9E%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97%E7%B4%80%E8%A1%8C&qid=1646803987&sprefix=%E3%83%A8%E3%82%B3%E3%83%8F%E3%83%9E%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97%E7%B4%80%E8%A1%8C%2Caps%2C177&sr=8-1",
-  "title_ko": "카페 알파",
-  "title_ja": "ヨコハマ買い出し紀行",
-  "author": [
-    "131"
+  "link": "https://www.amazon.co.jp/%E5%AF%BF%E5%8F%B8%E5%B1%8B%E3%81%AE%E3%81%8B%E3%81%BF%E3%81%95%E3%82%93-%E3%81%86%E3%81%A1%E3%81%82%E3%81%91%E8%A9%B1-%E6%80%9D%E3%81%84%E5%87%BA%E9%A3%9F%E5%A0%82%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E4%BD%90%E5%B7%9D-%E8%8A%B3%E6%B1%9F/dp/4785960515/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2HLM05HBAGN72&keywords=%E6%A1%91%E4%BD%B3+%E3%81%82%E3%81%95&qid=1646804134&sprefix=%E6%A1%91%E4%BD%B3+%E3%81%82%E3%81%95%2Caps%2C172&sr=8-5",
+  "title_ko": "초밥집 여사장님",
+  "title_ja": "寿司屋のかみさん うちあけ話 (思い出食堂コミックス)",
+  "authors": [
+    {
+      "id": 133,
+      "name_ko": "사가와 요시에",
+      "name_ja": "佐川芳江"
+    },
+    {
+      "id": 134,
+      "name_ko": "쿠와요시 아사",
+      "name_ja": "桑佳あさ"
+    }
   ],
-  "author_ko": [
-    "아시나노 히토시"
-  ],
-  "author_ja": [
-    "芦奈野ひとし"
-  ],
-  "cover": "./assets/138.jpeg"
+  "cover": "./assets/138.webp"
 }

@@ -1,16 +1,15 @@
 {
+  "id": 42,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-%E8%97%A4%E6%9C%AC%E3%82%BF%E3%83%84%E3%82%AD-ebook/dp/B09BDZ5RSJ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=OWRO42LDXX9X&keywords=%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF&qid=1646784618&sprefix=%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF%2Caps%2C203&sr=8-1",
-  "title_ko": "룩 백",
-  "title_ja": "ルックバック",
-  "author": [
-    "35"
+  "link": "https://www.amazon.co.jp/This%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-1-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-%E5%85%AD%E5%86%85%E5%86%86%E6%A0%84-ebook/dp/B08BFRN4F2/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=UM9QCVKDKON0&keywords=This%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&qid=1646784666&sprefix=this%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2Caps%2C175&sr=8-2",
+  "title_ko": "This 커뮤니케이션",
+  "title_ja": "Thisコミュニケーション",
+  "authors": [
+    {
+      "id": 47,
+      "name_ko": "로쿠다이 마루에이",
+      "name_ja": "六内円栄"
+    }
   ],
-  "author_ko": [
-    "후지모토 타츠키"
-  ],
-  "author_ja": [
-    "藤本タツキ"
-  ],
-  "cover": "./assets/42.png"
+  "cover": "./assets/42.webp"
 }

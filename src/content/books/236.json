@@ -1,16 +1,15 @@
 {
+  "id": 236,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%8F%E3%82%AF%E3%83%90%E3%83%8E%E7%8E%8B%E5%AD%90%E3%82%B5%E3%83%9E%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9C%94%E3%83%A6%E3%82%AD%E8%94%B5-ebook/dp/B009JZH6EK/ref=sr_1_8?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3R7352QPFMW0&keywords=%E6%9C%94%E3%83%A6%E3%82%AD%E8%94%B5&qid=1648989056&s=digital-text&sprefix=%E6%9C%94%E3%83%A6%E3%82%AD%E8%94%B5%2Cdigital-text%2C262&sr=1-8",
-  "title_ko": "백마 탄 왕자님",
-  "title_ja": "ハクバノ王子サマ",
-  "author": [
-    "173"
+  "link": "https://www.amazon.co.jp/%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%E3%81%AE%E5%A5%87%E5%A6%99%E3%81%AA%E5%86%92%E9%99%BA-%E7%AC%AC1%E9%83%A8-%E3%83%A2%E3%83%8E%E3%82%AF%E3%83%AD%E7%89%88-1-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-ebook/dp/B009LHC7A4/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=33TSV2SQ80TDC&keywords=%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%E3%81%AE%E5%A5%87%E5%A6%99%E3%81%AA%E5%86%92%E9%99%BA+%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%83%96%E3%83%A9%E3%83%83%E3%83%89&qid=1648989691&sprefix=%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%E3%81%AE%E5%A5%87%E5%A6%99%E3%81%AA%E5%86%92%E9%99%BA+%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%83%96%E3%83%A9%E3%83%83%E3%83%89%2Caps%2C240&sr=8-2",
+  "title_ko": "죠죠의 기묘한 모험",
+  "title_ja": "ジョジョの奇妙な冒険",
+  "authors": [
+    {
+      "id": 176,
+      "name_ko": "아라키 히로히코",
+      "name_ja": "荒木飛呂彦"
+    }
   ],
-  "author_ko": [
-    "사쿠 유키조"
-  ],
-  "author_ja": [
-    "朔ユキ藏"
-  ],
-  "cover": "./assets/236.png"
+  "cover": "./assets/236.webp"
 }

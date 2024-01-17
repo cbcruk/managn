@@ -1,16 +1,15 @@
 {
+  "id": 82,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E6%81%8B%E3%81%AF%E9%9B%A8%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E7%9C%89%E6%9C%88%E3%81%98%E3%82%85%E3%82%93-ebook/dp/B00UV9VIVU/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2LJCALS593PAU&keywords=%E6%81%8B%E3%81%AF%E9%9B%A8%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB&qid=1646793705&sprefix=%E6%81%8B%E3%81%AF%E9%9B%A8%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%2Caps%2C351&sr=8-3",
-  "title_ko": "사랑은 비가 갠 뒤처럼",
-  "title_ja": "恋は雨上がりのように",
-  "author": [
-    "8"
+  "link": "https://www.amazon.co.jp/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B1%B1%E5%8F%A3%E3%81%A4%E3%81%B0%E3%81%95-ebook/dp/B07873642C/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1N8E3JBL7Y0TD&keywords=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89&qid=1646793754&sprefix=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89%2Caps%2C182&sr=8-1",
+  "title_ko": "블루 피리어드",
+  "title_ja": "ブルーピリオド",
+  "authors": [
+    {
+      "id": 84,
+      "name_ko": "야마구치 츠바사",
+      "name_ja": "山口つばさ"
+    }
   ],
-  "author_ko": [
-    "마유즈키 준"
-  ],
-  "author_ja": [
-    "眉月じゅん"
-  ],
-  "cover": "./assets/82.jpeg"
+  "cover": "./assets/82.webp"
 }

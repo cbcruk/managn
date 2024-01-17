@@ -1,16 +1,15 @@
 {
+  "id": 207,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%9F%E3%83%9F%E3%81%AE%E6%80%AA%E8%AB%87-%E5%AE%8C%E5%85%A8%E7%89%88-%E3%82%BD%E3%83%8E%E3%83%A9%E3%83%9E%EF%BC%8B%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E4%BC%8A%E8%97%A4-%E6%BD%A4%E4%BA%8C-ebook/dp/B09QKL1B1T/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=KGCCQW76NACM&keywords=%E4%BC%8A%E8%97%A4%E6%BD%A4%E4%BA%8C&qid=1648986683&s=digital-text&sprefix=%E4%BC%8A%E8%97%A4%E6%BD%A4%E4%BA%8C%2Cdigital-text%2C198&sr=1-1",
-  "title_ko": "미미의 괴담",
-  "title_ja": "ミミの怪談",
-  "author": [
-    "70"
+  "link": "https://www.amazon.co.jp/gp/product/B00IYJ2ETO/ref=dbs_a_def_rwt_hsch_vapi_tkin_p2_i4",
+  "title_ko": "필라멘트",
+  "title_ja": "フィラメント～漆原友紀作品集～",
+  "authors": [
+    {
+      "id": 130,
+      "name_ko": "우루시바라 유키",
+      "name_ja": "漆原友紀"
+    }
   ],
-  "author_ko": [
-    "이토 준지"
-  ],
-  "author_ja": [
-    "伊藤潤二"
-  ],
-  "cover": "./assets/207.jpeg"
+  "cover": "./assets/207.webp"
 }

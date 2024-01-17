@@ -1,16 +1,15 @@
 {
+  "id": 10,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E3%81%A2%E3%81%94%E3%81%B7%E3%82%8A%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9C%A8%E5%B0%BE%E5%A3%AB%E7%9B%AE-ebook/dp/B00YBPOV5A/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2Y1T4OZ2XAT7T&keywords=%E3%81%A2%E3%81%94%E3%81%B7%E3%82%8A&qid=1646528611&s=books&sprefix=%E3%81%A2%E3%81%94%E3%81%B7%E3%82%8A%2Cstripbooks%2C172&sr=1-1",
   "title_ko": "지옥프리",
   "title_ja": "ぢごぷり",
-  "author": [
-    "11"
+  "authors": [
+    {
+      "id": 11,
+      "name_ko": "키오 시모쿠",
+      "name_ja": "木尾士目"
+    }
   ],
-  "author_ko": [
-    "키오 시모쿠"
-  ],
-  "author_ja": [
-    "木尾士目"
-  ],
-  "cover": "./assets/10.png"
+  "cover": "./assets/10.webp"
 }

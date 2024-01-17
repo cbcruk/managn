@@ -1,19 +1,15 @@
 {
+  "id": 107,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%82%B0%E3%83%A9%E3%82%BC%E3%83%8B%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%A3%AE%E9%AB%98%E5%A4%95%E6%AC%A1-ebook/dp/B009KYCFD2/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3RHGPZ4TJRFD2&keywords=%E3%82%B0%E3%83%A9%E3%82%BC%E3%83%8B&qid=1646796324&sprefix=%E3%82%B0%E3%83%A9%E3%82%BC%E3%83%8B%2Caps%2C332&sr=8-4",
-  "title_ko": "그라제니",
-  "title_ja": "グラゼニ",
-  "author": [
-    "104",
-    "105"
+  "link": "https://www.amazon.co.jp/%E3%82%A2%E3%82%A4%E3%82%A2%E3%83%A0%E3%82%A2%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC-%E5%AE%8C%E5%85%A8%E7%89%88-1%E5%B7%BB-%E8%8A%B1%E6%B2%A2%E5%81%A5%E5%90%BE-ebook/dp/B09NCY6787/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3AZDZDTZVKNSE&keywords=%E3%82%A2%E3%82%A4%E3%82%A2%E3%83%A0%E3%82%A2%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC&qid=1646800564&sprefix=%E3%82%A2%E3%82%A4%E3%82%A2%E3%83%A0%E3%82%A2%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%2Caps%2C179&sr=8-2",
+  "title_ko": "아이 앰 어 히어로(I am a Hero)",
+  "title_ja": "アイアムアヒーロー",
+  "authors": [
+    {
+      "id": 107,
+      "name_ko": "하나자와 켄고",
+      "name_ja": "花沢健吾"
+    }
   ],
-  "author_ko": [
-    "모리타카 유지",
-    "아다치 케이지"
-  ],
-  "author_ja": [
-    "森高夕次",
-    "アダチケイジ"
-  ],
-  "cover": "./assets/107.jpeg"
+  "cover": "./assets/107.webp"
 }

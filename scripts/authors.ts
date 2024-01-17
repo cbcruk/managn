@@ -1,26 +1,33 @@
+import { db } from 'db/managn'
+import * as schema from 'db/schema'
+import { sql } from 'drizzle-orm'
 import * as fs from 'fs/promises'
-import books from './books.json'
-import authors from './authors.json'
 
 async function main() {
   const path = './src/content/authors'
+  const authorsData = await db.select().from(schema.authors)
+  const booksData = await db
+    .select()
+    .from(schema.books)
+    .where(sql`status = 'release'`)
+  const bookAuthorsData = await db.select().from(schema.book_authors)
 
-  for (const author of authors) {
-    const { name_ko, name_ja, index } = author
+  for (const author of authorsData) {
+    const books = bookAuthorsData
+      .filter((a) => a.author_id === author.id)
+      .map((bookAuthor) => {
+        const book = booksData.find((book) => book.id === bookAuthor.book_id)
+
+        return `${book?.id}`
+      })
 
     await fs.writeFile(
-      `${path}/${index + 1}.json`,
+      `${path}/${author.id}.json`,
       JSON.stringify(
         {
-          name_ko,
-          name_ja,
-          books: books
-            .filter(
-              (book) =>
-                book.fields.authors?.includes(name_ja) ||
-                book.fields.authors_ko?.includes(name_ko)
-            )
-            .map((book) => `${book.fields.index}`),
+          name_ko: author.name_ko,
+          name_ja: author.name_ja,
+          books,
         },
         null,
         2

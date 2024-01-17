@@ -1,16 +1,15 @@
 {
+  "id": 232,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%A8%E3%83%AB%E3%83%A0%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%89%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BCGX%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E9%AB%98%E6%A9%8B%E6%85%B6%E5%A4%AA%E9%83%8E-ebook/dp/B009JZHB2W/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=293AE5LW9PK9L&keywords=%E3%83%A8%E3%83%AB%E3%83%A0%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%89&qid=1648988903&s=digital-text&sprefix=%E3%83%A8%E3%83%AB%E3%83%A0%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%89%2Cdigital-text%2C244&sr=1-1",
-  "title_ko": "요르문간드",
-  "title_ja": "ヨルムンガンド",
-  "author": [
-    "172"
+  "link": "https://www.amazon.co.jp/%E3%81%82%E3%81%9A%E3%81%BF%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B0%8F%E5%B1%B1%E3%82%86%E3%81%86-ebook/dp/B009JZGROA/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=R98XQ4X6XX9I&keywords=%E3%81%82%E3%81%9A%E3%81%BF&qid=1648989333&s=digital-text&sprefix=%E4%B9%85%E4%BF%9D+%E3%83%9F%E3%83%84%E3%83%AD%E3%82%A6%2Cdigital-text%2C729&sr=1-1",
+  "title_ko": "아즈미",
+  "title_ja": "あずみ",
+  "authors": [
+    {
+      "id": 175,
+      "name_ko": "코야마 유우",
+      "name_ja": "小山ゆう"
+    }
   ],
-  "author_ko": [
-    "타카하시 케이타로"
-  ],
-  "author_ja": [
-    "高橋慶太郎"
-  ],
-  "cover": "./assets/232.png"
+  "cover": "./assets/232.webp"
 }

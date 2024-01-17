@@ -1,16 +1,15 @@
 {
+  "id": 206,
   "status": "release",
-  "link": "https://www.amazon.co.jp/gp/product/B009CN02NG/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0",
-  "title_ko": "이토 준지 걸작집",
-  "title_ja": "伊藤潤二傑作集",
-  "author": [
-    "70"
+  "link": "https://www.amazon.co.jp/%E3%81%8A%E3%81%B2%E3%81%A3%E3%81%93%E3%81%97-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%B2%99%E6%9D%91%E5%BA%83%E6%98%8E-ebook/dp/B00AIFYUG2/ref=sr_1_8?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=SL6OS6T1DN84&keywords=%E6%B2%99%E6%9D%91%E5%BA%83%E6%98%8E&qid=1648986601&s=digital-text&sprefix=%E6%B2%99%E6%9D%91%E5%BA%83%E6%98%8E+%2Cdigital-text%2C192&sr=1-8",
+  "title_ko": "이사",
+  "title_ja": "おひっこし",
+  "authors": [
+    {
+      "id": 14,
+      "name_ko": "사무라 히로아키",
+      "name_ja": "沙村広明"
+    }
   ],
-  "author_ko": [
-    "이토 준지"
-  ],
-  "author_ja": [
-    "伊藤潤二"
-  ],
-  "cover": "./assets/206.png"
+  "cover": "./assets/206.webp"
 }

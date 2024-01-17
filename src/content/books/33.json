@@ -1,16 +1,15 @@
 {
+  "id": 33,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E5%A4%A9%E5%9B%BD%E5%A4%A7%E9%AD%94%E5%A2%83%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E7%9F%B3%E9%BB%92%E6%AD%A3%E6%95%B0-ebook/dp/B07FCHN6XQ/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=30DL5KLNQ2QE3&keywords=%E5%A4%A9%E5%9B%BD%E5%A4%A7%E9%AD%94%E5%A2%83&qid=1646528856&s=books&sprefix=%E5%A4%A9%E5%9B%BD%E5%A4%A7%E9%AD%94%E5%A2%83%2Cstripbooks%2C184&sr=1-2",
   "title_ko": "천국대마경",
   "title_ja": "天国大魔境",
-  "author": [
-    "36"
+  "authors": [
+    {
+      "id": 36,
+      "name_ko": "이시구로 마사카즈",
+      "name_ja": "石黒正数"
+    }
   ],
-  "author_ko": [
-    "이시구로 마사카즈"
-  ],
-  "author_ja": [
-    "石黒正数"
-  ],
-  "cover": "./assets/33.png"
+  "cover": "./assets/33.webp"
 }

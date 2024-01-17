@@ -1,16 +1,15 @@
 {
+  "id": 96,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E5%A4%A9%E3%81%AE%E8%A1%80%E8%84%88%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%AE%89%E5%BD%A6%E8%89%AF%E5%92%8C-ebook/dp/B00LGA0Q3O/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1SO2DF3RGJD9T&keywords=%E5%A4%A9%E3%81%AE%E8%A1%80%E8%84%88&qid=1646795173&sprefix=%E5%A4%A9%E3%81%AE%E8%A1%80%E8%84%88%2Caps%2C175&sr=8-2",
-  "title_ko": "하늘의 혈맥",
-  "title_ja": "天の血脈",
-  "author": [
-    "98"
+  "link": "https://www.amazon.co.jp/%E5%A4%8F%E3%81%AE%E5%89%8D%E6%97%A5%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%90%89%E7%94%B0%E5%9F%BA%E5%B7%B2-ebook/dp/B00AF5PJXS/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2O16H6MAI53E&keywords=%E5%A4%8F%E3%81%AE%E5%89%8D%E6%97%A5&qid=1646795050&sprefix=%E5%A4%8F%E3%81%AE%E5%89%8D%E6%97%A5%2Caps%2C177&sr=8-1&asin=B00AF5PJXS&revisionId=&format=4&depth=1",
+  "title_ko": "여름의 전날",
+  "title_ja": "夏の前日",
+  "authors": [
+    {
+      "id": 97,
+      "name_ko": "요시다 모토이",
+      "name_ja": "吉田基已"
+    }
   ],
-  "author_ko": [
-    "야스히코 요시카즈"
-  ],
-  "author_ja": [
-    "安彦良和"
-  ],
-  "cover": "./assets/96.jpeg"
+  "cover": "./assets/96.webp"
 }

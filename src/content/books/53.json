@@ -1,16 +1,25 @@
 {
+  "id": 53,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E5%80%8B%E4%BA%BA%E5%B7%AE%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%97%A5%E6%9A%AE%E3%82%AD%E3%83%8E%E3%82%B3-ebook/dp/B07PRTNK5P/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=ZDZ0XSCAAT7&keywords=%E6%97%A5%E6%9A%AE%E3%82%AD%E3%83%8E%E3%82%B3&qid=1646785828&s=digital-text&sprefix=%E6%97%A5%E6%9A%AE%E3%82%AD%E3%83%8E%E3%82%B3%2Cdigital-text%2C173&sr=1-4",
-  "title_ko": "개인차 있습니다",
-  "title_ja": "個人差あります",
-  "author": [
-    "54"
+  "link": "https://www.amazon.co.jp/%E4%B8%AD%E9%96%93%E7%AE%A1%E7%90%86%E9%8C%B2%E3%83%88%E3%83%8D%E3%82%AC%E3%83%AF%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A4%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E8%90%A9%E5%8E%9F%E5%A4%A9%E6%99%B4-ebook/dp/B01IUUX6IO/ref=sr_1_9?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=35NROULD0S3KW&keywords=%E4%B8%AD%E9%96%93%E7%AE%A1%E7%90%86%E9%8C%B2%E3%83%88%E3%83%8D%E3%82%AC%E3%83%AF&qid=1646785903&s=digital-text&sprefix=%E4%B8%AD%E9%96%93%E7%AE%A1%E7%90%86%E9%8C%B2%E3%83%88%E3%83%8D%E3%82%AC%E3%83%AF%2Cdigital-text%2C170&sr=1-9",
+  "title_ko": "중간관리록 토네가와",
+  "title_ja": "中間管理録トネガワ",
+  "authors": [
+    {
+      "id": 55,
+      "name_ko": "하기와라 텐세이",
+      "name_ja": "萩原天晴"
+    },
+    {
+      "id": 57,
+      "name_ko": "하시모토 토모히로",
+      "name_ja": "橋本智広"
+    },
+    {
+      "id": 58,
+      "name_ko": "미요시 토모키",
+      "name_ja": "三好智樹"
+    }
   ],
-  "author_ko": [
-    "히구라시 키노코"
-  ],
-  "author_ja": [
-    "日暮キノコ"
-  ],
-  "cover": "./assets/53.png"
+  "cover": "./assets/53.webp"
 }

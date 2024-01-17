@@ -1,16 +1,15 @@
 {
+  "id": 45,
   "status": "release",
-  "link": "https://www.amazon.co.jp/SPY%C3%97FAMILY-1-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-%E9%81%A0%E8%97%A4%E9%81%94%E5%93%89-ebook/dp/B07S5K4L4H/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=35K4S9FEHGA3P&keywords=SPY+X+FAMILY&qid=1646784850&sprefix=spy+x+family%2Caps%2C176&sr=8-2",
-  "title_ko": "스파이 패밀리(SPY X FAMILY)",
-  "title_ja": "SPY×FAMILY",
-  "author": [
-    "48"
+  "link": "https://www.amazon.co.jp/%E3%81%92%E3%82%93%E3%81%97%E3%81%91%E3%82%93%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9C%A8%E5%B0%BE%E5%A3%AB%E7%9B%AE-ebook/dp/B009KYCQIQ/ref=sr_1_1?crid=32CTH1RPNCYRO&keywords=%E3%81%92%E3%82%93%E3%81%97%E3%81%91%E3%82%93+1&qid=1646785305&s=digital-text&sprefix=%E3%81%92%E3%82%93%E3%81%97%E3%81%91%E3%82%93+1%2Cdigital-text%2C174&sr=1-1",
+  "title_ko": "현시연",
+  "title_ja": "げんしけん",
+  "authors": [
+    {
+      "id": 11,
+      "name_ko": "키오 시모쿠",
+      "name_ja": "木尾士目"
+    }
   ],
-  "author_ko": [
-    "엔도 타츠야"
-  ],
-  "author_ja": [
-    "遠藤達哉"
-  ],
-  "cover": "./assets/45.png"
+  "cover": "./assets/45.webp"
 }

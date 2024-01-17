@@ -1,16 +1,15 @@
 {
+  "id": 150,
   "status": "release",
   "link": null,
-  "title_ko": "오푸스(OPUS)",
-  "title_ja": "Satoshi Kon's: Opus",
-  "author": [
-    "141"
+  "title_ko": "꿈의 화석 - 콘 사토시 단편전집",
+  "title_ja": "Dream Fossil: The Complete Stories of Satoshi Kon",
+  "authors": [
+    {
+      "id": 141,
+      "name_ko": "곤 사토시",
+      "name_ja": "Satoshi Kon"
+    }
   ],
-  "author_ko": [
-    "곤 사토시"
-  ],
-  "author_ja": [
-    "Satoshi Kon"
-  ],
-  "cover": "./assets/150.jpg"
+  "cover": "./assets/150.webp"
 }

@@ -9,7 +9,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "script:db": "bun ./db/managn.ts"
+    "content:authors": "bun ./scripts/authors.ts",
+    "content:books": "bun ./scripts/books.ts",
+    "content:book_authors": "bun ./scripts/book_authors.ts",
+    "imagemin": "bun ./scripts/imagemin.ts"
   },
   "dependencies": {
     "@astrojs/react": "^3.0.8",
@@ -24,6 +27,8 @@
     "clsx": "^2.0.0",
     "drizzle-kit": "^0.20.10",
     "drizzle-orm": "^0.29.3",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-twc": "^1.2.2",

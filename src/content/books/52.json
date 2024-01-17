@@ -1,16 +1,15 @@
 {
+  "id": 52,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E5%BF%8D%E8%80%85%E3%81%A8%E6%A5%B5%E9%81%93%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%EF%BC%A4%EF%BC%A1%EF%BC%B9%EF%BC%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E8%BF%91%E8%97%A4%E4%BF%A1%E8%BC%94-ebook/dp/B086GZ17NB/ref=sr_1_7?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=NPXJYRK4NSW3&keywords=%E5%BF%8D%E8%80%85%E3%81%A8%E6%A5%B5%E9%81%93&qid=1646785759&s=digital-text&sprefix=%E5%BF%8D%E8%80%85%E3%81%A8%E6%A5%B5%E9%81%93%2Cdigital-text%2C173&sr=1-7",
-  "title_ko": "닌자와 야쿠자",
-  "title_ja": "忍者と極道",
-  "author": [
-    "53"
+  "link": "https://www.amazon.co.jp/%E5%80%8B%E4%BA%BA%E5%B7%AE%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%97%A5%E6%9A%AE%E3%82%AD%E3%83%8E%E3%82%B3-ebook/dp/B07PRTNK5P/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=ZDZ0XSCAAT7&keywords=%E6%97%A5%E6%9A%AE%E3%82%AD%E3%83%8E%E3%82%B3&qid=1646785828&s=digital-text&sprefix=%E6%97%A5%E6%9A%AE%E3%82%AD%E3%83%8E%E3%82%B3%2Cdigital-text%2C173&sr=1-4",
+  "title_ko": "개인차 있습니다",
+  "title_ja": "個人差あります",
+  "authors": [
+    {
+      "id": 54,
+      "name_ko": "히구라시 키노코",
+      "name_ja": "日暮キノコ"
+    }
   ],
-  "author_ko": [
-    "콘도 신스케"
-  ],
-  "author_ja": [
-    "近藤信輔"
-  ],
-  "cover": "./assets/52.png"
+  "cover": "./assets/52.webp"
 }

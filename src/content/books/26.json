@@ -1,16 +1,15 @@
 {
+  "id": 26,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E3%81%8B%E3%81%8F%E3%81%8B%E3%81%8F%E3%81%97%E3%81%8B%E3%81%98%E3%81%8B-1-%E3%83%9E%E3%83%BC%E3%82%AC%E3%83%AC%E3%83%83%E3%83%88%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-%E6%9D%B1%E6%9D%91%E3%82%A2%E3%82%AD%E3%82%B3-ebook/dp/B00JIFUCE2/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2E2M9R5K9FKL9&keywords=%E3%81%8B%E3%81%8F%E3%81%8B%E3%81%8F%E3%81%97%E3%81%8B%E3%81%98%E3%81%8B&qid=1646528787&s=books&sprefix=%E3%81%8B%E3%81%8F%E3%81%8B%E3%81%8F%E3%81%97%E3%81%8B%E3%81%98%E3%81%8B%2Cstripbooks%2C181&sr=1-1",
   "title_ko": "그리고, 또 그리고",
   "title_ja": "かくかくしかじか",
-  "author": [
-    "29"
+  "authors": [
+    {
+      "id": 29,
+      "name_ko": "히가시무라 아키코",
+      "name_ja": "東村アキコ"
+    }
   ],
-  "author_ko": [
-    "히가시무라 아키코"
-  ],
-  "author_ja": [
-    "東村アキコ"
-  ],
-  "cover": "./assets/26.png"
+  "cover": "./assets/26.webp"
 }

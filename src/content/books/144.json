@@ -1,16 +1,15 @@
 {
+  "id": 144,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%81%BC%E3%81%AE%E3%81%BC%E3%81%AE%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%90%E3%83%B3%E3%83%96%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-4%E3%82%B3%E3%83%9E%E3%82%BB%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E3%81%84%E3%81%8C%E3%82%89%E3%81%97%E3%81%BF%E3%81%8D%E3%81%8A-ebook/dp/B00EJD0XNS/ref=sr_1_6?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=5JW9ONGHSXDM&keywords=%E3%81%BC%E3%81%AE%E3%81%BC%E3%81%AE&qid=1646814441&sprefix=%E3%81%BC%E3%81%AE%E3%81%BC%E3%81%AE%2Caps%2C213&sr=8-6",
-  "title_ko": "보노보노",
-  "title_ja": "ぼのぼの",
-  "author": [
-    "137"
+  "link": "https://www.amazon.co.jp/%E8%B3%AD%E5%8D%9A%E9%BB%99%E7%A4%BA%E9%8C%B2-%E3%82%AB%E3%82%A4%E3%82%B8-%EF%BC%91-%E7%A6%8F%E6%9C%AC-%E4%BC%B8%E8%A1%8C-ebook/dp/B00E3R9ZRA/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1H3RL3A0OKUDG&keywords=%E9%BB%99%E7%A4%BA%E9%8C%B2%E3%82%AB%E3%82%A4%E3%82%B8&qid=1646814606&sprefix=%E9%BB%99%E7%A4%BA%E9%8C%B2%E3%82%AB%E3%82%A4%E3%82%B8%2Caps%2C193&sr=8-1",
+  "title_ko": "도박묵시록 카이지",
+  "title_ja": "賭博黙示録 カイジ",
+  "authors": [
+    {
+      "id": 56,
+      "name_ko": "후쿠모토 노부유키",
+      "name_ja": "福本伸行"
+    }
   ],
-  "author_ko": [
-    "이가라시 미키오"
-  ],
-  "author_ja": [
-    "いがらしみきお"
-  ],
-  "cover": "./assets/144.jpeg"
+  "cover": "./assets/144.webp"
 }

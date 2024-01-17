@@ -1,16 +1,15 @@
 {
+  "id": 104,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%99%E3%83%AB%E3%82%BB%E3%83%AB%E3%82%AF-1-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E4%B8%89%E6%B5%A6%E5%BB%BA%E5%A4%AA%E9%83%8E-ebook/dp/B00DMUL9GO/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1U33D2X38E74J&keywords=%E3%83%99%E3%83%AB%E3%82%BB%E3%83%AB%E3%82%AF&qid=1646795765&sprefix=%E3%83%99%E3%83%AB%E3%82%BB%E3%83%AB%E3%82%AF%2Caps%2C223&sr=8-4",
-  "title_ko": "베르세르크",
-  "title_ja": "ベルセルク",
-  "author": [
-    "102"
+  "link": "https://www.amazon.co.jp/%E5%A4%96%E9%81%93%E3%81%AE%E6%AD%8C-1-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%B8%A1%E9%82%8A%E3%83%80%E3%82%A4%E3%82%B9%E3%82%B1-ebook/dp/B01JR7Z95W/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3L5R1D2LO9NMD&keywords=%E5%A4%96%E9%81%93%E3%81%AE%E6%AD%8C&qid=1646795904&sprefix=%E5%A4%96%E9%81%93%E3%81%AE%E6%AD%8C%2Caps%2C188&sr=8-3",
+  "title_ko": "외도의 노래",
+  "title_ja": "外道の歌",
+  "authors": [
+    {
+      "id": 103,
+      "name_ko": "와타나베 다이스케",
+      "name_ja": "渡邊ダイスケ"
+    }
   ],
-  "author_ko": [
-    "미우라 켄타로"
-  ],
-  "author_ja": [
-    "三浦建太郎"
-  ],
-  "cover": "./assets/104.jpeg"
+  "cover": "./assets/104.webp"
 }

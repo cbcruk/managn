@@ -1,16 +1,15 @@
 {
+  "id": 188,
   "status": "release",
-  "link": "https://www.amazon.co.jp/Spotted-Flower-1-%E6%A5%BD%E5%9C%92%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9C%A8%E5%B0%BE%E5%A3%AB%E7%9B%AE-ebook/dp/B018RXPCSQ/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=Spotted+Flower&qid=1648982071&s=digital-text&sr=1-3",
-  "title_ko": "Spotted Flower",
-  "title_ja": "Spotted Flower",
-  "author": [
-    "11"
+  "link": "https://www.amazon.co.jp/%E5%AF%84%E7%94%9F%E7%8D%A3%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B2%A9%E6%98%8E%E5%9D%87-ebook/dp/B009KWUID8/ref=sr_1_8?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=6WA9JNQJ9BPU&keywords=%E5%AF%84%E7%94%9F%E7%8D%A3&qid=1648983235&s=digital-text&sprefix=%E3%82%A4%E3%82%A8%E3%82%B9%E3%82%BF%E3%83%87%E3%82%A4%E3%82%92%E3%81%86%E3%81%9F%E3%81%A3%E3%81%A6%2Cdigital-text%2C789&sr=1-8",
+  "title_ko": "기생수",
+  "title_ja": "寄生獣",
+  "authors": [
+    {
+      "id": 51,
+      "name_ko": "이와아키 히토시",
+      "name_ja": "岩明均"
+    }
   ],
-  "author_ko": [
-    "키오 시모쿠"
-  ],
-  "author_ja": [
-    "木尾士目"
-  ],
-  "cover": "./assets/188.jpeg"
+  "cover": "./assets/188.webp"
 }

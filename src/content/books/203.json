@@ -1,16 +1,15 @@
 {
+  "id": 203,
   "status": "release",
-  "link": "https://www.amazon.co.jp/gp/product/B019FBFT14/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i7",
-  "title_ko": "불새",
-  "title_ja": "火の鳥",
-  "author": [
-    "154"
+  "link": "https://www.amazon.co.jp/gp/product/B009CN02NG/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0",
+  "title_ko": "이토 준지 걸작집",
+  "title_ja": "伊藤潤二傑作集",
+  "authors": [
+    {
+      "id": 70,
+      "name_ko": "이토 준지",
+      "name_ja": "伊藤潤二"
+    }
   ],
-  "author_ko": [
-    "데즈카 오사무"
-  ],
-  "author_ja": [
-    "手塚治虫"
-  ],
-  "cover": "./assets/203.jpeg"
+  "cover": "./assets/203.webp"
 }

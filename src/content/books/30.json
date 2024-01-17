@@ -1,16 +1,15 @@
 {
+  "id": 30,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E3%81%82%E3%81%9D%E3%81%B3%E3%81%82%E3%81%9D%E3%81%B0%E3%81%9B-1-%E3%82%B8%E3%82%A7%E3%83%83%E3%83%84%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%B6%BC%E5%B7%9D%E3%82%8A%E3%82%93-ebook/dp/B01BXVG50I/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2E23ABYPW6ST3&keywords=%E3%81%82%E3%81%9D%E3%81%B3%E3%81%82%E3%81%9D%E3%81%B0%E3%81%9B&qid=1646528834&s=books&sprefix=%E9%BB%92%E8%A1%97%2Cstripbooks%2C173&sr=1-3",
   "title_ko": "즐겁게 놀아보세",
   "title_ja": "あそびあそばせ",
-  "author": [
-    "34"
+  "authors": [
+    {
+      "id": 34,
+      "name_ko": "스즈카와 린",
+      "name_ja": "涼川りん"
+    }
   ],
-  "author_ko": [
-    "스즈카와 린"
-  ],
-  "author_ja": [
-    "涼川りん"
-  ],
-  "cover": "./assets/30.jpeg"
+  "cover": "./assets/30.webp"
 }

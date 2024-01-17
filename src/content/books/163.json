@@ -1,19 +1,15 @@
 {
+  "id": 163,
   "status": "release",
-  "link": null,
-  "title_ko": "세라핌(2억6661만3336의 날개)",
-  "title_ja": "Seraphim: 266613336 Wings",
-  "author": [
-    "141",
-    "142"
+  "link": "https://www.amazon.co.jp/%E5%9D%82%E9%81%93%E3%81%AE%E3%82%A2%E3%83%9D%E3%83%AD%E3%83%B3%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%CE%B1-%E5%B0%8F%E7%8E%89%E3%83%A6%E3%82%AD-ebook/dp/B009SHW4EQ/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2OLE8NIKLOQ73&keywords=%E5%9D%82%E9%81%93%E3%81%AE%E3%82%A2%E3%83%9D%E3%83%AD%E3%83%B3&qid=1648966456&sprefix=%E5%9D%82%E9%81%93%E3%81%AE%E3%82%A2%E3%83%9D%E3%83%AD%E3%83%B3%2Caps%2C206&sr=8-3",
+  "title_ko": "언덕의의 아폴론",
+  "title_ja": "坂道のアポロン",
+  "authors": [
+    {
+      "id": 150,
+      "name_ko": "코다마 유키",
+      "name_ja": "小玉ユキ"
+    }
   ],
-  "author_ko": [
-    "곤 사토시",
-    "오시이 마모루"
-  ],
-  "author_ja": [
-    "Satoshi Kon",
-    "Mamoru Oshii"
-  ],
-  "cover": "./assets/163.jpg"
+  "cover": "./assets/163.webp"
 }

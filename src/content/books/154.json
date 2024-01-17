@@ -1,16 +1,15 @@
 {
+  "id": 154,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E5%83%95%E3%81%A0%E3%81%91%E3%81%8C%E3%81%84%E3%81%AA%E3%81%84%E8%A1%97-1-%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9-%E4%B8%89%E9%83%A8-%E3%81%91%E3%81%84-ebook/dp/B00CM0F5PQ/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=NK296HBWSCAR&keywords=%E5%83%95%E3%81%A0%E3%81%91%E3%81%8C%E3%81%84%E3%81%AA%E3%81%84%E8%A1%97&qid=1646816346&sprefix=%E5%83%95%E3%81%A0%E3%81%91%E3%81%8C%E3%81%84%E3%81%AA%E3%81%84%E8%A1%97%2Caps%2C335&sr=8-2",
-  "title_ko": "나만이 없는 거리",
-  "title_ja": "僕だけがいない街",
-  "author": [
-    "143"
+  "link": "https://www.amazon.co.jp/%E3%82%AE%E3%82%AC%E3%83%B3%E3%83%88%E3%83%9E%E3%82%AD%E3%82%A2-%E3%82%B8%E3%82%A7%E3%83%83%E3%83%84%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E4%B8%89%E6%B5%A6%E5%BB%BA%E5%A4%AA%E9%83%8E-ebook/dp/B00MXM3Y88/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=OUR1CN0ZCN4A&keywords=%E4%B8%89%E6%B5%A6%E5%BB%BA%E5%A4%AA%E9%83%8E&qid=1646816505&sprefix=%E4%B8%89%E6%B5%A6%E5%BB%BA%E5%A4%AA%E9%83%8E%2Caps%2C179&sr=8-4",
+  "title_ko": "기간토마키아",
+  "title_ja": "ギガントマキア",
+  "authors": [
+    {
+      "id": 102,
+      "name_ko": "미우라 켄타로",
+      "name_ja": "三浦建太郎"
+    }
   ],
-  "author_ko": [
-    "산베 케이"
-  ],
-  "author_ja": [
-    "三部けい"
-  ],
-  "cover": "./assets/154.jpeg"
+  "cover": "./assets/154.webp"
 }

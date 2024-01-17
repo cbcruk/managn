@@ -1,16 +1,15 @@
 {
+  "id": 111,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E6%96%B0%E8%A3%85%E7%89%88-%E3%83%87%E3%83%93%E3%83%AB%E3%83%9E%E3%83%B3-1-%E8%AC%9B%E8%AB%87%E7%A4%BE%E6%BC%AB%E7%94%BB%E6%96%87%E5%BA%AB-%E6%B0%B8%E4%BA%95/dp/4063706923/ref=sr_1_12?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1NIM9631WELR2&keywords=%E3%83%87%E3%83%93%E3%83%AB%E3%83%9E%E3%83%B3&qid=1646800744&sprefix=%E3%83%87%E3%83%93%E3%83%AB%E3%83%9E%E3%83%B3%2Caps%2C180&sr=8-12",
-  "title_ko": "데빌맨",
-  "title_ja": "デビルマン",
-  "author": [
-    "108"
+  "link": "https://www.amazon.co.jp/%E5%AE%8C%E5%85%A8%E7%89%88-%E3%81%BC%E3%81%8F%E3%82%89%E3%81%AE%EF%BC%88%EF%BC%91%EF%BC%89-%E9%AC%BC%E9%A0%AD%E8%8E%AB%E5%AE%8F-ebook/dp/B09NDFP7FD/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=12FFR20FDNM3S&keywords=%E3%81%BC%E3%81%8F%E3%82%89%E3%81%AE&qid=1646800959&sprefix=%E3%81%BC%E3%81%8F%E3%82%89%E3%81%AE%2Caps%2C184&sr=8-2",
+  "title_ko": "지어스",
+  "title_ja": "ぼくらの",
+  "authors": [
+    {
+      "id": 109,
+      "name_ko": "키토 모히로",
+      "name_ja": "鬼頭莫宏"
+    }
   ],
-  "author_ko": [
-    "나가이 고"
-  ],
-  "author_ja": [
-    "永井 豪"
-  ],
-  "cover": "./assets/111.jpg"
+  "cover": "./assets/111.webp"
 }

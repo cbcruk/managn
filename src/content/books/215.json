@@ -1,16 +1,15 @@
 {
+  "id": 215,
   "status": "release",
-  "link": "https://www.amazon.co.jp/gp/product/B00YBPOVIM/ref=dbs_a_def_rwt_hsch_vapi_tkin_p4_i11",
-  "title_ko": "제비뽑기 언밸런스",
-  "title_ja": "くじびきアンバランス",
-  "author": [
-    "11"
+  "link": "https://www.amazon.co.jp/SIDOOH%E2%80%95%E5%A3%AB%E9%81%93%E2%80%95-1-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-%E9%AB%98%E6%A9%8B%E3%83%84%E3%83%88%E3%83%A0-ebook/dp/B00CI0XLOW/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2ZSFR0VYXWUBH&keywords=SIDOOH+%E5%A3%AB%E9%81%93&qid=1648987720&s=digital-text&sprefix=sidooh+%E5%A3%AB%E9%81%93%2Cdigital-text%2C201&sr=1-3",
+  "title_ko": "사도",
+  "title_ja": "SIDOOH―士道―",
+  "authors": [
+    {
+      "id": 166,
+      "name_ko": "다카하시 츠토무",
+      "name_ja": "高橋ツトム"
+    }
   ],
-  "author_ko": [
-    "키오 시모쿠"
-  ],
-  "author_ja": [
-    "木尾士目"
-  ],
-  "cover": "./assets/215.png"
+  "cover": "./assets/215.webp"
 }

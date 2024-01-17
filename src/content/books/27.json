@@ -1,16 +1,15 @@
 {
+  "id": 27,
   "status": "release",
   "link": "https://www.amazon.co.jp/CYNTHIA_THE_MISSION-1-REX%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E9%AB%98%E9%81%A0-%E3%82%8B%E3%81%84-ebook/dp/B00D7B2P5M/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=42UEW53J4NK2&keywords=CYNTHIA_THE_MISSION&qid=1646528798&s=books&sprefix=cynthia_the_mission%2Cstripbooks%2C170&sr=1-1",
   "title_ko": "신시아 더 미션",
   "title_ja": "CYNTHIA_THE_MISSION",
-  "author": [
-    "30"
+  "authors": [
+    {
+      "id": 30,
+      "name_ko": "타카토 루이",
+      "name_ja": "高遠 るい"
+    }
   ],
-  "author_ko": [
-    "타카토 루이"
-  ],
-  "author_ja": [
-    "高遠 るい"
-  ],
-  "cover": "./assets/27.jpeg"
+  "cover": "./assets/27.webp"
 }

@@ -1,16 +1,15 @@
 {
+  "id": 87,
   "status": "release",
-  "link": "https://www.amazon.co.jp/Artiste-1%E5%B7%BB-%E3%83%90%E3%83%B3%E3%83%81%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%81%95%E3%82%82%E3%81%88%E3%81%A9%E5%A4%AA%E9%83%8E-ebook/dp/B06XYLY9TM/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2IXI2C2N5MBKZ&keywords=Artiste&qid=1646794143&sprefix=artiste%2Caps%2C209&sr=8-1",
-  "title_ko": "아르티스트 (Artiste)",
-  "title_ja": "Artiste（アルティスト）",
-  "author": [
-    "88"
+  "link": "https://www.amazon.co.jp/NARUTO%E2%80%95%E3%83%8A%E3%83%AB%E3%83%88%E2%80%95-%E3%83%A2%E3%83%8E%E3%82%AF%E3%83%AD%E7%89%88-1-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-%E5%B2%B8%E6%9C%AC%E6%96%89%E5%8F%B2-ebook/dp/B009GZK8WU/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2U6OLNR5Z0J4G&keywords=%E3%83%8A%E3%83%AB%E3%83%88+1&qid=1646794316&sprefix=%E3%83%8A%E3%83%AB%E3%83%88+%2Caps%2C233&sr=8-1",
+  "title_ko": "나루토",
+  "title_ja": "NARUTO―ナルト",
+  "authors": [
+    {
+      "id": 90,
+      "name_ko": "키시모토 마사시",
+      "name_ja": "岸本斉史"
+    }
   ],
-  "author_ko": [
-    "사모에도 타로"
-  ],
-  "author_ja": [
-    "さもえど太郎"
-  ],
-  "cover": "./assets/87.jpeg"
+  "cover": "./assets/87.webp"
 }

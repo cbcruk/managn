@@ -1,16 +1,15 @@
 {
+  "id": 103,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%9F%E3%82%B9%E3%83%9F%E3%82%BD%E3%82%A6-%E5%AE%8C%E5%85%A8%E7%89%88-%EF%BC%9A-1-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-ebook/dp/B078K1DYKK/ref=sr_1_15?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=21OBVRVPJ0PHR&keywords=%E6%8A%BC%E5%88%87%E8%93%AE%E4%BB%8B&qid=1646795709&sprefix=%E6%8A%BC%E5%88%87%E8%93%AE%E4%BB%8B%2Caps%2C209&sr=8-15",
-  "title_ko": "미스미소우",
-  "title_ja": "ミスミソウ",
-  "author": [
-    "101"
+  "link": "https://www.amazon.co.jp/%E3%83%99%E3%83%AB%E3%82%BB%E3%83%AB%E3%82%AF-1-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E4%B8%89%E6%B5%A6%E5%BB%BA%E5%A4%AA%E9%83%8E-ebook/dp/B00DMUL9GO/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1U33D2X38E74J&keywords=%E3%83%99%E3%83%AB%E3%82%BB%E3%83%AB%E3%82%AF&qid=1646795765&sprefix=%E3%83%99%E3%83%AB%E3%82%BB%E3%83%AB%E3%82%AF%2Caps%2C223&sr=8-4",
+  "title_ko": "베르세르크",
+  "title_ja": "ベルセルク",
+  "authors": [
+    {
+      "id": 102,
+      "name_ko": "미우라 켄타로",
+      "name_ja": "三浦建太郎"
+    }
   ],
-  "author_ko": [
-    "오시키리 렌스케"
-  ],
-  "author_ja": [
-    "押切蓮介"
-  ],
-  "cover": "./assets/103.jpeg"
+  "cover": "./assets/103.webp"
 }

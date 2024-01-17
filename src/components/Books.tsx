@@ -5,11 +5,13 @@ type Props = {
 }
 
 export function Books({ data }: Props) {
+  console.log(data[0].data.authors)
   return (
     <div className="flex flex-col items-center pb-4 gap-4">
       {data.map((item) => {
         return (
           <div
+            id={`books-${item.id}`}
             key={item.id}
             className="flex flex-col max-w-[382px] rounded-3xl shadow-lg bg-neutral-900"
           >
@@ -31,18 +33,15 @@ export function Books({ data }: Props) {
                 </span>
               </div>
               <div className="flex gap-2 py-1 text-sm whitespace-nowrap overflow-x-auto">
-                {item.data.author.map((author, index) => {
-                  const ko = item.data?.author_ko[index]
-                  const ja = item.data?.author_ja[index]
-
+                {item.data.authors.map((author) => {
                   return (
                     <a
                       key={author.id}
                       href={`/authors/${author.id}`}
                       className="inline-flex items-center gap-0.5"
                     >
-                      {ko}
-                      <span className="text-xs">({ja})</span>
+                      {author.name_ko}
+                      <span className="text-xs">({author.name_ja})</span>
                     </a>
                   )
                 })}

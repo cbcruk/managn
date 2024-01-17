@@ -1,16 +1,15 @@
 {
+  "id": 46,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%81%92%E3%82%93%E3%81%97%E3%81%91%E3%82%93%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9C%A8%E5%B0%BE%E5%A3%AB%E7%9B%AE-ebook/dp/B009KYCQIQ/ref=sr_1_1?crid=32CTH1RPNCYRO&keywords=%E3%81%92%E3%82%93%E3%81%97%E3%81%91%E3%82%93+1&qid=1646785305&s=digital-text&sprefix=%E3%81%92%E3%82%93%E3%81%97%E3%81%91%E3%82%93+1%2Cdigital-text%2C174&sr=1-1",
-  "title_ko": "현시연",
-  "title_ja": "げんしけん",
-  "author": [
-    "11"
+  "link": "https://www.amazon.co.jp/gp/product/B07HP1LBH7/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i10",
+  "title_ko": "사이에 스물",
+  "title_ja": "あいだにはたち",
+  "authors": [
+    {
+      "id": 49,
+      "name_ko": "사오토메 야기",
+      "name_ja": "さおとめやぎ"
+    }
   ],
-  "author_ko": [
-    "키오 시모쿠"
-  ],
-  "author_ja": [
-    "木尾士目"
-  ],
-  "cover": "./assets/46.png"
+  "cover": "./assets/46.webp"
 }

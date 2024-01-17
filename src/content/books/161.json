@@ -1,16 +1,20 @@
 {
+  "id": 161,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB-1%E5%B7%BB-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%89%88%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E8%8D%92%E5%B7%9D%E5%BC%98-ebook/dp/B009T8RYF8/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=23I3XHR8HHB5Q&keywords=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB&qid=1646817004&sprefix=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB%2Caps%2C190&sr=8-5",
-  "title_ko": "강철의 연금술사",
-  "title_ja": "鋼の錬金術師",
-  "author": [
-    "65"
+  "link": null,
+  "title_ko": "세라핌(2억6661만3336의 날개)",
+  "title_ja": "Seraphim: 266613336 Wings",
+  "authors": [
+    {
+      "id": 141,
+      "name_ko": "곤 사토시",
+      "name_ja": "Satoshi Kon"
+    },
+    {
+      "id": 142,
+      "name_ko": "오시이 마모루",
+      "name_ja": "Mamoru Oshii"
+    }
   ],
-  "author_ko": [
-    "아라카와 히로무"
-  ],
-  "author_ja": [
-    "荒川弘"
-  ],
-  "cover": "./assets/161.jpeg"
+  "cover": "./assets/161.webp"
 }

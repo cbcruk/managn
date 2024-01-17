@@ -1,17 +1,20 @@
 {
+  "id": 29,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E3%82%AF%E3%82%BA%E3%81%AE%E6%9C%AC%E6%87%90-1%E5%B7%BB-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%89%88%E3%83%93%E3%83%83%E3%82%B0%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%A8%AA%E6%A7%8D%E3%83%A1%E3%83%B3%E3%82%B4-ebook/dp/B00DSI1K1O/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=23YGO1TNI9W9Z&keywords=%E3%82%AF%E3%82%BA%E3%81%AE%E6%9C%AC%E6%87%90&qid=1646528817&s=books&sprefix=%E3%82%AF%E3%82%BA%E3%81%AE%E6%9C%AC%E6%87%90%2Cstripbooks%2C172&sr=1-1",
   "title_ko": "쓰레기의 본망",
   "title_ja": "クズの本懐",
-  "author": [
-    "32",
-    "126"
+  "authors": [
+    {
+      "id": 32,
+      "name_ko": "요코야리 멘고",
+      "name_ja": "横槍メンゴ"
+    },
+    {
+      "id": 126,
+      "name_ko": "요코야리 멩고",
+      "name_ja": "横槍メンゴ"
+    }
   ],
-  "author_ko": [
-    "요코야리 멘고"
-  ],
-  "author_ja": [
-    "横槍メンゴ"
-  ],
-  "cover": "./assets/29.png"
+  "cover": "./assets/29.webp"
 }

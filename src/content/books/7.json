@@ -1,16 +1,15 @@
 {
+  "id": 7,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E4%B9%9D%E9%BE%8D%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AA%E3%83%83%E3%82%AF%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%B9-1-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-%E7%9C%89%E6%9C%88%E3%81%98%E3%82%85%E3%82%93-ebook/dp/B0847GWL5F/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=167XKSKJGR0IC&keywords=%E4%B9%9D%E9%BE%8D%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AA%E3%83%83%E3%82%AF%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%B9&qid=1646528571&s=books&sprefix=%E4%B9%9D%E9%BE%8D%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AA%E3%83%83%E3%82%AF%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%B9%2Cstripbooks%2C196&sr=1-2",
   "title_ko": "구룡 제네릭 로맨스",
   "title_ja": "九龍ジェネリックロマンス",
-  "author": [
-    "8"
+  "authors": [
+    {
+      "id": 8,
+      "name_ko": "마유즈키 준",
+      "name_ja": "眉月じゅん"
+    }
   ],
-  "author_ko": [
-    "마유즈키 준"
-  ],
-  "author_ja": [
-    "眉月じゅん"
-  ],
-  "cover": "./assets/7.png"
+  "cover": "./assets/7.webp"
 }

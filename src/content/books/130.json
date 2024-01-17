@@ -1,16 +1,15 @@
 {
+  "id": 130,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E4%B8%A6%E6%9C%A8%E6%A9%8B%E9%80%9A%E3%82%8A%E3%82%A2%E3%82%AA%E3%83%90%E8%87%AA%E8%BB%A2%E8%BB%8A%E5%BA%97-1%E5%B7%BB-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%AE%AE%E5%B0%BE%E5%B2%B3-ebook/dp/B009HOCALW/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2FEMRRIXJ2XAY&keywords=%E4%B8%A6%E6%9C%A8%E6%A9%8B%E9%80%9A%E3%82%8A%E3%82%A2%E3%82%AA%E3%83%90%E8%87%AA%E8%BB%A2%E8%BB%8A%E5%BA%97&qid=1646803049&sprefix=%E4%B8%A6%E6%9C%A8%E6%A9%8B%E9%80%9A%E3%82%8A%E3%82%A2%E3%82%AA%E3%83%90%E8%87%AA%E8%BB%A2%E8%BB%8A%E5%BA%97%2Caps%2C168&sr=8-1",
-  "title_ko": "내 마음속의 자전거",
-  "title_ja": "並木橋通りアオバ自転車店",
-  "author": [
-    "124"
+  "link": "https://www.amazon.co.jp/%E6%80%AA%E7%89%A9%E7%8E%8B%E5%A5%B3%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%85%89%E6%B0%B8%E5%BA%B7%E5%89%87-ebook/dp/B00E8BTDIC/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1NV3HQWUELXSV&keywords=%E6%80%AA%E7%89%A9%E7%8E%8B%E5%A5%B3&qid=1646803100&sprefix=%E6%80%AA%E7%89%A9%E7%8E%8B%E5%A5%B3%2Caps%2C184&sr=8-2",
+  "title_ko": "괴물왕녀",
+  "title_ja": "怪物王女",
+  "authors": [
+    {
+      "id": 125,
+      "name_ko": "미츠나가 야스노리",
+      "name_ja": "光永康則"
+    }
   ],
-  "author_ko": [
-    "미야오 가쿠"
-  ],
-  "author_ja": [
-    "宮尾岳"
-  ],
-  "cover": "./assets/130.jpeg"
+  "cover": "./assets/130.webp"
 }

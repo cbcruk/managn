@@ -1,16 +1,15 @@
 {
+  "id": 115,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%81%93%E3%81%AE%E5%BA%A6%E3%81%AF%E5%BE%A1%E6%84%81%E5%82%B7%E6%A7%98%E3%81%A7%E3%81%99-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%AE%AE%E6%9C%AC%E7%A6%8F%E5%8A%A9-ebook/dp/B00O0UHQ8A/ref=sr_1_6?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2RGIRC38E4D94&keywords=%E5%AE%AE%E6%9C%AC%E7%A6%8F%E5%8A%A9&qid=1646801193&sprefix=%E5%AE%AE%E6%9C%AC%E7%A6%8F%E5%8A%A9%2Caps%2C184&sr=8-6",
-  "title_ko": "삼가 조의를 표합니다",
-  "title_ja": "この度は御愁傷様です",
-  "author": [
-    "112"
+  "link": "https://www.amazon.co.jp/%E5%A4%8F%E5%AD%90%E3%81%AE%E9%85%92%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B0%BE%E7%80%AC%E3%81%82%E3%81%8D%E3%82%89-ebook/dp/B00A2MCPL8/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1CW2EC420KD2O&keywords=%E5%A4%8F%E5%AD%90%E3%81%AE%E9%85%92&qid=1646801325&sprefix=%E5%A4%8F%E5%AD%90%E3%81%AE%E9%85%92%2Caps%2C184&sr=8-1",
+  "title_ko": "나츠코의 술",
+  "title_ja": "夏子の酒",
+  "authors": [
+    {
+      "id": 114,
+      "name_ko": "오제 아키라",
+      "name_ja": "尾瀬あきら"
+    }
   ],
-  "author_ko": [
-    "미야모토 후쿠스케"
-  ],
-  "author_ja": [
-    "宮本福助"
-  ],
-  "cover": "./assets/115.jpeg"
+  "cover": "./assets/115.webp"
 }

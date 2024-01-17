@@ -1,16 +1,15 @@
 {
+  "id": 250,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E5%AE%98%E8%83%BD%E5%85%88%E7%94%9F%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A4%E3%83%96%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%90%89%E7%94%B0%E5%9F%BA%E5%B7%B2-ebook/dp/B0721MBYT7/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=UPESHFOL7XCZ&keywords=%E5%90%89%E7%94%B0%E5%9F%BA%E5%B7%B2&qid=1650098058&s=digital-text&sprefix=%E5%90%89%E7%94%B0%E5%9F%BA%E5%B7%B2%2Cdigital-text%2C174&sr=1-3",
-  "title_ko": "관능선생",
-  "title_ja": "官能先生",
-  "author": [
-    "97"
+  "link": "https://www.amazon.co.jp/gp/product/B073D9S223/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i5",
+  "title_ko": "하이포지",
+  "title_ja": "ハイポジ",
+  "authors": [
+    {
+      "id": 22,
+      "name_ko": "키라 타카시",
+      "name_ja": "きらたかし"
+    }
   ],
-  "author_ko": [
-    "요시다 모토이"
-  ],
-  "author_ja": [
-    "吉田基已"
-  ],
-  "cover": "./assets/250.png"
+  "cover": "./assets/250.webp"
 }

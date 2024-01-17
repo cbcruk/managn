@@ -1,16 +1,15 @@
 {
+  "id": 91,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E5%B2%B3%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E7%9F%B3%E5%A1%9A%E7%9C%9F%E4%B8%80-ebook/dp/B00AQ9I1JW/ref=sr_1_12?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2OLXE1ICHRIV5&keywords=%E7%9F%B3%E5%A1%9A%E7%9C%9F%E4%B8%80&qid=1646794742&sprefix=%E7%9F%B3%E5%A1%9A+%E7%9C%9F%E4%B8%80%2Caps%2C171&sr=8-12",
-  "title_ko": "산",
-  "title_ja": "岳",
-  "author": [
-    "92"
+  "link": "https://www.amazon.co.jp/%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%82%B5%E3%82%AC%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B9%B8%E6%9D%91%E8%AA%A0-ebook/dp/B009KYCEVA/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3OGHE3IQTNLMP&keywords=%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%82%B5%E3%82%AC&qid=1646794795&sprefix=%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89+%E3%82%B5%E3%82%AC%2Caps%2C175&sr=8-2",
+  "title_ko": "빈란드 사가",
+  "title_ja": "ヴィンランド・サガ",
+  "authors": [
+    {
+      "id": 93,
+      "name_ko": "유키무라 마코토",
+      "name_ja": "幸村誠"
+    }
   ],
-  "author_ko": [
-    "이시즈카 신이치"
-  ],
-  "author_ja": [
-    "石塚真一"
-  ],
-  "cover": "./assets/91.jpeg"
+  "cover": "./assets/91.webp"
 }

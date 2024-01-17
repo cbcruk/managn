@@ -1,16 +1,15 @@
 {
+  "id": 193,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E8%9F%B2%E5%B8%AB%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%BC%86%E5%8E%9F%E5%8F%8B%E7%B4%80-ebook/dp/B009KYBN44/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=SWZ2GV2XXSCL&keywords=%E8%9F%B2%E5%B8%AB&qid=1648983313&s=digital-text&sprefix=%E8%9F%B2%E5%B8%AB%2Cdigital-text%2C169&sr=1-1",
-  "title_ko": "충사",
-  "title_ja": "蟲師",
-  "author": [
-    "130"
+  "link": "https://www.amazon.co.jp/%E6%BC%82%E6%B5%81%E6%95%99%E5%AE%A4%E3%80%94%E6%96%87%E5%BA%AB%E7%89%88%E3%80%95%EF%BC%88%EF%BC%91%EF%BC%89-%E5%B0%8F%E5%AD%A6%E9%A4%A8%E6%96%87%E5%BA%AB-%E6%A5%B3%E5%9B%B3%E3%81%8B%E3%81%9A%E3%81%8A-ebook/dp/B00QMEE7AM/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2MSIAUZENUH6Z&keywords=%E6%BC%82%E6%B5%81%E6%95%99%E5%AE%A4&qid=1648983527&s=digital-text&sprefix=%E6%83%A1%E3%81%AE%E8%8F%AF%2Cdigital-text%2C792&sr=1-1",
+  "title_ko": "표류교실",
+  "title_ja": "漂流教室",
+  "authors": [
+    {
+      "id": 161,
+      "name_ko": "우메즈 카즈오",
+      "name_ja": "楳図かずお"
+    }
   ],
-  "author_ko": [
-    "우루시바라 유키"
-  ],
-  "author_ja": [
-    "漆原友紀"
-  ],
-  "cover": "./assets/193.png"
+  "cover": "./assets/193.webp"
 }

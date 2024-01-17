@@ -1,16 +1,15 @@
 {
+  "id": 92,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%82%B5%E3%82%AC%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B9%B8%E6%9D%91%E8%AA%A0-ebook/dp/B009KYCEVA/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3OGHE3IQTNLMP&keywords=%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%82%B5%E3%82%AC&qid=1646794795&sprefix=%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89+%E3%82%B5%E3%82%AC%2Caps%2C175&sr=8-2",
-  "title_ko": "빈란드 사가",
-  "title_ja": "ヴィンランド・サガ",
-  "author": [
-    "93"
+  "link": "https://www.amazon.co.jp/%E7%B4%AF%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A4%E3%83%96%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9D%BE%E6%B5%A6%E3%81%A0%E3%82%8B%E3%81%BE-ebook/dp/B00HUIL5OA/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=31IURRU8ELD4Y&keywords=%E7%B4%AF+%E2%80%94%E3%81%8B%E3%81%95%E3%81%AD%E2%80%94&qid=1646794842&sprefix=%E7%B4%AF+%E3%81%8B%E3%81%95%E3%81%AD+%2Caps%2C170&sr=8-1",
+  "title_ko": "카사네",
+  "title_ja": "累",
+  "authors": [
+    {
+      "id": 94,
+      "name_ko": "마츠우라 다루마",
+      "name_ja": "松浦だるま"
+    }
   ],
-  "author_ko": [
-    "유키무라 마코토"
-  ],
-  "author_ja": [
-    "幸村誠"
-  ],
-  "cover": "./assets/92.jpeg"
+  "cover": "./assets/92.webp"
 }

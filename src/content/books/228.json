@@ -1,16 +1,15 @@
 {
+  "id": 228,
   "status": "release",
-  "link": "https://www.amazon.co.jp/gp/product/B009SN9GCI?ref_=dbs_m_mng_rwt_calw_pa_tkin_0&storeType=ebooks",
-  "title_ko": "드래곤헤드",
-  "title_ja": "ドラゴンヘッド",
-  "author": [
-    "163"
+  "link": "https://www.amazon.co.jp/%E7%88%86%E9%9F%B3%E5%88%97%E5%B3%B6%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E9%AB%98%E6%A9%8B%E3%83%84%E3%83%88%E3%83%A0-ebook/dp/B00HD9J1B0/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3332JHW66AWDG&keywords=%E7%88%86%E9%9F%B3%E5%88%97%E5%B3%B6&qid=1648987805&s=digital-text&sprefix=%E7%88%86%E9%9F%B3%E5%88%97%E5%B3%B6%2Cdigital-text%2C198&sr=1-1",
+  "title_ko": "폭음열도",
+  "title_ja": "爆音列島",
+  "authors": [
+    {
+      "id": 166,
+      "name_ko": "다카하시 츠토무",
+      "name_ja": "高橋ツトム"
+    }
   ],
-  "author_ko": [
-    "모치즈키 미네타로"
-  ],
-  "author_ja": [
-    "望月ミネタロウ"
-  ],
-  "cover": "./assets/228.png"
+  "cover": "./assets/228.webp"
 }

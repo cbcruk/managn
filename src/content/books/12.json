@@ -1,16 +1,15 @@
 {
+  "id": 12,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E6%B3%A2%E3%82%88%E8%81%9E%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8C%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%8C%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%B2%99%E6%9D%91%E5%BA%83%E6%98%8E-ebook/dp/B00XKM6TGY/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=MPKD5I2K6P2P&keywords=%E6%B3%A2%E3%82%88%E8%81%9E%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8C&qid=1646528631&s=books&sprefix=%E6%B3%A2%E3%82%88%E8%81%9E%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8C%2Cstripbooks%2C177&sr=1-2",
   "title_ko": "파도여 들어다오",
   "title_ja": "波よ聞いてくれ",
-  "author": [
-    "14"
+  "authors": [
+    {
+      "id": 14,
+      "name_ko": "사무라 히로아키",
+      "name_ja": "沙村広明"
+    }
   ],
-  "author_ko": [
-    "사무라 히로아키"
-  ],
-  "author_ja": [
-    "沙村広明"
-  ],
-  "cover": "./assets/12.png"
+  "cover": "./assets/12.webp"
 }

@@ -1,16 +1,20 @@
 {
+  "id": 127,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E5%A4%A9%E6%89%8D%E6%9F%B3%E6%B2%A2%E6%95%99%E6%8E%88%E3%81%AE%E7%94%9F%E6%B4%BB%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B1%B1%E4%B8%8B%E5%92%8C%E7%BE%8E-ebook/dp/B009KYB60K/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3SBPSI2XTNPAC&keywords=%E5%A4%A9%E6%89%8D%E6%9F%B3%E6%B2%A2%E6%95%99%E6%8E%88%E3%81%AE%E7%94%9F%E6%B4%BB&qid=1646802410&sprefix=%E5%A4%A9%E6%89%8D%E6%9F%B3%E6%B2%A2%E6%95%99%E6%8E%88%E3%81%AE%E7%94%9F%E6%B4%BB%2Caps%2C175&sr=8-1",
-  "title_ko": "천재 유교수의 생활",
-  "title_ja": "天才柳沢教授の生活",
-  "author": [
-    "28"
+  "link": "https://www.amazon.co.jp/%E6%A5%B5%E5%8E%9A%E7%89%88%E3%80%8E%E8%BB%8D%E9%B6%8F%E3%80%8F-%E5%B7%BB%E4%B9%8B%E5%A3%B1-%EF%BC%88%EF%BC%91%EF%BD%9E%EF%BC%93%E5%B7%BB%E7%9B%B8%E5%BD%93%EF%BC%89-%E3%82%A4%E3%83%96%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%A9%8B%E6%9C%AC%E4%BB%A5%E8%94%B5-ebook/dp/B00QAEZKNC/ref=sr_1_15?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3SUPKD6TYTSI3&keywords=%E8%BB%8D%E9%B6%8F%28%E3%81%97%E3%82%83%E3%82%82%29&qid=1646802770&sprefix=%E8%BB%8D%E9%B6%8F+%E3%81%97%E3%82%83%E3%82%82+%2Caps%2C349&sr=8-15",
+  "title_ko": "군계",
+  "title_ja": "軍鶏",
+  "authors": [
+    {
+      "id": 121,
+      "name_ko": "하시모토 이조우",
+      "name_ja": "橋本以蔵"
+    },
+    {
+      "id": 122,
+      "name_ko": "타나카 아키오",
+      "name_ja": "たなか亜希夫"
+    }
   ],
-  "author_ko": [
-    "야마시타 카즈미"
-  ],
-  "author_ja": [
-    "山下和美"
-  ],
-  "cover": "./assets/127.jpeg"
+  "cover": "./assets/127.webp"
 }

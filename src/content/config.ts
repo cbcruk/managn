@@ -6,11 +6,15 @@ const books = defineCollection({
     z.object({
       status: z.enum(['release', 'draft']),
       link: z.string().nullable(),
-      title_ja: z.string(),
-      title_ko: z.string(),
-      author: z.array(reference('authors')),
-      author_ko: z.array(z.string()),
-      author_ja: z.array(z.string()),
+      title_ja: z.string().nullable(),
+      title_ko: z.string().nullable(),
+      authors: z.array(
+        z.object({
+          id: z.number(),
+          name_ko: z.string().nullable(),
+          name_ja: z.string().nullable(),
+        })
+      ),
       cover: image().nullable(),
     }),
 })
@@ -18,8 +22,8 @@ const books = defineCollection({
 const authors = defineCollection({
   type: 'data',
   schema: z.object({
-    name_ko: z.string(),
-    name_ja: z.string(),
+    name_ko: z.string().nullable(),
+    name_ja: z.string().nullable(),
     books: z.array(reference('books')),
   }),
 })

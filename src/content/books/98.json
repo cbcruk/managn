@@ -1,16 +1,15 @@
 {
+  "id": 98,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E5%8D%83%E3%81%A8%E4%B8%87-%EF%BC%9A-1-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E9%96%A2%E8%B0%B7%E3%81%82%E3%81%95%E3%81%BF-ebook/dp/B00IQZZ81W/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=WNJRYB9PVTD7&keywords=%E5%8D%83%E3%81%A8%E4%B8%87&qid=1646795230&sprefix=%E5%8D%83%E3%81%A8%E4%B8%87%2Caps%2C183&sr=8-1",
-  "title_ko": "센과 만",
-  "title_ja": "千と万",
-  "author": [
-    "99"
+  "link": "https://www.amazon.co.jp/%E3%81%9D%E3%82%8C%E3%81%A7%E3%82%82%E7%94%BA%E3%81%AF%E5%BB%BB%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E7%9F%B3%E9%BB%92%E6%AD%A3%E6%95%B0-ebook/dp/B00GD2GVI4/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1692U3XFL57I4&keywords=%E3%81%9D%E3%82%8C%E3%81%A7%E3%82%82%E7%94%BA%E3%81%AF%E5%BB%BB%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B&qid=1646795285&sprefix=%E3%81%9D%E3%82%8C%E3%81%A7%E3%82%82%E7%94%BA%E3%81%AF%E5%BB%BB%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%2Caps%2C180&sr=8-1",
+  "title_ko": "그래도 마을은 돌아간다",
+  "title_ja": "それでも町は廻っている",
+  "authors": [
+    {
+      "id": 36,
+      "name_ko": "이시구로 마사카즈",
+      "name_ja": "石黒正数"
+    }
   ],
-  "author_ko": [
-    "세키야 아사미"
-  ],
-  "author_ja": [
-    "関谷あさみ"
-  ],
-  "cover": "./assets/98.jpeg"
+  "cover": "./assets/98.webp"
 }

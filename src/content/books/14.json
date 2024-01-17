@@ -1,16 +1,15 @@
 {
+  "id": 14,
   "status": "release",
   "link": "https://www.amazon.co.jp/%E4%B9%99%E5%A5%B3%E6%88%A6%E4%BA%89-%E3%83%87%E3%82%A3%E3%83%BC%E3%83%B4%E3%83%81%E3%83%BC%E3%83%BB%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%AB%E3%82%AB-%EF%BC%9A-%E4%B9%99%E5%A5%B3%E6%88%A6%E4%BA%89-%E3%83%87%E3%82%A3%E3%83%BC%E3%83%B4%E3%83%81%E3%83%BC%E3%83%BB%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%AB%E3%82%AB-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-ebook/dp/B00JZND8LQ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1BXMNQ1IDSCTN&keywords=%E4%B9%99%E5%A5%B3%E6%88%A6%E4%BA%89+%E3%83%87%E3%82%A3%E3%83%BC%E3%83%B4%E3%83%81%E3%83%BC%E3%83%BB%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%AB%E3%82%AB&qid=1646528660&s=books&sprefix=%E5%AE%97%E5%83%8F%E6%95%99%E6%8E%88%E7%95%B0%E8%80%83%E9%8C%B2%2Cstripbooks%2C177&sr=1-1",
   "title_ko": "소녀전쟁 Dívčí Válka",
   "title_ja": "乙女戦争　ディーヴチー・ヴァールカ",
-  "author": [
-    "16"
+  "authors": [
+    {
+      "id": 16,
+      "name_ko": "오니시 코이치",
+      "name_ja": "大西巷一"
+    }
   ],
-  "author_ko": [
-    "오니시 코이치"
-  ],
-  "author_ja": [
-    "大西巷一"
-  ],
-  "cover": "./assets/14.jpeg"
+  "cover": "./assets/14.webp"
 }

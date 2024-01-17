@@ -1,16 +1,20 @@
 {
+  "id": 146,
   "status": "release",
-  "link": "https://www.amazon.co.jp/%E8%B3%AD%E5%8D%9A%E9%BB%99%E7%A4%BA%E9%8C%B2-%E3%82%AB%E3%82%A4%E3%82%B8-%EF%BC%91-%E7%A6%8F%E6%9C%AC-%E4%BC%B8%E8%A1%8C-ebook/dp/B00E3R9ZRA/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1H3RL3A0OKUDG&keywords=%E9%BB%99%E7%A4%BA%E9%8C%B2%E3%82%AB%E3%82%A4%E3%82%B8&qid=1646814606&sprefix=%E9%BB%99%E7%A4%BA%E9%8C%B2%E3%82%AB%E3%82%A4%E3%82%B8%2Caps%2C193&sr=8-1",
-  "title_ko": "도박묵시록 카이지",
-  "title_ja": "賭博黙示録 カイジ",
-  "author": [
-    "56"
+  "link": "https://www.amazon.co.jp/%E3%83%90%E3%82%AF%E3%83%9E%E3%83%B3%E3%80%82-%E3%83%A2%E3%83%8E%E3%82%AF%E3%83%AD%E7%89%88-1-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9DIGITAL-%E5%A4%A7%E5%A0%B4%E3%81%A4%E3%81%90%E3%81%BF-ebook/dp/B00A47VW2Y/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=38B3IAAIN6K06&keywords=%E3%83%90%E3%82%AF%E3%83%9E%E3%83%B3%E3%80%82&qid=1646814859&sprefix=%E3%83%90%E3%82%AF%E3%83%9E%E3%83%B3+%2Caps%2C178&sr=8-2",
+  "title_ko": "바쿠만",
+  "title_ja": "バクマン。",
+  "authors": [
+    {
+      "id": 139,
+      "name_ko": "오바 츠구미",
+      "name_ja": "大場つぐみ"
+    },
+    {
+      "id": 140,
+      "name_ko": "오바타 타케시",
+      "name_ja": "小畑健"
+    }
   ],
-  "author_ko": [
-    "후쿠모토 노부유키"
-  ],
-  "author_ja": [
-    "福本伸行"
-  ],
-  "cover": "./assets/146.jpeg"
+  "cover": "./assets/146.webp"
 }
