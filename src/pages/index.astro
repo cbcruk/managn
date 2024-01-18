@@ -11,7 +11,7 @@ const allBooks = await getCollection(
 const posts = allBooks.toSorted(() => Math.random() - 0.5).slice(0, 10)
 ---
 
-<Layout title="managn">
+<Layout title="홈 | managn">
   <Books data={posts} />
   <Nav>
     <NavButtonGroup>

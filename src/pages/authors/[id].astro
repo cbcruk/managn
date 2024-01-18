@@ -45,6 +45,6 @@ const { id } = Astro.params
 const { data } = Astro.props
 ---
 
-<Layout data-id={id} title={`managn - ${data.author.data.name_ko}`}>
+<Layout data-id={id} title={`${data.author.data.name_ko}: 책들 | managn`}>
   <Books data={data.books} />
 </Layout>

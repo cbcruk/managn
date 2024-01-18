@@ -30,7 +30,7 @@ export const prerender = true
 const { page } = Astro.props
 ---
 
-<Layout title="books">
+<Layout title={`만화 리스트 - ${page.currentPage}페이지 | managn`}>
   <Books data={page.data} />
   <Nav>
     <NavStatus lastPage={page.lastPage} currentPage={page.currentPage} />
