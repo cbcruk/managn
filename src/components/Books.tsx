@@ -5,7 +5,6 @@ type Props = {
 }
 
 export function Books({ data }: Props) {
-  console.log(data[0].data.authors)
   return (
     <div className="flex flex-col items-center pb-4 gap-4">
       {data.map((item) => {
