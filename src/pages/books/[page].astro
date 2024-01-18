@@ -16,7 +16,6 @@ type Props = {
 }
 
 export async function getStaticPaths({ paginate }) {
-  const authors = await getCollection('authors')
   const books = await getCollection(
     'books',
     ({ data }) => data.status === 'release'
