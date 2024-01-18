@@ -6,7 +6,7 @@ export function Header() {
       <Container className="flex items-center justify-between p-4 py-3">
         <div className="flex">
           <a href="/">
-            <img src="/favicon.svg" alt="" width={32} height={32} />
+            <img src="/favicon.svg" alt="홈으로" width={32} height={32} />
           </a>
         </div>
       </Container>
