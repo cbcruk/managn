@@ -19,9 +19,9 @@ export function Books({ data }: Props) {
                 src={item.data.cover?.src}
                 alt=""
                 width={414}
-                height={414}
                 loading="lazy"
                 className="rounded-3xl object-cover object-left-top"
+                style={{ aspectRatio: 240 / 347 }}
               />
             </div>
             <div className="flex flex-col p-4 py-4 text-neutral-100">
