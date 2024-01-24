@@ -1,8 +1,12 @@
+import { twc } from 'react-twc'
 import { Container } from './Container'
+import styles from './Header.module.css'
+
+const HeaderRoot = twc.div`sticky top-0 z-10 bg-stone-900/90 backdrop-blur-sm`
 
 export function Header() {
   return (
-    <div className="sticky top-0 z-10 bg-stone-900">
+    <HeaderRoot className={styles.root}>
       <Container className="flex items-center justify-between p-4 py-3">
         <div className="flex">
           <a href="/">
@@ -10,6 +14,6 @@ export function Header() {
           </a>
         </div>
       </Container>
-    </div>
+    </HeaderRoot>
   )
 }

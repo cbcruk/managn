@@ -1,0 +1,11 @@
+.root {
+  animation: shadow-outside linear both;
+  animation-timeline: scroll();
+  animation-range: 0 56px;
+}
+
+@keyframes shadow-outside {
+  100% {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+}
