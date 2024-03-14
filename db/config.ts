@@ -29,5 +29,6 @@ export default defineDb({
   tables: {
     Authors,
     BookAuthors,
+    Books,
   },
 })
