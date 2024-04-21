@@ -1,15 +1,19 @@
 ---
 import Layout from '@layouts/Layout.astro'
-import { BookForm } from '@components/BookForm'
 import { BookAuthorsForm } from '@components/BookAuthorsForm'
 import { db } from 'db/managn'
 import * as schema from 'db/schema'
 
+if (import.meta.env.NODE_ENV !== 'development') {
+  return Astro.redirect('/')
+}
+
 const authorsData = await db.select().from(schema.authors)
 const booksData = await db.select().from(schema.books)
+
+export const prerender = true
 ---
 
 <Layout title="홈 | managn">
-  <!-- <BookForm client:only /> -->
   <BookAuthorsForm client:only data={{ authorsData, booksData }} />
 </Layout>

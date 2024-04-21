@@ -14,3 +14,9 @@ export const POST: APIRoute = async ({ request }) => {
 
   return new Response(JSON.stringify(result), { status: 200 })
 }
+
+export const GET: APIRoute = async () => {
+  const booksData = await db.select().from(schema.books)
+
+  return new Response(JSON.stringify(booksData), { status: 200 })
+}
