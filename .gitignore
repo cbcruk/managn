@@ -21,3 +21,5 @@ pnpm-debug.log*
 .DS_Store
 scripts/authors.json
 scripts/books.json
+
+.vercel
