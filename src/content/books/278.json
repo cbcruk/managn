@@ -1,0 +1,20 @@
+{
+  "id": 278,
+  "status": "release",
+  "link": "https://www.amazon.co.jp/%E3%82%B8%E3%83%A3%E3%82%AC%E3%83%BC%E3%83%B3%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E9%87%91%E5%9F%8E%E5%AE%97%E5%B9%B8-ebook/dp/B0725Z3BR7/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2ADT5IKP699HN&dib=eyJ2IjoiMSJ9.kx3i5T0AmDbWo3Lvx-0EzakC5amLYiltumKsuLsdRrKi-6rnziK4WZPosQHbw4wsvTryMScsky0Farl2vVlG4awICLZGfy_Di2ICZ-1IWQw8PxSKwqfk95QxrdnnNrgkUHrGX53GpS7j60cDxeCVhnBd7Ld_amvlUBeLMZHnUTeMpA_eSZwLmPku3J5uDuQ6hJ0WYvjbifDQnmsrXubAh_t_KeTCZB9KHBvQce7YtWgLMkJOJiHANTaitD4BTgx_FcHd8RjXxyGHDR-Fzcib8upsk00CcLnHNPY-bCHNz4E.50_nkZCPjvPRqY511Hr-5T3Pq-cPn5JhHzW3HfV2mpk&dib_tag=se&keywords=%E3%82%B8%E3%83%A3%E3%82%AC%E3%83%BC%E3%83%B3&qid=1713183830&sprefix=%E3%82%B8%E3%83%A3%E3%82%AC%E3%83%BC%E3%83%B3%2Caps%2C195&sr=8-1",
+  "title_ko": "쟈건",
+  "title_ja": "ジャガーン",
+  "authors": [
+    {
+      "id": 213,
+      "name_ko": "카네시로 무네유키",
+      "name_ja": "金城宗幸"
+    },
+    {
+      "id": 214,
+      "name_ko": "니시다 켄스케",
+      "name_ja": "にしだけんすけ"
+    }
+  ],
+  "cover": "./assets/278.webp"
+}

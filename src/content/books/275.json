@@ -1,0 +1,15 @@
+{
+  "id": 275,
+  "status": "release",
+  "link": "https://www.amazon.co.jp/%E3%81%A0%E3%81%B6%E3%82%8B%E3%81%B7%E3%82%8C%E3%81%84-1-%E3%83%A0%E3%83%A9%E3%82%BF%E3%82%B3%E3%82%A6%E3%82%B8-ebook/dp/B08R9YD2BL/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2VHJ6OHJ524KD&dib=eyJ2IjoiMSJ9.yVnq6Fq3tczy3T1aJk24FJaQ11vodlTbsOyibfbpZhdyVfap6HGFd-YFZZt8D93oO7k6d9IZOMu2PnguQYHI34SwZN9G8S6f6ERJ4H_EfJX7RQ1_-g7Ro15e6DzTKnlzR46wQ2MzjW14v2iWVK4KWmU3wPoeHk_H47GCS-zVQOsYi2PIM47tPYLVCmnxecB5NBhrc09CR4_V8ypT5GAkd3i58kr5xiYPCVRnyhdwXjyxro1OdE1hgOJ-9IJT73COCuCIwkrZJItrbORuSjRO3S0RJpEGPdMZAOyrFiT6kXs.ePuhMBrNWdQKIh2fb8N-yZYf5k_AoCMBoQjqRSIgDhw&dib_tag=se&keywords=%E3%81%A0%E3%81%B6%E3%82%8B%E3%81%B7%E3%82%8C%E3%81%84&qid=1713183544&sprefix=%E5%B0%91%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%93%E3%82%B9%2Caps%2C186&sr=8-1",
+  "title_ko": "더블 플레이",
+  "title_ja": "だぶるぷれい",
+  "authors": [
+    {
+      "id": 212,
+      "name_ko": "무라타 코지",
+      "name_ja": "ムラタコウジ"
+    }
+  ],
+  "cover": "./assets/275.webp"
+}

@@ -1,0 +1,15 @@
+---
+import Layout from '@layouts/Layout.astro'
+import { BookForm } from '@components/BookForm'
+import { BookAuthorsForm } from '@components/BookAuthorsForm'
+import { db } from 'db/managn'
+import * as schema from 'db/schema'
+
+const authorsData = await db.select().from(schema.authors)
+const booksData = await db.select().from(schema.books)
+---
+
+<Layout title="홈 | managn">
+  <!-- <BookForm client:only /> -->
+  <BookAuthorsForm client:only data={{ authorsData, booksData }} />
+</Layout>

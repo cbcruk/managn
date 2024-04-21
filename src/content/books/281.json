@@ -1,0 +1,25 @@
+{
+  "id": 281,
+  "status": "release",
+  "link": "https://www.amazon.co.jp/%E3%83%90%E3%83%BC%E3%82%B5%E3%82%B9%EF%BC%88%EF%BC%91%EF%BC%89-%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%EF%BC%AF%EF%BC%AE%EF%BC%A5-ebook/dp/B0BSVXMKVY/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=S3IF6D4SMMBV&dib=eyJ2IjoiMSJ9.FHAO6FCtPPgTYlCleB6C59Vgj-d0jjuUElQSduY7MKwWN9OYWCJEPTOAoKQfXYDtK1aZNHDXe5pf7DdUplmMBkTy9MhIhzRWf6AjBNZ2n10iAG8a_lwY9QXXee_C-qxRNjTYqGchOrJORQlVRzuO2vbJwzOrjTS4-Mt_GE-rRyFbLFPMqcwJB4CzkC42OPqqDM_4yHIywLUG1fRYx1zhnWCaN-QRWimQysxTLmBcIdClpd-wby5t2CWYUd0lTiGK0PIyoRpwXgFLIgwY3fZnbiHZODHdGJQbmDQWB6xcEf0.-YIJy8aWMtYuXW1tdMXmG2lNyzf1CKa4OD9U3FY9WMA&dib_tag=se&keywords=%E3%83%90%E3%83%BC%E3%82%B5%E3%82%B9&qid=1713184115&sprefix=%E3%83%90%E3%83%BC%E3%82%B5%E3%82%B9%2Caps%2C179&sr=8-1",
+  "title_ko": "버서스",
+  "title_ja": "バーサス",
+  "authors": [
+    {
+      "id": 82,
+      "name_ko": "ONE",
+      "name_ja": "ONE"
+    },
+    {
+      "id": 217,
+      "name_ko": "코요타로 아즈마",
+      "name_ja": "あずま京太郎"
+    },
+    {
+      "id": 218,
+      "name_ko": "ｂｏｓｅ",
+      "name_ja": "ｂｏｓｅ"
+    }
+  ],
+  "cover": "./assets/281.webp"
+}

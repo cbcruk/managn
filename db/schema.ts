@@ -1,10 +1,15 @@
 import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core'
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
 
 export const authors = sqliteTable('authors', {
   id: integer('id').primaryKey(),
   name_ko: text('name_ko').notNull(),
   name_ja: text('name_ja').notNull(),
 })
+
+export const insertAuthorSchema = createInsertSchema(authors)
+
+export const selectAuthorSchema = createSelectSchema(authors)
 
 export const books = sqliteTable('books', {
   id: integer('id').primaryKey(),
@@ -14,7 +19,13 @@ export const books = sqliteTable('books', {
   title_ja: text('title_ja').notNull(),
 })
 
+export const insertBookSchema = createInsertSchema(books)
+
+export const selectBookSchema = createSelectSchema(books)
+
 export const book_authors = sqliteTable('book_authors', {
   book_id: integer('book_id').notNull(),
   author_id: integer('author_id').notNull(),
 })
+
+export const insertBookAuthorsSchema = createInsertSchema(book_authors)

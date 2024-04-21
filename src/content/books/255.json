@@ -1,0 +1,20 @@
+{
+  "id": 255,
+  "status": "release",
+  "link": "https://www.amazon.co.jp/%E3%83%88%E3%83%AA%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%B1%A0%E4%B8%8A%E9%81%BC%E4%B8%80-ebook/dp/B08YJWRJ4V/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3IP1ZMQREEJL9&dib=eyJ2IjoiMSJ9.4TzVjnzWCuL91pXGoge2wG9BCCljWnd9YouWgE3mkjka3qa2giTTduLXNdtUceUs7_0SS42tQUcdvweWdCrXhhnRqrC_CZxHs4i-7pZHMmCnUqkLJ_iaO2jy04kAmp80zEQu8u7eLfE_tHnvAu_k28dfI5z8hIG0U5k1pbccjvgJLbBzFnCOwyJ1APa0tMzkM0L5QTy8QWAc0wjUEYmgOeKQBQ-I3I91kQkboEwUP3W7W2NwaPe-KTUKsG98xVf6qS9twDrjqs0aVBVPIt9Zn7JZhHGaa_6FceV9O9txUQY.IO0XGIqZ_GfEo5V8Q6ZCvMjlt7fJcnp8KcPd8VQ42us&dib_tag=se&keywords=%E3%83%88%E3%83%AA%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0&qid=1713098491&sprefix=%E3%83%88%E3%83%AA%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%2Caps%2C180&sr=8-2",
+  "title_ko": "트릴리온게임",
+  "title_ja": "トリリオンゲーム",
+  "authors": [
+    {
+      "id": 189,
+      "name_ko": "이케가미 료이치",
+      "name_ja": "池上遼一"
+    },
+    {
+      "id": 190,
+      "name_ko": "이나가키 리이치로",
+      "name_ja": "稲垣理一郎"
+    }
+  ],
+  "cover": "./assets/255.webp"
+}

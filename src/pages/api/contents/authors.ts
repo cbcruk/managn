@@ -1,9 +1,11 @@
+import type { APIRoute } from 'astro'
 import { db } from 'db/managn'
 import * as schema from 'db/schema'
 import { sql } from 'drizzle-orm'
 import * as fs from 'fs/promises'
 
-async function main() {
+export const POST: APIRoute = async ({ request }) => {
+  const _data = await request.json()
   const path = './src/content/authors'
   const authorsData = await db.select().from(schema.authors)
   const booksData = await db
@@ -34,5 +36,6 @@ async function main() {
       )
     )
   }
+
+  return new Response(JSON.stringify({ message: 'SUCCESS' }), { status: 200 })
 }
-main()
