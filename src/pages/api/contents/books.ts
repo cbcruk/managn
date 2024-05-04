@@ -4,8 +4,7 @@ import * as schema from 'db/schema'
 import { sql } from 'drizzle-orm'
 import type { APIRoute } from 'astro'
 
-export const POST: APIRoute = async ({ request }) => {
-  const _data = await request.json()
+export const POST: APIRoute = async () => {
   const path = './src/content/books'
   const authorsData = await db.select().from(schema.authors)
   const booksData = await db
