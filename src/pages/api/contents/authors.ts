@@ -4,8 +4,7 @@ import * as schema from 'db/schema'
 import { sql } from 'drizzle-orm'
 import * as fs from 'fs/promises'
 
-export const POST: APIRoute = async ({ request }) => {
-  const _data = await request.json()
+export const POST: APIRoute = async () => {
   const path = './src/content/authors'
   const authorsData = await db.select().from(schema.authors)
   const booksData = await db
@@ -20,8 +19,9 @@ export const POST: APIRoute = async ({ request }) => {
       .map((bookAuthor) => {
         const book = booksData.find((book) => book.id === bookAuthor.book_id)
 
-        return `${book?.id}`
+        return book?.id ? `${book?.id}` : null
       })
+      .filter(Boolean)
 
     await fs.writeFile(
       `${path}/${author.id}.json`,
