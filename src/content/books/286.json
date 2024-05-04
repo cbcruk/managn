@@ -1,0 +1,15 @@
+{
+  "id": 286,
+  "status": "release",
+  "link": "https://www.amazon.co.jp/%E8%B7%AF%E5%82%8D%E3%81%AE%E3%83%95%E3%82%B8%E3%82%A4-1-%E3%83%93%E3%83%83%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E9%8D%8B-%E5%80%89%E5%A4%AB/dp/4098625423",
+  "title_ko": "길가의 후지이",
+  "title_ja": "路傍のフジイ",
+  "authors": [
+    {
+      "id": 230,
+      "name_ko": "나베 쿠라오",
+      "name_ja": "鍋倉夫"
+    }
+  ],
+  "cover": "./assets/286.webp"
+}
