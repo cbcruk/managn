@@ -1,0 +1,15 @@
+{
+  "id": 294,
+  "status": "release",
+  "link": "https://www.amazon.co.jp/%E6%AC%85%E5%A7%89%E5%A6%B9%E3%81%AE%E5%9B%9B%E5%AD%A3-%EF%BC%91%E5%B7%BB-HARTA-COMIX-%E5%A4%A7%E6%A7%BB-ebook/dp/B078NMHJ48/?_encoding=UTF8&pd_rd_w=wpzLo&content-id=amzn1.sym.283d32d1-edfb-4c41-92c4-67698624ee7b&pf_rd_p=283d32d1-edfb-4c41-92c4-67698624ee7b&pf_rd_r=358-9242522-9857305&pd_rd_wg=X9SmZ&pd_rd_r=53362364-2f01-4bd6-b299-e70c42cfc9cb&ref_=aufs_ap_sc_dsk",
+  "title_ko": "케야키 자매의 사계절",
+  "title_ja": "欅姉妹の四季",
+  "authors": [
+    {
+      "id": 236,
+      "name_ko": "오오츠키 이치카",
+      "name_ja": "大槻一翔"
+    }
+  ],
+  "cover": "./assets/294.webp"
+}

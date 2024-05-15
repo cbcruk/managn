@@ -1,0 +1,15 @@
+{
+  "id": 293,
+  "status": "release",
+  "link": "https://www.amazon.co.jp/%E3%83%94%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC%E3%83%8A-1-%E9%9D%92%E9%A8%8E%E5%A3%AB%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%A7%E6%A7%BB-%E4%B8%80%E7%BF%94/dp/4047374458",
+  "title_ko": "피콜리나",
+  "title_ja": "ピッコリーナ",
+  "authors": [
+    {
+      "id": 236,
+      "name_ko": "오오츠키 이치카",
+      "name_ja": "大槻一翔"
+    }
+  ],
+  "cover": "./assets/293.webp"
+}
