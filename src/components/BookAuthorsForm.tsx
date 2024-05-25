@@ -1,4 +1,4 @@
-import { z } from 'astro/zod'
+import { actions } from 'astro:actions'
 import type { AuthorsData, BooksData } from '@pages/form.astro'
 
 type Props = {
@@ -8,34 +8,18 @@ type Props = {
   }
 }
 
-const bookAuthorsSchema = z.object({
-  book: z.string(),
-  authors: z.array(z.string()),
-})
-
 export function BookAuthorsForm({ data }: Props) {
   return (
     <form
       onSubmit={async (e) => {
         e.preventDefault()
 
+        const form = e.currentTarget
         const formData = new FormData(e.currentTarget)
-        const { book, authors } = bookAuthorsSchema.parse({
-          book: formData.get('book'),
-          authors: formData.getAll('authors'),
-        })
 
-        e.currentTarget.reset()
+        await actions.bookAuthors(formData)
 
-        for (const author of authors) {
-          await fetch('/api/book_authors', {
-            method: 'POST',
-            body: JSON.stringify({
-              book_id: parseInt(book, 10),
-              author_id: parseInt(author, 10),
-            }),
-          })
-        }
+        form.reset()
       }}
     >
       <h1 className="text-neutral-100">책-작가</h1>
