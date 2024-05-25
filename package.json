@@ -23,7 +23,7 @@
     "@types/better-sqlite3": "^7.6.8",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
-    "astro": "^4.5.4",
+    "astro": "^4.9.1",
     "better-sqlite3": "^9.2.2",
     "clsx": "^2.0.0",
     "drizzle-kit": "^0.20.10",
