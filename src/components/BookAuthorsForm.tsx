@@ -1,10 +1,10 @@
 import { z } from 'astro/zod'
-import type { selectAuthorSchema, selectBookSchema } from 'db/schema'
+import type { AuthorsData, BooksData } from '@pages/form.astro'
 
 type Props = {
   data: {
-    booksData: Array<Zod.infer<typeof selectBookSchema>>
-    authorsData: Array<Zod.infer<typeof selectAuthorSchema>>
+    booksData: BooksData
+    authorsData: AuthorsData
   }
 }
 
