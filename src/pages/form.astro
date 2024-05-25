@@ -18,5 +18,5 @@ export const prerender = true
 ---
 
 <Layout title="홈 | managn">
-  <BookAuthorsForm client:only data={{ authorsData, booksData }} />
+  <BookAuthorsForm client:only="react" data={{ authorsData, booksData }} />
 </Layout>
