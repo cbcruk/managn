@@ -1,5 +1,7 @@
 import { actions } from 'astro:actions'
 import type { AuthorsData, BooksData } from '@pages/form.astro'
+import { useActionState } from 'react'
+import { experimental_withState } from '@astrojs/react/actions'
 
 type Props = {
   data: {
@@ -9,19 +11,13 @@ type Props = {
 }
 
 export function BookAuthorsForm({ data }: Props) {
+  const [, action, pending] = useActionState(
+    experimental_withState(actions.bookAuthors),
+    null
+  )
+
   return (
-    <form
-      onSubmit={async (e) => {
-        e.preventDefault()
-
-        const form = e.currentTarget
-        const formData = new FormData(e.currentTarget)
-
-        await actions.bookAuthors(formData)
-
-        form.reset()
-      }}
-    >
+    <form action={action}>
       <h1 className="text-neutral-100">책-작가</h1>
 
       <div className="flex flex-col gap-4 text-sm mt-6">
@@ -77,6 +73,7 @@ export function BookAuthorsForm({ data }: Props) {
         <button
           type="submit"
           className="flex-1 rounded-lg p-1 bg-red-200 text-xs"
+          disabled={pending}
         >
           저장
         </button>
