@@ -10,10 +10,10 @@ type Props = ComponentProps<'main'>
  * @example
  * ```tsx
  * <Layout>
- *   <LayoutHeader />
- *   <LayoutBody>
+ *   <Layout.Header />
+ *   <Layout.Body>
  *     <slot />
- *   </LayoutBody>
+ *   </Layout.Body>
  *  </Layout>
  * ```
  */
