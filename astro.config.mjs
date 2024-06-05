@@ -9,7 +9,11 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: true,
     }),
-    react(),
+    react({
+      babel: {
+        plugins: [['babel-plugin-react-compiler']],
+      },
+    }),
   ],
   output: 'server',
   adapter: vercel(),
