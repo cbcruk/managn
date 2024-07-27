@@ -1,0 +1,15 @@
+{
+  "id": 300,
+  "status": "release",
+  "link": "https://www.amazon.co.jp/%E5%A7%89%E3%81%AE%E3%81%A8%E3%82%82%E3%81%A0%E3%81%A1-1-%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E9%AB%98%E7%80%AC-%E3%82%8F%E3%81%8B/dp/4088931939/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.14ONhydZKnIqs0iptwH44b1YqarDnkhdIrmN8HVldoNa_V6h1YaVhdMQ9zuHQA8YPhzFL8oqkIjh1UBc3frm-5RPgxkad9beCAzyuR4Ac7RGSpVoDYqyDXAE2yOkzW0h9F2n07Ge3MzRqAcBy79pbCcJi0TDqJtwu4dD3EFlZAFucldrlx9le3RbCFtIxSoCyRB-wkBmU3qdYaV1MapE3BPkphSWUjHDFGVPYF898A-wUnX2RIq1j-Z3RwAIT2w5YqAKt775DAOLkk5Ue6burpYjApuLGX8u2NagtXPJORg.y7BnCEnIfWUdt2w-HAPYW3SLOzAMeyOyVNolEcgsQmM&qid=1721834060&sr=8-1",
+  "title_ko": "누나 친구",
+  "title_ja": "姉のともだち",
+  "authors": [
+    {
+      "id": 240,
+      "name_ko": "타카세 와카",
+      "name_ja": "高瀬わか"
+    }
+  ],
+  "cover": "./assets/300.webp"
+}
