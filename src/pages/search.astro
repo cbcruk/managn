@@ -1,0 +1,20 @@
+---
+import { SearchForm } from '@components/Search/SearchForm'
+import Layout from '@layouts/Layout.astro'
+import { db } from 'db/managn'
+import { books } from 'db/schema'
+import { like, or } from 'drizzle-orm'
+
+const url = new URL(Astro.request.url)
+const q = url.searchParams.get('q')
+
+const data = await db
+  .select()
+  .from(books)
+  .where(or(like(books.title_ja, `%${q}%`), like(books.title_ko, `%${q}%`)))
+---
+
+<Layout title="검색 | managn">
+  <SearchForm />
+  <pre class="overflow-x-auto">{JSON.stringify(data, null, 2)}</pre>
+</Layout>

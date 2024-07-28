@@ -8,7 +8,9 @@ const allBooks = await getCollection(
   'books',
   ({ data }) => data.status === 'release'
 )
-const posts = allBooks.toSorted(() => Math.random() - 0.5).slice(0, 10)
+const posts = allBooks
+  .toSorted((a, b) => parseInt(b.id, 10) - parseInt(a.id, 10))
+  .slice(0, 10)
 ---
 
 <Layout title="홈 | managn">
