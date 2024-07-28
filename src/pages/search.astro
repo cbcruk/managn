@@ -1,0 +1,33 @@
+---
+import { Books } from '@components/Books'
+import { SearchForm } from '@components/Search/SearchForm'
+import Layout from '@layouts/Layout.astro'
+import { getCollection } from 'astro:content'
+import Fuse from 'fuse.js'
+
+const allBooks = await getCollection(
+  'books',
+  ({ data }) => data.status === 'release'
+)
+
+const fuse = new Fuse(allBooks, {
+  includeScore: true,
+  keys: [
+    'data.title_ko',
+    'data.title_ja',
+    'data.authors.name_ko',
+    'data.authors.name_ja',
+  ],
+})
+
+const url = new URL(Astro.request.url)
+const q = url.searchParams.get('q')
+const result = fuse.search(q || '')
+---
+
+<Layout title="검색 | managn">
+  <div class="grid gap-4">
+    <SearchForm q={q ?? ''} />
+    <Books data={result.map((book) => book.item)} />
+  </div>
+</Layout>

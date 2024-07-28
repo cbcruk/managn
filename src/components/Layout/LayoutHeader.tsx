@@ -16,6 +16,11 @@ export function LayoutHeader() {
             <img src="/favicon.svg" alt="홈으로" width={32} height={32} />
           </a>
         </div>
+        <div className="flex items-center text-neutral-100/90">
+          <a href="/search" aria-label="검색" className="text-lg">
+            👀
+          </a>
+        </div>
       </Container>
     </LayoutHeaderRoot>
   )
