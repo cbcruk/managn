@@ -12,7 +12,7 @@ export function Books({ data }: Props) {
           <div
             id={`books-${item.id}`}
             key={item.id}
-            className="flex flex-col max-w-[382px] rounded-3xl shadow-lg bg-neutral-900"
+            className="flex flex-col max-w-full rounded-3xl shadow-lg bg-neutral-900"
           >
             <div className="overflow-hidden">
               <img
