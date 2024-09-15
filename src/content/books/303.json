@@ -1,0 +1,25 @@
+{
+  "id": 303,
+  "status": "release",
+  "link": "https://www.amazon.co.jp/%E3%82%A2%E3%83%AB%E3%83%9E%E3%83%BC%E3%82%AF-1-MFC-%E6%9F%9A%E3%83%8E%E6%9C%A8-%E3%83%92%E3%83%A8%E3%83%88-ebook/dp/B0BRR58JL1/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2MV40ADUH46Y8&dib=eyJ2IjoiMSJ9.3BUpa7Ji93gUH1qk0-GAfY_IOCLYXksKdVISbK8M9BF4glenQNIel0GCPPeauxBO7PlVP6NvvXUNEn9wAJHtW6_kvixYhN-nk00t3iS9HdTgUpObYRB1hRRDCl9N6MMIBf7rXD6zM_bJ0Jq6Ip6ms4GZ0ccWhPGWzR2K4NuLk3VJzaq-Z7HqKApk6m7GEro_BDenl0y032VsBKk5dbeoukUr50tO2R2IIiRMNCIZsh4DdXaW0VscfjYoSnfKSmFqjJXXupYFk-JNqZjIXH3KGNqZXyfWyTYq1X_yf9BMts0.pT5Yay_XflBSCvj91RwJF0XjCinQZuyWkRiJIhv7yHo&dib_tag=se&keywords=%E3%83%92%E3%83%A8%E3%83%88&qid=1726376111&sprefix=%E3%83%92%E3%83%A8%E3%83%88%2Caps%2C250&sr=8-2",
+  "title_ko": "알마크",
+  "title_ja": "アルマーク",
+  "authors": [
+    {
+      "id": 244,
+      "name_ko": "유노키 히요토",
+      "name_ja": "柚ノ木 ヒヨト"
+    },
+    {
+      "id": 245,
+      "name_ko": "야마다 노보루",
+      "name_ja": "やまだ のぼる"
+    },
+    {
+      "id": 246,
+      "name_ko": "이즈미 포스카",
+      "name_ja": "出水 ぽすか"
+    }
+  ],
+  "cover": "./assets/303.webp"
+}
