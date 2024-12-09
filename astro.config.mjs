@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap'
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://managn.vercel.app/',
   integrations: [
     tailwind({
       applyBaseStyles: true,
