@@ -1,7 +1,7 @@
-import type { CollectionEntry } from 'astro:content'
+import type { BookWithAuthors } from '@content/config'
 
 type Props = {
-  data: CollectionEntry<'books'>[]
+  data: BookWithAuthors[]
 }
 
 export function Books({ data }: Props) {
@@ -32,15 +32,19 @@ export function Books({ data }: Props) {
                 </span>
               </div>
               <div className="flex gap-2 py-1 text-sm whitespace-nowrap overflow-x-auto">
-                {item.data.authors.map((author) => {
+                {item.data.authors.map((author, index) => {
+                  const authorRef = item.ref.authors[index]
+
                   return (
                     <a
                       key={author.id}
                       href={`/authors/${author.id}`}
                       className="inline-flex items-center gap-0.5"
                     >
-                      {author.name_ko}
-                      <span className="text-xs">({author.name_ja})</span>
+                      {authorRef.data.name_ko}
+                      <span className="text-xs">
+                        ({authorRef.data.name_ja})
+                      </span>
                     </a>
                   )
                 })}

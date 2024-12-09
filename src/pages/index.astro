@@ -3,18 +3,20 @@ import { getCollection } from 'astro:content'
 import Layout from '@layouts/Layout.astro'
 import { Books } from '@components/Books'
 import { Nav, NavButton, NavButtonGroup } from '@components/Nav'
+import { withAuthors } from '@helpers/withAuthors'
 
-const allBooks = await getCollection(
+const collection = await getCollection(
   'books',
   ({ data }) => data.status === 'release'
 )
-const posts = allBooks
+const books = collection
   .toSorted((a, b) => parseInt(b.id, 10) - parseInt(a.id, 10))
   .slice(0, 10)
+const data = await Promise.all(books.map(withAuthors))
 ---
 
 <Layout title="홈 | managn">
-  <Books data={posts} />
+  <Books data={data} />
   <Nav>
     <NavButtonGroup>
       <NavButton href="/books/1" className="bg-red-200">더보기</NavButton>

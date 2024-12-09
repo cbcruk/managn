@@ -1,26 +1,23 @@
 ---
-import {
-  getCollection,
-  type CollectionEntry,
-  getEntries,
-  getEntry,
-} from 'astro:content'
+import { type CollectionEntry, getCollection, getEntries } from 'astro:content'
 import Layout from '../../layouts/Layout.astro'
 import { Books } from '@components/Books'
+import type { BookWithAuthors } from '@content/config'
+import { withAuthors } from '@helpers/withAuthors'
 
 type Props = {
   data: {
     author: CollectionEntry<'authors'>
-    books: CollectionEntry<'books'>[]
+    books: BookWithAuthors[]
   }
 }
 
 export async function getStaticPaths() {
   const authors = await getCollection('authors')
-  const paths = Promise.all(
+  const paths = await Promise.all(
     authors.map(async (author) => {
-      const authorEntry = await getEntry('authors', author.id)
-      const books = await getEntries(authorEntry.data.books)
+      const bookEntries = await getEntries(author.data.books)
+      const books = await Promise.all(bookEntries.map(withAuthors))
 
       return {
         params: {

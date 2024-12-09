@@ -24,8 +24,8 @@ export const insertBookSchema = createInsertSchema(books)
 export const selectBookSchema = createSelectSchema(books)
 
 export const book_authors = sqliteTable('book_authors', {
-  book_id: integer('book_id').notNull(),
-  author_id: integer('author_id').notNull(),
+  book_id: integer('book_id').references(() => books.id),
+  author_id: integer('author_id').references(() => authors.id),
 })
 
 export const insertBookAuthorsSchema = createInsertSchema(book_authors)
