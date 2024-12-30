@@ -8,13 +8,11 @@ if (import.meta.env.NODE_ENV !== 'development') {
   return Astro.redirect('/')
 }
 
-export const authorsData = await db.select().from(schema.authors)
-export const booksData = await db.select().from(schema.books)
+const authorsData = await db.select().from(schema.authors)
+const booksData = await db.select().from(schema.books)
 
 export type AuthorsData = typeof authorsData
 export type BooksData = typeof booksData
-
-export const prerender = true
 ---
 
 <Layout title="홈 | managn">
