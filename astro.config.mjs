@@ -18,6 +18,7 @@ export default defineConfig({
     }),
     sitemap(),
   ],
+  prefetch: true,
   output: 'server',
   adapter: vercel(),
 })

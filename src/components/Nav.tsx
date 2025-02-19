@@ -9,7 +9,9 @@ export function NavButton(props: ComponentProps<typeof LinkButton>) {
   return match(props)
     .with({ href: P.nullish }, () => null)
     .otherwise(({ children, ...props }) => (
-      <LinkButton {...props}>{children}</LinkButton>
+      <LinkButton {...props} data-astro-prefetch>
+        {children}
+      </LinkButton>
     ))
 }
 
