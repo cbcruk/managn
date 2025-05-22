@@ -22,7 +22,7 @@ export async function getStaticPaths({ paginate }) {
     'books',
     ({ data }) => data.status === 'release'
   )
-  const data = await Promise.all(books.map(withAuthors))
+  const data = await Promise.all(books.map(withAuthors).reverse())
 
   return paginate(data, { pageSize: 20 })
 }

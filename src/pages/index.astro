@@ -9,9 +9,12 @@ const collection = await getCollection(
   'books',
   ({ data }) => data.status === 'release'
 )
-const books = collection
-  .toSorted((a, b) => parseInt(b.id, 10) - parseInt(a.id, 10))
-  .slice(0, 10)
+const books = Array.from({ length: collection.length }, () => {
+  const randomIndex = Math.floor(Math.random() * collection.length)
+
+  return collection[randomIndex]
+}).slice(0, 10)
+
 const data = await Promise.all(books.map(withAuthors))
 ---
 
