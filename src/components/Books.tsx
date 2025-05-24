@@ -1,4 +1,5 @@
 import type { BookWithAuthors } from '@content/config'
+import { BookAuthor } from './BookAuthor'
 
 type Props = {
   data: BookWithAuthors[]
@@ -36,16 +37,14 @@ export function Books({ data }: Props) {
                   const authorRef = item.ref.authors[index]
 
                   return (
-                    <a
+                    <BookAuthor
                       key={author.id}
-                      href={`/authors/${author.id}`}
-                      className="inline-flex items-center gap-0.5"
-                    >
-                      {authorRef.data.name_ko}
-                      <span className="text-xs">
-                        ({authorRef.data.name_ja})
-                      </span>
-                    </a>
+                      data={{
+                        id: author.id,
+                        name_ko: authorRef.data.name_ko,
+                        name_ja: authorRef.data.name_ja,
+                      }}
+                    />
                   )
                 })}
               </div>

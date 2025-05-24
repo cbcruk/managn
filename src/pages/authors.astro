@@ -1,0 +1,78 @@
+---
+import Layout from '@layouts/Layout.astro'
+import { getCollection } from 'astro:content'
+import { CHOSEONG_LIST } from 'src/constants'
+
+const authors = await getCollection('authors')
+const authorGroupByChoseong = CHOSEONG_LIST.map((char, index) => {
+  const items = authors
+    .filter((author) => {
+      const code = (author.data.name_ko ?? '').charCodeAt(0) - 0xac00
+      const choseongIndex = Math.floor(code / (21 * 28))
+
+      return index === choseongIndex
+    })
+    .toSorted((a, b) =>
+      (a.data.name_ko ?? '')?.localeCompare(b.data.name_ko ?? '')
+    )
+
+  return {
+    char,
+    items,
+  }
+})
+---
+
+<Layout title="작가 | managn">
+  <div class="flex flex-col gap-4">
+    <div
+      class="sticky top-[72px] grid grid-cols-10 gap-2 p-4 rounded-3xl bg-zinc-900"
+    >
+      {
+        authorGroupByChoseong.map((group) => {
+          const key = group.char
+          const hasItems = group.items.length > 0
+
+          return (
+            <a
+              href={`#${key}`}
+              data-has-items={hasItems}
+              class="text-zinc-400 data-[has-items='false']:pointer-events-none data-[has-items='false']:text-zinc-400/20"
+            >
+              {key}
+            </a>
+          )
+        })
+      }
+    </div>
+    <div class="flex flex-col gap-4">
+      {
+        authorGroupByChoseong.map((group) => {
+          if (group.items.length === 0) {
+            return null
+          }
+
+          return (
+            <div id={group.char} class="flex flex-col gap-2 scroll-m-44">
+              <div class="text-lg text-stone-400/90" hidden>
+                {group.char}
+              </div>
+              <div class="grid grid-cols-2 gap-1 gap-x-2 p-4 rounded-3xl bg-stone-900">
+                {group.items.map((item) => {
+                  return (
+                    <a
+                      href={`/author/${item.id}`}
+                      class="inline-block min-w-[50%] overflow-hidden text-ellipsis px-1 text-stone-400 text-sm text-nowrap hover:text-stone-100 hover:font-bold transition-all"
+                    >
+                      {item.data.name_ko} ({item.data.name_ja})
+                    </a>
+                  )
+                })}
+              </div>
+            </div>
+          )
+        })
+      }
+    </div>
+  </div>
+</Layout>
