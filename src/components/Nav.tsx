@@ -1,31 +1,38 @@
 import type { Page } from 'astro'
 import type { ComponentProps } from 'react'
 import { twc } from 'react-twc'
-import { P, match } from 'ts-pattern'
+import { Button } from './components/ui/button'
+import { twMerge } from 'tailwind-merge'
 
 const LinkButton = twc.a`inline-flex justify-center h-[32px] min-w-[90px] p-2 rounded-full text-xs text-center`
 
-export function NavButton(props: ComponentProps<typeof LinkButton>) {
-  return match(props)
-    .with({ href: P.nullish }, () => null)
-    .otherwise(({ children, ...props }) => (
-      <LinkButton {...props} data-astro-prefetch>
-        {children}
-      </LinkButton>
-    ))
+export function NavButton(props: ComponentProps<typeof Button>) {
+  return (
+    <Button
+      {...props}
+      className={twMerge('rounded-full text-xs', props.className)}
+      data-astro-prefetch
+      asChild
+    >
+      <a>{props.children}</a>
+    </Button>
+  )
 }
 
-export function NavPrevButton(props: ComponentProps<typeof LinkButton>) {
+export function NavPrevButton(props: ComponentProps<typeof NavButton>) {
   return (
-    <NavButton className="border border-red-200 text-red-200" {...props}>
+    <NavButton
+      className="border border-red-200 bg-transparent hover:border-red-300 hover:bg-transparent text-red-200 hover:text-red-300"
+      {...props}
+    >
       이전 페이지
     </NavButton>
   )
 }
 
-export function NavNextButton(props: ComponentProps<typeof LinkButton>) {
+export function NavNextButton(props: ComponentProps<typeof NavButton>) {
   return (
-    <NavButton className="bg-red-200" {...props}>
+    <NavButton className="bg-red-200 hover:bg-red-300" {...props}>
       다음 페이지
     </NavButton>
   )
