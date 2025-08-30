@@ -1,20 +1,10 @@
 import type { ComponentProps } from 'react'
 import { BookAuthorsFormFieldset } from './BookAuthorsFormFieldset'
+import { Input } from '@components/components/ui/input'
+import { Label } from '@components/components/ui/label'
 
 function Datalist({ children }: ComponentProps<'datalist'>) {
   return <datalist id="datalist-book">{children}</datalist>
-}
-
-function Input() {
-  return (
-    <input
-      type="text"
-      id="book"
-      name="book"
-      list="datalist-book"
-      className="h-6 p-2 rounded-md text-xs"
-    />
-  )
 }
 
 export function BookAuthorsFormFieldsetBook({
@@ -23,7 +13,7 @@ export function BookAuthorsFormFieldsetBook({
   return (
     <BookAuthorsFormFieldset>
       <BookAuthorsFormFieldset.Label className="text-neutral-100">
-        <label htmlFor="book">책</label>
+        <Label htmlFor="book">책</Label>
       </BookAuthorsFormFieldset.Label>
       <BookAuthorsFormFieldset.Body>{children}</BookAuthorsFormFieldset.Body>
     </BookAuthorsFormFieldset>

@@ -1,3 +1,4 @@
+import { Label } from '@components/components/ui/label'
 import { BookAuthorsFormFieldset } from './BookAuthorsFormFieldset'
 import type { ComponentProps } from 'react'
 
@@ -19,7 +20,7 @@ export function BookAuthorsFormFieldsetAuthors({
       className="text-neutral-100"
     >
       <BookAuthorsFormFieldset.Label id="작가-group-heading">
-        작가
+        <Label>작가</Label>
       </BookAuthorsFormFieldset.Label>
       <BookAuthorsFormFieldset.Body>{children}</BookAuthorsFormFieldset.Body>
     </BookAuthorsFormFieldset>

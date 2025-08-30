@@ -10,6 +10,7 @@ import {
   generateBookOptions,
 } from './BookAuthorsFormFieldsetBook.helpers'
 import { BookAuthorsFormCheckbox } from './BookAuthorsFormCheckbox'
+import { Button } from '@components/components/ui/button'
 
 type Props = {
   data: {
@@ -31,7 +32,12 @@ export function BookAuthorsForm({ data }: Props) {
 
               <BookAuthorsFormLayout.FieldsetGroup>
                 <BookAuthorsFormFieldsetBook>
-                  <BookAuthorsFormFieldsetBook.Input />
+                  <BookAuthorsFormFieldsetBook.Input
+                    id="book"
+                    name="book"
+                    list="datalist-book"
+                    className="text-sm"
+                  />
                   <BookAuthorsFormFieldsetBook.Datalist>
                     {generateBookOptions(data.booksData).map((book) => (
                       <option
@@ -58,13 +64,9 @@ export function BookAuthorsForm({ data }: Props) {
               </BookAuthorsFormLayout.FieldsetGroup>
 
               <BookAuthorsFormLayout.Footer>
-                <button
-                  type="submit"
-                  className="flex-1 rounded-lg p-1 bg-red-200 text-xs"
-                  disabled={pending}
-                >
+                <Button type="submit" disabled={pending} className="flex-1">
                   저장
-                </button>
+                </Button>
               </BookAuthorsFormLayout.Footer>
             </BookAuthorsFormLayout>
           )
