@@ -19,5 +19,7 @@ export default defineConfig({
   ],
   prefetch: true,
   output: 'server',
-  adapter: vercel(),
+  adapter: vercel({
+    includeFiles: ['./managn.db'],
+  }),
 })
