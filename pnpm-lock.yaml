@@ -78,14 +78,14 @@ importers:
         specifier: ^17.2.1
         version: 17.2.1
       drizzle-kit:
-        specifier: ^0.20.10
-        version: 0.20.10
+        specifier: ^0.20.18
+        version: 0.20.18
       drizzle-orm:
-        specifier: ^0.29.3
-        version: 0.29.3(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0)
+        specifier: ^0.29.5
+        version: 0.29.5(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0)
       drizzle-zod:
         specifier: ^0.5.1
-        version: 0.5.1(drizzle-orm@0.29.3(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0))(zod@3.22.4)
+        version: 0.5.1(drizzle-orm@0.29.5(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0))(zod@3.22.4)
       fuse.js:
         specifier: ^7.0.0
         version: 7.0.0
@@ -337,9 +337,6 @@ packages:
 
   '@capsizecss/unpack@2.4.0':
     resolution: {integrity: sha512-GrSU71meACqcmIUxPYOJvGKF0yryjN/L1aCuE9DViCTJI7bfkjgYDPD1zbNDcINJwSSP6UaBZY9GAbYDO7re0Q==}
-
-  '@drizzle-team/studio@0.0.37':
-    resolution: {integrity: sha512-LZyAPGJBX43jsrVZh7+w1Jig/BC6PJx63ReHUYK+GRQYNY9UJNlPXmn1uC/LMRX+A7JwYM4Sr4Fg/hnJSqlfgA==}
 
   '@emnapi/runtime@1.2.0':
     resolution: {integrity: sha512-bV21/9LQmcQeCPEg3BDFtvwL6cwiTMksYNWQQ4KOxCZikEGalWtenoZ0wCiukJINlGCIi2KXx01g4FoH/LxpzQ==}
@@ -1072,6 +1069,18 @@ packages:
 
   '@floating-ui/utils@0.2.10':
     resolution: {integrity: sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==}
+
+  '@hono/node-server@1.19.1':
+    resolution: {integrity: sha512-h44e5s+ByUriaRIbeS/C74O8v90m0A95luyYQGMF7KEn96KkYMXO7bZAwombzTpjQTU4e0TkU8U1WBIXlwuwtA==}
+    engines: {node: '>=18.14.1'}
+    peerDependencies:
+      hono: ^4
+
+  '@hono/zod-validator@0.2.2':
+    resolution: {integrity: sha512-dSDxaPV70Py8wuIU2QNpoVEIOSzSXZ/6/B/h4xA7eOMz7+AarKTSGV8E6QwrdcCbBLkpqfJ4Q2TmBO0eP1tCBQ==}
+    peerDependencies:
+      hono: '>=3.9.0'
+      zod: ^3.19.1
 
   '@hookform/resolvers@5.2.1':
     resolution: {integrity: sha512-u0+6X58gkjMcxur1wRWokA7XsiiBJ6aK17aPZxhkoYiK5J+HcTx0Vhu9ovXe6H+dVpO6cjrn2FkJTryXEMlryQ==}
@@ -2930,12 +2939,12 @@ packages:
     resolution: {integrity: sha512-vyJTp8+mC+G+5dfgsY+r3ckxlz+QMX40VjPQsZc5gxVAxLmi64TBoVkP54A/pRAXMXsbu2GMMBrZPxNv23waMg==}
     engines: {node: '>=0.4.0'}
 
-  drizzle-kit@0.20.10:
-    resolution: {integrity: sha512-GoBmfAWrZiX2ZHMGlVg7w34bnJw1gbQIzhGr1cROK6+0eikhFNSR4a4G8jtD3FO5JZKbbWHuNA5YFDJu6Us0Tw==}
+  drizzle-kit@0.20.18:
+    resolution: {integrity: sha512-fLTwcnLqtBxGd+51H/dEm9TC0FW6+cIX/RVPyNcitBO77X9+nkogEfMAJebpd/8Yl4KucmePHRYRWWvUlW0rqg==}
     hasBin: true
 
-  drizzle-orm@0.29.3:
-    resolution: {integrity: sha512-uSE027csliGSGYD0pqtM+SAQATMREb3eSM/U8s6r+Y0RFwTKwftnwwSkqx3oS65UBgqDOM0gMTl5UGNpt6lW0A==}
+  drizzle-orm@0.29.5:
+    resolution: {integrity: sha512-jS3+uyzTz4P0Y2CICx8FmRQ1eplURPaIMWDn/yq6k4ShRFj9V7vlJk67lSf2kyYPzQ60GkkNGXcJcwrxZ6QCRw==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=3'
@@ -3511,6 +3520,10 @@ packages:
 
   heap@0.2.7:
     resolution: {integrity: sha512-2bsegYkkHO+h/9MGbn6KWcE45cHZgPANo5LXF7EvWdT0yT2EguSVO1nDgU5c8+ZOPwp2vMNa7YFsJhVcDR9Sdg==}
+
+  hono@4.9.5:
+    resolution: {integrity: sha512-aLAVl5/67ifNnoFVxnhR89dpmSLsgwBprw/PT671ASwUpJqmd7Ne8KPTQo37DbRZfgpHaHeZ4bPVUvbOkeedMw==}
+    engines: {node: '>=16.9.0'}
 
   html-encoding-sniffer@4.0.0:
     resolution: {integrity: sha512-Y22oTqIU4uuPgEemfz7NDJz6OeKf12Lsu+QC+s3BVpda64lTiMYCyGwg5ki4vFxkMwQdeZDl2adZoqUgdFuTgQ==}
@@ -4976,8 +4989,8 @@ packages:
     resolution: {integrity: sha512-fZtbhtvI9I48xDSywd/somNqgUHl2L2cstmXCCif0itOf96jeW18MBSyrLuNicYQVkvpOxkZtkzujiTJ9LW5Jw==}
     engines: {node: '>=10'}
 
-  superjson@2.2.1:
-    resolution: {integrity: sha512-8iGv75BYOa0xRJHK5vRLEjE2H/i4lulTjzpUXic3Eg8akftYjkmQDa8JARQ42rlczXyFR3IeRoeFCc7RxHsYZA==}
+  superjson@2.2.2:
+    resolution: {integrity: sha512-5JRxVqC8I8NuOUjzBbvVJAKNM8qoVuH0O77h4WInc/qC2q5IreqKxYwgkga3PfA22OayK2ikceb/B26dztPl+Q==}
     engines: {node: '>=16'}
 
   supports-color@5.5.0:
@@ -6016,10 +6029,6 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@drizzle-team/studio@0.0.37':
-    dependencies:
-      superjson: 2.2.1
-
   '@emnapi/runtime@1.2.0':
     dependencies:
       tslib: 2.6.2
@@ -6405,6 +6414,15 @@ snapshots:
       react-dom: 19.0.0-rc-935180c7e0-20240524(react@19.0.0-rc-935180c7e0-20240524)
 
   '@floating-ui/utils@0.2.10': {}
+
+  '@hono/node-server@1.19.1(hono@4.9.5)':
+    dependencies:
+      hono: 4.9.5
+
+  '@hono/zod-validator@0.2.2(hono@4.9.5)(zod@3.22.4)':
+    dependencies:
+      hono: 4.9.5
+      zod: 3.22.4
 
   '@hookform/resolvers@5.2.1(react-hook-form@7.62.0(react@19.0.0-rc-935180c7e0-20240524))':
     dependencies:
@@ -8198,10 +8216,11 @@ snapshots:
     dependencies:
       wordwrap: 1.0.0
 
-  drizzle-kit@0.20.10:
+  drizzle-kit@0.20.18:
     dependencies:
-      '@drizzle-team/studio': 0.0.37
       '@esbuild-kit/esm-loader': 2.6.5
+      '@hono/node-server': 1.19.1(hono@4.9.5)
+      '@hono/zod-validator': 0.2.2(hono@4.9.5)(zod@3.22.4)
       camelcase: 7.0.1
       chalk: 5.3.0
       commander: 9.5.0
@@ -8210,14 +8229,16 @@ snapshots:
       esbuild-register: 3.5.0(esbuild@0.19.11)
       glob: 8.1.0
       hanji: 0.0.5
+      hono: 4.9.5
       json-diff: 0.9.0
       minimatch: 7.4.6
       semver: 7.5.4
+      superjson: 2.2.2
       zod: 3.22.4
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.29.3(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0):
+  drizzle-orm@0.29.5(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0):
     optionalDependencies:
       '@libsql/client': 0.15.12
       '@types/better-sqlite3': 7.6.8
@@ -8235,9 +8256,9 @@ snapshots:
       bun-types: 1.0.20
       react: 19.0.0-rc-935180c7e0-20240524
 
-  drizzle-zod@0.5.1(drizzle-orm@0.29.3(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0))(zod@3.22.4):
+  drizzle-zod@0.5.1(drizzle-orm@0.29.5(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0))(zod@3.22.4):
     dependencies:
-      drizzle-orm: 0.29.3(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0)
+      drizzle-orm: 0.29.5(@libsql/client@0.15.12)(@types/better-sqlite3@7.6.8)(better-sqlite3@9.2.2)(bun-types@1.0.20)(react@19.0.0-rc-935180c7e0-20240524)(types-react@19.0.0-rc.0)
       zod: 3.22.4
 
   dset@3.1.4: {}
@@ -8926,6 +8947,8 @@ snapshots:
       space-separated-tokens: 2.0.2
 
   heap@0.2.7: {}
+
+  hono@4.9.5: {}
 
   html-encoding-sniffer@4.0.0:
     dependencies:
@@ -10617,7 +10640,7 @@ snapshots:
       '@tokenizer/token': 0.3.0
       peek-readable: 4.1.0
 
-  superjson@2.2.1:
+  superjson@2.2.2:
     dependencies:
       copy-anything: 3.0.5
 
