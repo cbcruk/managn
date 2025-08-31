@@ -4,9 +4,9 @@ import { twc } from 'react-twc'
 import { Button } from '@components/ui/button'
 import { twMerge } from 'tailwind-merge'
 
-const LinkButton = twc.a`inline-flex justify-center h-[32px] min-w-[90px] p-2 rounded-full text-xs text-center`
-
-export function NavButton(props: ComponentProps<typeof Button>) {
+export function NavButton(
+  props: Pick<ComponentProps<'a'>, 'href' | 'children' | 'className'>
+) {
   return (
     <Button
       {...props}
