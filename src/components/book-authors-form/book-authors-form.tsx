@@ -1,16 +1,16 @@
-import type { AuthorsData, BooksData } from '@pages/form.astro'
+import type { AuthorsData, BooksData } from '@pages/book_authors/add.astro'
 import { ErrorBoundary } from 'react-error-boundary'
-import { BookAuthorsFormAction } from './BookAuthorsFormAction'
-import { BookAuthorsFormAlert } from './BookAuthorsFormAlert'
-import { BookAuthorsFormLayout } from './BookAuthorsFormLayout'
-import { BookAuthorsFormFieldsetBook } from './BookAuthorsFormFieldsetBook'
-import { BookAuthorsFormFieldsetAuthors } from './BookAuthorsFormFieldsetAuthors'
+import { BookAuthorsFormAction } from './book-authors-form-action'
+import { BookAuthorsFormFieldsetBook } from './book-authors-form-fieldset-book'
+import { BookAuthorsFormFieldsetAuthors } from './book-authors-form-fieldset-authors'
 import {
   generateAuthorOptions,
   generateBookOptions,
-} from './BookAuthorsFormFieldsetBook.helpers'
-import { BookAuthorsFormCheckbox } from './BookAuthorsFormCheckbox'
-import { Button } from '@components/components/ui/button'
+} from './book-authors-form-fieldset-book.helpers'
+import { BookAuthorsFormCheckbox } from './book-authors-form-checkbox'
+import { Button } from '@components/ui/button'
+import { FormLayout } from '@components/form/form-layout'
+import { FormAlert } from '@components/form/form-alert'
 
 type Props = {
   data: {
@@ -23,14 +23,14 @@ type Props = {
 
 export function BookAuthorsForm({ data }: Props) {
   return (
-    <ErrorBoundary FallbackComponent={BookAuthorsFormAlert}>
+    <ErrorBoundary FallbackComponent={FormAlert}>
       <BookAuthorsFormAction>
         {({ pending }) => {
           return (
-            <BookAuthorsFormLayout>
-              <BookAuthorsFormLayout.Title>책-작가</BookAuthorsFormLayout.Title>
+            <FormLayout>
+              <FormLayout.Title>책-작가</FormLayout.Title>
 
-              <BookAuthorsFormLayout.FieldsetGroup>
+              <FormLayout.FieldGroup>
                 <BookAuthorsFormFieldsetBook>
                   <BookAuthorsFormFieldsetBook.Input
                     id="book"
@@ -61,14 +61,14 @@ export function BookAuthorsForm({ data }: Props) {
                     ))}
                   </BookAuthorsFormFieldsetAuthors.CheckboxGroup>
                 </BookAuthorsFormFieldsetAuthors>
-              </BookAuthorsFormLayout.FieldsetGroup>
+              </FormLayout.FieldGroup>
 
-              <BookAuthorsFormLayout.Footer>
+              <FormLayout.Footer>
                 <Button type="submit" disabled={pending} className="flex-1">
                   저장
                 </Button>
-              </BookAuthorsFormLayout.Footer>
-            </BookAuthorsFormLayout>
+              </FormLayout.Footer>
+            </FormLayout>
           )
         }}
       </BookAuthorsFormAction>

@@ -1,4 +1,4 @@
-import { Checkbox } from '@components/components/ui/checkbox'
+import { Checkbox } from '@components/ui/checkbox'
 import type { ComponentProps } from 'react'
 
 type Props = Pick<ComponentProps<'input'>, 'value'> & ComponentProps<'label'>

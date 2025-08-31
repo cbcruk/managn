@@ -55,6 +55,8 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@types/imagemin": "^9.0.1",
+    "@types/imagemin-webp": "^7.0.3",
     "bun-types": "^1.0.20",
     "tw-animate-css": "^1.3.7"
   },

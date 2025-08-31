@@ -132,6 +132,12 @@ importers:
         specifier: ^3.22.4
         version: 3.22.4
     devDependencies:
+      '@types/imagemin':
+        specifier: ^9.0.1
+        version: 9.0.1
+      '@types/imagemin-webp':
+        specifier: ^7.0.3
+        version: 7.0.3
       bun-types:
         specifier: ^1.0.20
         version: 1.0.20
@@ -2136,6 +2142,12 @@ packages:
 
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
+
+  '@types/imagemin-webp@7.0.3':
+    resolution: {integrity: sha512-C2/EMohS4bzsvY5VJvdzHFdcfmnZoui54DmM/9bFtK57/CgGmKkc+p6n49euPGmMFDDvwm4yVl60nwxcZOmH5A==}
+
+  '@types/imagemin@9.0.1':
+    resolution: {integrity: sha512-xMWpvrUhtYxl6EeW+UhVH3rwUKhCRx21XddcoWByjDAasXZT5pQaCn0YVnXoTijX5hlTrGqV4TGQL/Htpp00+w==}
 
   '@types/istanbul-lib-coverage@2.0.6':
     resolution: {integrity: sha512-2QF/t/auWm0lsy8XtKVPG19v3sSOQlJe/YHZgfjb/KBBHOGSV+J2q/S671rcq9uTBrLAXmZpqJiaQbMT+zNU1w==}
@@ -7277,6 +7289,14 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.2
 
+  '@types/imagemin-webp@7.0.3':
+    dependencies:
+      '@types/imagemin': 9.0.1
+
+  '@types/imagemin@9.0.1':
+    dependencies:
+      '@types/node': 24.3.0
+
   '@types/istanbul-lib-coverage@2.0.6': {}
 
   '@types/istanbul-lib-report@3.0.3':
@@ -7290,7 +7310,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.10.6
+      '@types/node': 24.3.0
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -7326,7 +7346,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.10.6
+      '@types/node': 24.3.0
 
   '@types/sax@1.2.7':
     dependencies:

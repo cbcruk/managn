@@ -1,6 +1,6 @@
-import { Label } from '@components/components/ui/label'
-import { BookAuthorsFormFieldset } from './BookAuthorsFormFieldset'
+import { Label } from '@components/ui/label'
 import type { ComponentProps } from 'react'
+import { FormLayoutField } from '@components/form/form-layout'
 
 function CheckboxGroup({ children }: ComponentProps<'div'>) {
   return (
@@ -12,18 +12,18 @@ function CheckboxGroup({ children }: ComponentProps<'div'>) {
 
 export function BookAuthorsFormFieldsetAuthors({
   children,
-}: ComponentProps<typeof BookAuthorsFormFieldset.Body>) {
+}: ComponentProps<typeof FormLayoutField.Body>) {
   return (
-    <BookAuthorsFormFieldset
+    <FormLayoutField
       role="group"
       aria-labelledby="작가-group-heading"
       className="text-neutral-100"
     >
-      <BookAuthorsFormFieldset.Label id="작가-group-heading">
+      <FormLayoutField.Label id="작가-group-heading">
         <Label>작가</Label>
-      </BookAuthorsFormFieldset.Label>
-      <BookAuthorsFormFieldset.Body>{children}</BookAuthorsFormFieldset.Body>
-    </BookAuthorsFormFieldset>
+      </FormLayoutField.Label>
+      <FormLayoutField.Body>{children}</FormLayoutField.Body>
+    </FormLayoutField>
   )
 }
 

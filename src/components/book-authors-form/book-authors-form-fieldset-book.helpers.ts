@@ -1,4 +1,4 @@
-import type { AuthorsData, BooksData } from '@pages/form.astro'
+import type { AuthorsData, BooksData } from '@pages/book_authors/add.astro'
 
 export function generateBookOptions(data: BooksData) {
   return data

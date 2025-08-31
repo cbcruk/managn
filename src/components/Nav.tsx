@@ -1,7 +1,7 @@
 import type { Page } from 'astro'
 import type { ComponentProps } from 'react'
 import { twc } from 'react-twc'
-import { Button } from './components/ui/button'
+import { Button } from '@components/ui/button'
 import { twMerge } from 'tailwind-merge'
 
 const LinkButton = twc.a`inline-flex justify-center h-[32px] min-w-[90px] p-2 rounded-full text-xs text-center`
