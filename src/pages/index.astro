@@ -1,8 +1,8 @@
 ---
 import { getCollection } from 'astro:content'
-import Layout from '@layouts/Layout.astro'
-import { Books } from '@components/Books'
-import { Nav, NavButton, NavButtonGroup } from '@components/Nav'
+import Layout from '@layouts/layout.astro'
+import { Books } from '@components/books'
+import { Nav, NavButton, NavButtonGroup } from '@components/nav'
 import { withAuthors } from '@helpers/withAuthors'
 
 const collection = await getCollection(

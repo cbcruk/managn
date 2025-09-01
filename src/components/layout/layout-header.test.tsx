@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
-import { LayoutHeader } from './LayoutHeader'
+import { LayoutHeader } from './layout-header'
 import styles from './LayoutHeader.module.css'
 
 describe('LayoutHeader', () => {

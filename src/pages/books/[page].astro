@@ -1,15 +1,15 @@
 ---
 import type { Page } from 'astro'
 import { getCollection } from 'astro:content'
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../layouts/layout.astro'
 import {
   Nav,
   NavButtonGroup,
   NavNextButton,
   NavPrevButton,
   NavStatus,
-} from '@components/Nav'
-import { Books } from '@components/Books'
+} from '@components/nav'
+import { Books } from '@components/books'
 import { withAuthors } from '@helpers/withAuthors'
 import type { BookWithAuthors } from '@content/config'
 

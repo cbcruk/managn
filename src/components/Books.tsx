@@ -1,5 +1,5 @@
 import type { BookWithAuthors } from '@content/config'
-import { BookAuthor } from './BookAuthor'
+import { BookAuthor } from './book-author'
 
 type Props = {
   data: BookWithAuthors[]

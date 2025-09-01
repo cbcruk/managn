@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
-import { Layout } from './Layout'
+import { Layout } from './layout'
 
 describe('Layout', () => {
   it('정상적으로 렌더링되어야 한다', () => {

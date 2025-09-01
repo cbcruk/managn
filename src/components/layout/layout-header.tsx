@@ -1,6 +1,6 @@
 import { twc } from 'react-twc'
-import { Container } from '../Container'
-import styles from './LayoutHeader.module.css'
+import { Container } from '../container'
+import styles from './layout-header.module.css'
 
 const LayoutHeaderRoot = twc.div`sticky top-0 z-10 bg-stone-900/90 backdrop-blur-sm`
 

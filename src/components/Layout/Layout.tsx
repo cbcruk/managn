@@ -1,6 +1,6 @@
 import type { ComponentProps } from 'react'
-import { LayoutHeader } from './LayoutHeader'
-import { LayoutBody } from './LayoutBody'
+import { LayoutHeader } from './layout-header'
+import { LayoutBody } from './layout-body'
 
 type Props = ComponentProps<'main'>
 
