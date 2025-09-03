@@ -1,19 +1,19 @@
 ---
 import Layout from '@layouts/layout.astro'
-import { getCollection } from 'astro:content'
+import { getAuthorsWithBooks } from '@lib/data'
 import { CHOSEONG_LIST } from 'src/constants'
 
-const authors = await getCollection('authors')
+const authors = await getAuthorsWithBooks()
 const authorGroupByChoseong = CHOSEONG_LIST.map((char, index) => {
   const items = authors
     .filter((author) => {
-      const code = (author.data.name_ko ?? '').charCodeAt(0) - 0xac00
+      const code = (author.name_ko ?? '').charCodeAt(0) - 0xac00
       const choseongIndex = Math.floor(code / (21 * 28))
 
       return index === choseongIndex
     })
     .toSorted((a, b) =>
-      (a.data.name_ko ?? '')?.localeCompare(b.data.name_ko ?? '')
+      (a.name_ko ?? '')?.localeCompare(b.name_ko ?? '')
     )
 
   return {
@@ -64,7 +64,7 @@ const authorGroupByChoseong = CHOSEONG_LIST.map((char, index) => {
                       href={`/author/${item.id}`}
                       class="inline-block min-w-[50%] overflow-hidden text-ellipsis px-1 text-stone-400 text-sm text-nowrap hover:text-stone-100 hover:font-bold transition-all"
                     >
-                      {item.data.name_ko} ({item.data.name_ja})
+                      {item.name_ko} ({item.name_ja})
                     </a>
                   )
                 })}

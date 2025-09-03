@@ -1,21 +1,10 @@
 ---
-import { getCollection } from 'astro:content'
 import Layout from '@layouts/layout.astro'
 import { Books } from '@components/books'
 import { Nav, NavButton, NavButtonGroup } from '@components/nav'
-import { withAuthors } from '@helpers/withAuthors'
+import { getRandomBooks } from '@lib/data'
 
-const collection = await getCollection(
-  'books',
-  ({ data }) => data.status === 'release'
-)
-const books = Array.from({ length: collection.length }, () => {
-  const randomIndex = Math.floor(Math.random() * collection.length)
-
-  return collection[randomIndex]
-}).slice(0, 10)
-
-const data = await Promise.all(books.map(withAuthors))
+const data = await getRandomBooks(10)
 ---
 
 <Layout title="홈 | managn">

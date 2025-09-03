@@ -7,6 +7,8 @@ export const authors = sqliteTable('authors', {
   name_ja: text('name_ja').notNull(),
 })
 
+export type Author = typeof authors.$inferSelect
+
 export const insertAuthorSchema = createInsertSchema(authors)
 
 export const selectAuthorSchema = createSelectSchema(authors)
@@ -18,6 +20,8 @@ export const books = sqliteTable('books', {
   title_ko: text('title_ko').notNull(),
   title_ja: text('title_ja').notNull(),
 })
+
+export type Book = typeof books.$inferSelect
 
 export const insertBookSchema = createInsertSchema(books)
 

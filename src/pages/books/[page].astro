@@ -1,6 +1,5 @@
 ---
 import type { Page } from 'astro'
-import { getCollection } from 'astro:content'
 import Layout from '../../layouts/layout.astro'
 import {
   Nav,
@@ -10,19 +9,15 @@ import {
   NavStatus,
 } from '@components/nav'
 import { Books } from '@components/books'
-import { withAuthors } from '@helpers/withAuthors'
-import type { BookWithAuthors } from '@content/config'
+import { getReleasedBooks, type BookWithAuthors } from '@lib/data'
 
 type Props = {
   page: Page<BookWithAuthors>
 }
 
 export async function getStaticPaths({ paginate }) {
-  const books = await getCollection(
-    'books',
-    ({ data }) => data.status === 'release'
-  )
-  const data = await Promise.all(books.map(withAuthors).reverse())
+  const data = await getReleasedBooks()
+  data.reverse()
 
   return paginate(data, { pageSize: 20 })
 }

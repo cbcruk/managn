@@ -1,24 +1,19 @@
 ---
 import { Books } from '@components/books'
 import { SearchForm } from '@components/search/search-form'
-import { withAuthors } from '@helpers/withAuthors'
 import Layout from '@layouts/layout.astro'
-import { getCollection } from 'astro:content'
+import { getReleasedBooks } from '@lib/data'
 import Fuse from 'fuse.js'
 
-const books = await getCollection(
-  'books',
-  ({ data }) => data.status === 'release'
-)
-const data = await Promise.all(books.map(withAuthors))
+const data = await getReleasedBooks()
 
 const fuse = new Fuse(data, {
   includeScore: true,
   keys: [
-    'data.title_ko',
-    'data.title_ja',
-    'data.authors.name_ko',
-    'data.authors.name_ja',
+    'title_ko',
+    'title_ja',
+    'authors.name_ko',
+    'authors.name_ja',
   ],
 })
 
