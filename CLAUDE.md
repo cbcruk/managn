@@ -26,19 +26,19 @@ The application uses three main tables:
 - `authors` - Author information (Korean/Japanese names)  
 - `book_authors` - Many-to-many relationship between books and authors
 
-### Content System
-Uses Astro's content collections with custom loaders that dynamically fetch from the database:
-- Books collection loads released books with author relationships
-- Authors collection loads authors with their associated books
-- Book cover images stored in `src/content/books/assets/` as `.webp` files
+### Data Architecture
+**Pure Database Architecture** (Updated 2025-09-03):
+- Removed Astro Content Collections due to validation issues with DB references
+- Implemented direct database queries via `src/lib/data.ts`
+- All data access goes through typed helper functions with JSDoc documentation
+- Book cover images stored in `public/books/` as `.webp` files for production compatibility
 
 ### API Routes
 RESTful API endpoints in `src/pages/api/`:
 - `/api/books` - CRUD operations for books
 - `/api/authors` - Author management
 - `/api/book_authors` - Author-book relationships
-- `/api/upload-cover` - Image upload and WebP conversion (uses imagemin)
-- `/api/imagemin` - Batch image processing (legacy, processes all files)
+- `/api/imagemin` - Batch image processing (processes files in `public/books/`)
 
 ### Component Structure
 - Form components in `src/components/` with separate action handlers
@@ -55,9 +55,29 @@ RESTful API endpoints in `src/pages/api/`:
 - `/books/add` - Add new books with image upload support
 - `/authors/add` - Add new authors
 - Admin links appear in header during development mode
-- Image uploads automatically convert to WebP format and save as `{book_id}.webp`
+- Image uploads automatically convert to WebP format and save to `public/books/{book_id}.webp`
 
-### Known Issues
-- Content collections with DB references can fail validation if data relationships are incomplete
-- Workaround: Use `/books/add` and `/authors/add` UI instead of direct DB manipulation
-- See `CONTENT_COLLECTION_REDESIGN.md` for detailed analysis and solution options
+### Data Access Layer (`src/lib/data.ts`)
+Key functions for database operations:
+- `getReleasedBooks()` - Retrieves all published books with author relationships
+- `getReleasedBooksByAuthor(authorId)` - Gets books by specific author
+- `getAuthorsWithBooks()` - Gets authors who have published books
+- `getAuthorById(authorId)` - Retrieves single author data
+- `getRandomBooks(count)` - Returns random selection of books for homepage
+- Helper functions: `createCoverUrl()`, `parseAuthorData()`, `parseBookData()`, `transformBookRow()`
+
+### Migration Notes
+**Content Collections → Pure DB Architecture** (Completed 2025-09-03):
+- Resolved validation issues with Content Collection reference failures
+- All pages now use direct database queries instead of `getCollection()`
+- Image assets moved from `src/content/books/assets/` to `public/books/` using `git mv`
+- Updated TypeScript types and improved error handling with proper type guards
+- Build successfully prerenders 263 author pages and 19 book pages
+
+### Development Notes
+- Use `pnpm build` to verify all static routes prerender correctly
+- Database queries use Drizzle ORM with proper type safety and `inArray()` for complex filters
+- Image paths now use `/books/{id}.webp` format for production compatibility
+
+### Documentation
+- `docs/content-collection-redesign.md` - Complete analysis and solution of Content Collections migration
