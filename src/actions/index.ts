@@ -64,7 +64,7 @@ export const server = {
             }
           )
 
-          await fs.writeFile(`src/content/books/assets/${bookId}.webp`, result)
+          await fs.writeFile(`public/books/${bookId}.webp`, result)
         } catch (error) {
           console.error('ERROR', error)
         }

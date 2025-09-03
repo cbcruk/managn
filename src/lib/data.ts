@@ -20,7 +20,7 @@ export type AuthorWithBooks = Author & {
 }
 
 function createCoverUrl(bookId: number) {
-  return `/src/content/books/assets/${bookId}.webp`
+  return `/books/${bookId}.webp`
 }
 
 function parseAuthorData(authorData: string) {

@@ -3,8 +3,8 @@ import imagemin from 'imagemin'
 import imageminWebp from 'imagemin-webp'
 
 export const POST: APIRoute = async () => {
-  await imagemin(['src/content/books/assets/*.{jpg,jpeg,png}'], {
-    destination: 'src/content/books/assets',
+  await imagemin(['public/books/*.{jpg,jpeg,png}'], {
+    destination: 'public/books',
     plugins: [
       imageminWebp({
         quality: 50,
