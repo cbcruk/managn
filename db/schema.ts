@@ -13,6 +13,11 @@ export const insertAuthorSchema = createInsertSchema(authors)
 
 export const selectAuthorSchema = createSelectSchema(authors)
 
+export const BOOK_STATUS = {
+  RELEASE: 'release',
+  DRAFT: 'draft',
+} as const
+
 export const books = sqliteTable('books', {
   id: integer('id').primaryKey(),
   status: text('status').notNull(),
