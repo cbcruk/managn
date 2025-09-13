@@ -17,7 +17,7 @@ export function BookAuthorsFormFieldsetAuthors({
     <FormLayoutField
       role="group"
       aria-labelledby="작가-group-heading"
-      className="text-neutral-100"
+      className="flex flex-col gap-4 text-neutral-100"
     >
       <FormLayoutField.Label id="작가-group-heading">
         <Label>작가</Label>

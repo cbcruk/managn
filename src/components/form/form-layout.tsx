@@ -11,11 +11,11 @@ FormLayout.Footer = twc.div`flex mt-6`
 
 export function FormLayoutField({ children, ...props }: ComponentProps<'div'>) {
   return (
-    <div className="flex flex-col gap-2" {...props}>
+    <div className="flex flex-col gap-4" {...props}>
       {children}
     </div>
   )
 }
 
 FormLayoutField.Label = twc.div`text-neutral-100`
-FormLayoutField.Body = twc.div``
+FormLayoutField.Body = twc.div`flex`
