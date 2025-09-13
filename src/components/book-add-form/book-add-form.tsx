@@ -53,12 +53,7 @@ export function BookAddForm() {
                 <FormLayoutField.Label>
                   <Label htmlFor="link">링크</Label>
                 </FormLayoutField.Label>
-                <Input
-                  type="url"
-                  id="link"
-                  name="link"
-                  defaultValue="https://google.com"
-                />
+                <Input type="url" id="link" name="link" />
               </FormLayoutField>
               <FormLayoutField>
                 <FormLayoutField.Label>
