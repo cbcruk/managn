@@ -28,8 +28,6 @@ export function BookAuthorsForm({ data }: Props) {
         {({ pending }) => {
           return (
             <FormLayout>
-              <FormLayout.Title>책-작가</FormLayout.Title>
-
               <FormLayout.FieldGroup>
                 <BookAuthorsFormFieldsetBook>
                   <BookAuthorsFormFieldsetBook.Input

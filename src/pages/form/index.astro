@@ -1,6 +1,6 @@
 ---
 import Layout from '@layouts/layout.astro'
-import { BookAuthorsForm } from '@components/book-authors-form/book-authors-form'
+import { Form } from '@components/form/form'
 import { db } from 'db/managn'
 import * as schema from 'db/schema'
 
@@ -15,6 +15,6 @@ export type AuthorsData = typeof authorsData
 export type BooksData = typeof booksData
 ---
 
-<Layout title="홈 | managn">
-  <BookAuthorsForm client:only="react" data={{ authorsData, booksData }} />
+<Layout title="관리자 | managn">
+  <Form client:only="react" data={{ authorsData, booksData }} />
 </Layout>

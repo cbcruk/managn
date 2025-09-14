@@ -12,8 +12,6 @@ export function AuthorAddForm() {
       <AuthorAddFormAction>
         {({ pending }) => (
           <FormLayout>
-            <FormLayout.Title>작가 추가</FormLayout.Title>
-
             <FormLayout.FieldGroup>
               <FormLayoutField>
                 <FormLayoutField.Label>
@@ -36,7 +34,7 @@ export function AuthorAddForm() {
 
             <FormLayout.Footer>
               <Button type="submit" className="flex-1" disabled={pending}>
-                작가 추가
+                저장
               </Button>
             </FormLayout.Footer>
           </FormLayout>

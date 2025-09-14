@@ -6,7 +6,7 @@ export function FormLayout({ children }: PropsWithChildren) {
 }
 
 FormLayout.Title = twc.h1`text-neutral-100 font-medium`
-FormLayout.FieldGroup = twc.div`flex flex-col gap-4 text-sm mt-6`
+FormLayout.FieldGroup = twc.div`flex flex-col gap-4 text-sm`
 FormLayout.Footer = twc.div`flex mt-6`
 
 export function FormLayoutField({ children, ...props }: ComponentProps<'div'>) {

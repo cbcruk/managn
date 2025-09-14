@@ -24,6 +24,7 @@
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-select": "^2.2.6",
     "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-tabs": "^1.1.13",
     "@tailwindcss/vite": "^4.1.12",
     "@testing-library/jest-dom": "^6.4.5",
     "@testing-library/react": "^15.0.7",

@@ -20,8 +20,6 @@ export function BookAddForm() {
       <BookAddFormAction>
         {({ pending }) => (
           <FormLayout>
-            <FormLayout.Title>새 도서 추가</FormLayout.Title>
-
             <FormLayout.FieldGroup>
               <FormLayoutField>
                 <FormLayoutField.Label>
@@ -65,7 +63,7 @@ export function BookAddForm() {
 
             <FormLayout.Footer>
               <Button type="submit" disabled={pending} className="flex-1">
-                도서 추가
+                저장
               </Button>
             </FormLayout.Footer>
           </FormLayout>

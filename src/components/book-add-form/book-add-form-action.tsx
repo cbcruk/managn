@@ -18,9 +18,5 @@ function useBookAddActionState() {
 export function BookAddFormAction({ children }: FormProps) {
   const { state, action, pending } = useBookAddActionState()
 
-  return (
-    <form action={action} encType="multipart/form-data">
-      {children({ state, pending })}
-    </form>
-  )
+  return <form action={action}>{children({ state, pending })}</form>
 }
