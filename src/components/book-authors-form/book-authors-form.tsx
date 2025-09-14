@@ -1,4 +1,3 @@
-import type { AuthorsData, BooksData } from '@pages/book_authors/add.astro'
 import { ErrorBoundary } from 'react-error-boundary'
 import { BookAuthorsFormAction } from './book-authors-form-action'
 import { BookAuthorsFormFieldsetBook } from './book-authors-form-fieldset-book'
@@ -11,17 +10,19 @@ import { BookAuthorsFormCheckbox } from './book-authors-form-checkbox'
 import { Button } from '@components/ui/button'
 import { FormLayout } from '@components/form/form-layout'
 import { FormAlert } from '@components/form/form-alert'
+import {
+  Select,
+  SelectTrigger,
+  SelectValue,
+  SelectContent,
+  SelectGroup,
+  SelectLabel,
+  SelectItem,
+} from '@radix-ui/react-select'
+import type { BookAuthorsFormProps } from './book-authors-form.types'
+import { groupByChoseong } from '@lib/group-by-choseong'
 
-type Props = {
-  data: {
-    /** 도서 리스트 */
-    booksData: BooksData
-    /** 저자 리스트 */
-    authorsData: AuthorsData
-  }
-}
-
-export function BookAuthorsForm({ data }: Props) {
+export function BookAuthorsForm({ data }: BookAuthorsFormProps) {
   return (
     <ErrorBoundary FallbackComponent={FormAlert}>
       <BookAuthorsFormAction>

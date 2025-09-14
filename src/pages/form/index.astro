@@ -10,9 +10,6 @@ if (import.meta.env.NODE_ENV !== 'development') {
 
 const authorsData = await db.select().from(schema.authors)
 const booksData = await db.select().from(schema.books)
-
-export type AuthorsData = typeof authorsData
-export type BooksData = typeof booksData
 ---
 
 <Layout title="관리자 | managn">

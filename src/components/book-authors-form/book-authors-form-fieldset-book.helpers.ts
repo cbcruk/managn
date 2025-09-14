@@ -1,6 +1,8 @@
-import type { AuthorsData, BooksData } from '@pages/book_authors/add.astro'
+import type { BookAuthorsFormProps } from './book-authors-form.types'
 
-export function generateBookOptions(data: BooksData) {
+export function generateBookOptions(
+  data: BookAuthorsFormProps['data']['booksData']
+) {
   return data
     .toSorted((a, b) => a.title_ko.localeCompare(b.title_ko))
     .map((book) => ({
@@ -9,7 +11,9 @@ export function generateBookOptions(data: BooksData) {
     }))
 }
 
-export function generateAuthorOptions(data: AuthorsData) {
+export function generateAuthorOptions(
+  data: BookAuthorsFormProps['data']['authorsData']
+) {
   return data
     .toSorted((a, b) => a.name_ko.localeCompare(b.name_ko))
     .map((author) => ({
