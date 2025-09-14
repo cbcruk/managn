@@ -1,25 +1,12 @@
 ---
 import Layout from '@layouts/layout.astro'
 import { getAuthorsWithBooks } from '@lib/data'
-import { CHOSEONG_LIST } from 'src/constants'
+import { groupByChoseong } from '@lib/group-by-choseong'
 
 const authors = await getAuthorsWithBooks()
-const authorGroupByChoseong = CHOSEONG_LIST.map((char, index) => {
-  const items = authors
-    .filter((author) => {
-      const code = (author.name_ko ?? '').charCodeAt(0) - 0xac00
-      const choseongIndex = Math.floor(code / (21 * 28))
-
-      return index === choseongIndex
-    })
-    .toSorted((a, b) =>
-      (a.name_ko ?? '')?.localeCompare(b.name_ko ?? '')
-    )
-
-  return {
-    char,
-    items,
-  }
+const authorGroupByChoseong = groupByChoseong({
+  list: authors,
+  key: 'name_ko',
 })
 ---
 
