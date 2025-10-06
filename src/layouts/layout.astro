@@ -1,6 +1,7 @@
 ---
+import LayoutBase from './layout-base.astro'
 import { Layout as LayoutRoot } from '@components/layout/layout'
-import '../styles/global.css'
+import { LayoutBody } from '@components/layout/layout-body'
 
 interface Props {
   title: string
@@ -9,27 +10,11 @@ interface Props {
 const { title } = Astro.props
 ---
 
-<!doctype html>
-<html lang="ko" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="추천만화" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
-  </head>
-  <body class="bg-stone-800">
-    <LayoutRoot>
-      <LayoutRoot.Header />
-      <LayoutRoot.Body>
-        <slot />
-      </LayoutRoot.Body>
-    </LayoutRoot>
-  </body>
-</html>
-<style is:global>
-  body {
-    font-family: 'Noto Sans KR', sans-serif;
-  }
-</style>
+<LayoutBase title={title}>
+  <LayoutRoot>
+    <LayoutRoot.Header />
+    <LayoutBody>
+      <slot />
+    </LayoutBody>
+  </LayoutRoot>
+</LayoutBase>

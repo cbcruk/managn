@@ -22,4 +22,7 @@ export default defineConfig({
   adapter: vercel({
     includeFiles: ['./managn.db'],
   }),
+  redirects: {
+    '/admin': '/admin/books',
+  },
 })

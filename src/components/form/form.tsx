@@ -1,5 +1,5 @@
-import { AuthorAddForm } from '@components/author-add-form/author-add-form'
-import { BookAddForm } from '@components/book-add-form/book-add-form'
+import { AuthorAddForm } from '@components/admin/author-add-form'
+import { BookAddForm } from '@components/admin/book-add-form'
 import { BookAuthorsForm } from '@components/book-authors-form/book-authors-form'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@components/ui/tabs'
 

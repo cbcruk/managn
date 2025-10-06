@@ -13,7 +13,7 @@ export function Books({ data }: Props) {
           <div
             id={`books-${item.id}`}
             key={item.id}
-            className="flex flex-col w-full max-w-[414px] rounded-3xl shadow-lg bg-neutral-900"
+            className="flex flex-col w-full max-w-[414px] rounded-3xl shadow-lg bg-neutral-800"
           >
             <div className="overflow-hidden">
               <img
@@ -25,7 +25,7 @@ export function Books({ data }: Props) {
                 style={{ aspectRatio: 240 / 347 }}
               />
             </div>
-            <div className="flex flex-col p-4 py-4 text-neutral-100">
+            <div className="flex flex-col p-4 py-4 text-neutral-100 ">
               <div className="flex flex-wrap items-end gap-1 text-2xl">
                 <span className="flex items-end gap-1 whitespace-nowrap overflow-x-auto">
                   {item.title_ko}

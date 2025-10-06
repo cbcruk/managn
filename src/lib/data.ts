@@ -38,10 +38,6 @@ export type BookWithAuthorData = BookWithCover & {
   authorData: string
 }
 
-export type AuthorWithBooks = Author & {
-  books: BookWithCover[]
-}
-
 function createCoverUrl(bookId: number) {
   return `/books/${bookId}.webp`
 }
@@ -213,4 +209,10 @@ export async function getRandomBooks(count = 10) {
   }
 
   return Array.from(selectedBooks)
+}
+
+export async function getAuthors() {
+  const authors = await db.select().from(schemas.authors)
+
+  return authors
 }

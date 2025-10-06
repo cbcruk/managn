@@ -1,0 +1,30 @@
+---
+import { AdminTabs } from '@components/admin/admin-tabs'
+import LayoutBase from './layout-base.astro'
+import { Layout as LayoutRoot } from '@components/layout/layout'
+import { LayoutBody } from '@components/layout/layout-body'
+import { Button } from '@components/ui/button'
+
+interface Props {
+  title: string
+  name: 'books' | 'authors'
+}
+
+const { title, name } = Astro.props
+---
+
+<LayoutBase title={title}>
+  <LayoutRoot client:load>
+    <LayoutBody className="max-w-full">
+      <div class="flex flex-col gap-4">
+        <div class="flex justify-between">
+          <AdminTabs defaultValue={name} />
+          <Button variant="outline" size="sm">
+            <a href={`/admin/${name}/add`}>추가</a>
+          </Button>
+        </div>
+        <slot />
+      </div>
+    </LayoutBody>
+  </LayoutRoot>
+</LayoutBase>

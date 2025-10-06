@@ -1,0 +1,36 @@
+---
+import Layout from '@layouts/layout-admin.astro'
+import { actions } from 'astro:actions'
+import { db } from 'db/managn'
+import * as schema from 'db/schema'
+import { eq } from 'drizzle-orm'
+import { AuthorAddForm } from '@components/admin/author-add-form'
+
+if (import.meta.env.NODE_ENV !== 'development') {
+  return Astro.redirect('/')
+}
+
+const { id } = Astro.params
+
+if (!id || isNaN(Number(id))) {
+  return Astro.redirect('/admin/authors')
+}
+
+const authorId = Number(id)
+
+const author = await db
+  .select()
+  .from(schema.authors)
+  .where(eq(schema.authors.id, authorId))
+  .get()
+
+if (!author) {
+  return Astro.redirect('/admin/authors')
+}
+---
+
+<Layout name="authors" title={`작가 수정: ${author.name_ko} | managn`}>
+  <form method="POST" action={actions.author}>
+    <AuthorAddForm client:load data={author} />
+  </form>
+</Layout>

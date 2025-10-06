@@ -1,0 +1,19 @@
+---
+import { AdminAuthorsDataTable } from '@components/admin/admin-authors-data-table'
+import Layout from '@layouts/layout-admin.astro'
+import { db } from 'db/managn'
+import * as schema from 'db/schema'
+
+if (import.meta.env.NODE_ENV !== 'development') {
+  return Astro.redirect('/')
+}
+
+const authors = await db
+  .select()
+  .from(schema.authors)
+  .orderBy(schema.authors.name_ko)
+---
+
+<Layout name="authors" title="작가 관리 | managn">
+  <AdminAuthorsDataTable client:idle data={authors} />
+</Layout>
