@@ -1,10 +1,10 @@
 'use client'
 
-import { FormLayout, FormLayoutField } from '@components/form/form-layout'
-import { Input } from '@components/ui/input'
-import { Button } from '@components/ui/button'
-import { Label } from '@components/ui/label'
-import type { Author } from 'db/schema'
+import { FormLayout, FormLayoutField } from '@/components/form/form-layout'
+import { Input } from '@/components/ui/input'
+import { Button } from '@/components/ui/button'
+import { Label } from '@/components/ui/label'
+import type { Author } from '@/lib/db/schema'
 
 type AuthorAddFormProps = {
   data?: Author

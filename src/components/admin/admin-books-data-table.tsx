@@ -1,6 +1,6 @@
 'use client'
 
-import type { Book } from 'db/schema'
+import type { Book } from '@/lib/db/schema'
 import { useState } from 'react'
 import { AgGridReact } from 'ag-grid-react'
 import {
@@ -11,6 +11,7 @@ import {
   type ColDef,
   type ICellRendererParams,
 } from 'ag-grid-community'
+import Link from 'next/link'
 
 type AdminBooksDataTableProps = {
   data: Book[]
@@ -31,7 +32,7 @@ export function AdminBooksDataTable({ data }: AdminBooksDataTableProps) {
       headerName: 'ID',
       maxWidth: 80,
       cellRenderer: ({ data }: CellRendererBookParams) => {
-        return <a href={`/admin/books/${data?.id}`}>{data?.id}</a>
+        return <Link href={`/admin/books/${data?.id}`}>{data?.id}</Link>
       },
     },
     {
@@ -43,10 +44,13 @@ export function AdminBooksDataTable({ data }: AdminBooksDataTableProps) {
         }
 
         return (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={`/books/${data.id}.webp`}
             alt=""
-            className="m-0.5 rounded-sm object-cover aspect-square h-[36px]"
+            width={36}
+            height={36}
+            className="m-0.5 rounded-sm object-cover aspect-square"
           />
         )
       },
@@ -60,8 +64,8 @@ export function AdminBooksDataTable({ data }: AdminBooksDataTableProps) {
       filter: false,
       sortable: true,
       maxWidth: 80,
-      cellRenderer: ({ value }) => {
-        return value === 'release' ? '✅' : '☑️'
+      cellRenderer: ({ data }: CellRendererBookParams) => {
+        return data?.status === 'release' ? '✅' : '☑️'
       },
     },
   ])

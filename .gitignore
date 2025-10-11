@@ -23,3 +23,7 @@ scripts/authors.json
 scripts/books.json
 
 .vercel
+
+# next.js
+/.next/
+/out/

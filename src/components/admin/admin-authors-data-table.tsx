@@ -1,6 +1,6 @@
 'use client'
 
-import type { Author } from 'db/schema'
+import type { Author } from '@/lib/db/schema'
 import { useState } from 'react'
 import { AgGridReact } from 'ag-grid-react'
 import {
@@ -11,6 +11,7 @@ import {
   type ColDef,
   type ICellRendererParams,
 } from 'ag-grid-community'
+import Link from 'next/link'
 
 type AdminAuthorsDataTableProps = {
   data: Author[]
@@ -31,7 +32,7 @@ export function AdminAuthorsDataTable({ data }: AdminAuthorsDataTableProps) {
       headerName: 'ID',
       maxWidth: 80,
       cellRenderer: ({ data }: CellRendererAuthorParams) => {
-        return <a href={`/admin/authors/${data?.id}`}>{data?.id}</a>
+        return <Link href={`/admin/authors/${data?.id}`}>{data?.id}</Link>
       },
     },
     { field: 'name_ko', headerName: '한국어', filter: true },

@@ -1,18 +1,16 @@
-import { Tabs, TabsList, TabsTrigger } from '@components/ui/tabs'
+import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import Link from 'next/link'
 import type { ComponentProps } from 'react'
 
 export function AdminTabs({ defaultValue }: ComponentProps<typeof Tabs>) {
   return (
     <Tabs defaultValue={defaultValue}>
       <TabsList>
-        <TabsTrigger value="index" asChild>
-          <a href="/">홈</a>
+        <TabsTrigger value="books" asChild suppressHydrationWarning>
+          <Link href="/admin/books/">책</Link>
         </TabsTrigger>
-        <TabsTrigger value="books" asChild>
-          <a href="/admin/books/">책</a>
-        </TabsTrigger>
-        <TabsTrigger value="authors" asChild>
-          <a href="/admin/authors/">작가</a>
+        <TabsTrigger value="authors" asChild suppressHydrationWarning>
+          <Link href="/admin/authors/">작가</Link>
         </TabsTrigger>
       </TabsList>
     </Tabs>

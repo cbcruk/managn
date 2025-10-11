@@ -1,5 +1,6 @@
-import type { BookWithAuthors } from '@lib/data'
+import type { BookWithAuthors } from '@/lib/data'
 import { BookAuthor } from './book-author'
+import Image from 'next/image'
 
 type Props = {
   data: BookWithAuthors[]
@@ -16,10 +17,11 @@ export function Books({ data }: Props) {
             className="flex flex-col w-full max-w-[414px] rounded-3xl shadow-lg bg-neutral-800"
           >
             <div className="overflow-hidden">
-              <img
+              <Image
                 src={item.cover}
                 alt=""
-                width={414}
+                width={382}
+                height={552}
                 loading="lazy"
                 className="rounded-3xl object-cover object-left-top"
                 style={{ aspectRatio: 240 / 347 }}
@@ -35,6 +37,7 @@ export function Books({ data }: Props) {
               <div className="flex gap-2 py-1 text-sm whitespace-nowrap overflow-x-auto">
                 {(item.authors || []).map((author) => {
                   if (!author || !author.id) return null
+
                   return (
                     <BookAuthor
                       key={author.id}

@@ -1,20 +1,17 @@
-import type { Page } from 'astro'
 import type { ComponentProps } from 'react'
 import { twc } from 'react-twc'
-import { Button } from '@components/ui/button'
+import { Button } from '@/components/ui/button'
 import { twMerge } from 'tailwind-merge'
+import { Pagination } from '@/lib/data'
+import Link from 'next/link'
 
-export function NavButton(
-  props: Pick<ComponentProps<'a'>, 'href' | 'children' | 'className'>
-) {
+export function NavButton(props: ComponentProps<typeof Link>) {
   return (
     <Button
-      {...props}
       className={twMerge('rounded-full text-xs', props.className)}
-      data-astro-prefetch
       asChild
     >
-      <a>{props.children}</a>
+      <Link href={props.href}>{props.children}</Link>
     </Button>
   )
 }
@@ -40,13 +37,10 @@ export function NavNextButton(props: ComponentProps<typeof NavButton>) {
 
 export const NavButtonGroup = twc.div`flex justify-end items-center gap-2 ml-auto`
 
-export function NavStatus({
-  lastPage,
-  currentPage,
-}: Pick<Page, 'lastPage' | 'currentPage'>) {
+export function NavStatus({ totalPages, currentPage }: Partial<Pagination>) {
   return (
     <span className="text-neutral-100 text-xs">
-      {lastPage} 중 {currentPage}페이지
+      {totalPages} 중 {currentPage}페이지
     </span>
   )
 }

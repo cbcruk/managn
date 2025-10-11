@@ -1,144 +1,210 @@
-import { defineAction } from 'astro:actions'
-import { z } from 'astro:schema'
-import { db } from 'db/managn'
-import * as schema from 'db/schema'
-import { eq } from 'drizzle-orm'
-import imagemin from 'imagemin'
-import imageminWebp from 'imagemin-webp'
-import fs from 'node:fs/promises'
+'use server'
 
-export const server = {
-  bookAuthors: defineAction({
-    accept: 'form',
-    input: z.object({
-      book: z.string(),
-      authors: z.array(z.string()),
-    }),
-    handler: async ({ book, authors }) => {
-      for (const author of authors) {
-        await db.insert(schema.book_authors).values({
-          book_id: parseInt(book, 10),
-          author_id: parseInt(author, 10),
+import {
+  deleteBookAuthor,
+  insertAuthorData,
+  insertBook,
+  createBookAuthor,
+  updateAuthorData,
+  updateBookData,
+} from '@/lib/data'
+import { createImage } from '@/lib/services/image'
+import { revalidatePath } from 'next/cache'
+import { redirect } from 'next/navigation'
+import { z } from 'zod'
+
+export type State = {
+  data: boolean | null
+  error: string | null
+}
+
+export async function updateBook(_prevState: State, formData: FormData) {
+  const input = z.object({
+    id: z.coerce.number(),
+    title_ko: z.string(),
+    title_ja: z.string(),
+    status: z.string(),
+    link: z.string().optional(),
+    added_book_authors: z.string().array().optional(),
+    deleted_book_authors: z.string().array().optional(),
+    cover: z.instanceof(File).optional(),
+  })
+
+  const result = input.safeParse({
+    id: formData.get('id'),
+    title_ko: formData.get('title_ko'),
+    title_ja: formData.get('title_ja'),
+    status: formData.get('status'),
+    link: formData.get('link'),
+    added_book_authors: formData.getAll('added_book_authors'),
+    deleted_book_authors: formData.getAll('deleted_book_authors'),
+    cover: formData.get('cover'),
+  })
+
+  if (!result.success) {
+    return {
+      data: null,
+      error: result.error.message,
+    }
+  }
+
+  try {
+    await updateBookData({
+      id: result.data.id,
+      title_ko: result.data.title_ko,
+      title_ja: result.data.title_ja,
+      status: result.data.status,
+      link: result.data.link,
+    })
+
+    const addedBookAuthors = result.data.added_book_authors ?? []
+    const deletedBookAuthors = result.data.deleted_book_authors ?? []
+
+    if (addedBookAuthors.length > 0) {
+      for (const authorId of addedBookAuthors) {
+        await createBookAuthor({
+          book_id: result.data.id,
+          author_id: parseInt(authorId, 10),
         })
       }
+    }
 
-      return true
-    },
-  }),
-  book: defineAction({
-    accept: 'form',
-    input: z.object({
-      id: z.string().optional(),
-      title_ko: z.string(),
-      title_ja: z.string(),
-      status: z.string(),
-      link: z.string().optional(),
-      cover: z.instanceof(File).optional(),
-    }),
-    handler: async ({ id, title_ko, title_ja, status, link, cover }) => {
-      let bookId: number
-
-      if (id) {
-        bookId = parseInt(id, 10)
-
-        await db
-          .update(schema.books)
-          .set({
-            title_ko,
-            title_ja,
-            status,
-            link,
-          })
-          .where(eq(schema.books.id, bookId))
-      } else {
-        const result = await db
-          .insert(schema.books)
-          .values({
-            title_ko,
-            title_ja,
-            status,
-            link,
-          })
-          .returning({
-            id: schema.books.id,
-          })
-
-        bookId = result.at(0)?.id!
-      }
-
-      if (bookId && cover && cover.size > 0) {
-        try {
-          const arrayBuffer = await cover.arrayBuffer()
-          const buffer = Buffer.from(arrayBuffer)
-
-          const result = await imagemin.buffer(
-            buffer as unknown as Uint8Array,
-            {
-              plugins: [
-                imageminWebp({
-                  quality: 80,
-                }),
-              ],
-            }
-          )
-
-          await fs.writeFile(`public/books/${bookId}.webp`, result)
-        } catch (error) {
-          console.error('ERROR', error)
-        }
-      }
-
-      return true
-    },
-  }),
-  deleteBook: defineAction({
-    accept: 'form',
-    input: z.object({
-      id: z.string(),
-    }),
-    handler: async ({ id }) => {
-      const bookId = parseInt(id, 10)
-
-      await db
-        .delete(schema.book_authors)
-        .where(eq(schema.book_authors.book_id, bookId))
-
-      await db.delete(schema.books).where(eq(schema.books.id, bookId))
-
-      try {
-        await fs.unlink(`public/books/${bookId}.webp`)
-      } catch (error) {
-        console.warn(`실패 ${bookId}:`, error)
-      }
-
-      return true
-    },
-  }),
-  author: defineAction({
-    accept: 'form',
-    input: z.object({
-      id: z.string().optional(),
-      name_ko: z.string(),
-      name_ja: z.string(),
-    }),
-    async handler({ id, name_ko, name_ja }) {
-      if (id) {
-        const authorId = parseInt(id, 10)
-        await db
-          .update(schema.authors)
-          .set({
-            name_ko,
-            name_ja,
-          })
-          .where(eq(schema.authors.id, authorId))
-      } else {
-        await db.insert(schema.authors).values({
-          name_ko,
-          name_ja,
+    if (deletedBookAuthors.length > 0) {
+      for (const authorId of deletedBookAuthors) {
+        await deleteBookAuthor({
+          book_id: result.data.id,
+          author_id: parseInt(authorId, 10),
         })
       }
+    }
 
-      return true
-    },
-  }),
+    if (result.data.cover) {
+      await createImage(result.data.id, result.data.cover)
+    }
+
+    revalidatePath('/admin/books/')
+
+    return {
+      data: true,
+      error: null,
+    }
+  } catch (error) {
+    const e = error as unknown as Error
+
+    return {
+      data: null,
+      error: e.message,
+    }
+  }
+}
+
+export async function createBook(_prevState: State, formData: FormData) {
+  const input = z.object({
+    title_ko: z.string(),
+    title_ja: z.string(),
+    status: z.string(),
+    link: z.string().optional(),
+    added_book_authors: z.string().array().optional(),
+    cover: z.instanceof(File).optional(),
+  })
+
+  const result = input.safeParse({
+    title_ko: formData.get('title_ko'),
+    title_ja: formData.get('title_ja'),
+    status: formData.get('status'),
+    link: formData.get('link'),
+    added_book_authors: formData.getAll('added_book_authors'),
+    cover: formData.get('cover'),
+  })
+
+  if (!result.success) {
+    return {
+      data: null,
+      error: result.error.message,
+    }
+  }
+
+  const book = await insertBook({
+    title_ko: result.data.title_ko,
+    title_ja: result.data.title_ja,
+    status: result.data.status,
+    link: result.data.link,
+  })
+
+  const addedBookAuthors = result.data.added_book_authors ?? []
+
+  if (addedBookAuthors.length > 0) {
+    for (const authorId of addedBookAuthors) {
+      await createBookAuthor({
+        book_id: book.id,
+        author_id: parseInt(authorId, 10),
+      })
+    }
+  }
+
+  if (result.data.cover) {
+    await createImage(book.id, result.data.cover)
+  }
+
+  revalidatePath('/admin/books/')
+
+  redirect(`/admin/books/${book.id}`)
+}
+
+export async function updateAuthor(_prevState: State, formData: FormData) {
+  const input = z.object({
+    id: z.coerce.number(),
+    name_ko: z.string(),
+    name_ja: z.string(),
+  })
+
+  const result = input.safeParse({
+    id: formData.get('id'),
+    name_ko: formData.get('name_ko'),
+    name_ja: formData.get('name_ja'),
+  })
+
+  if (!result.success) {
+    return {
+      data: null,
+      error: result.error.message,
+    }
+  }
+
+  await updateAuthorData({
+    id: result.data.id,
+    name_ko: result.data.name_ko,
+    name_ja: result.data.name_ja,
+  })
+
+  return {
+    data: true,
+    error: null,
+  }
+}
+
+export async function createAuthor(_prevState: State, formData: FormData) {
+  const input = z.object({
+    name_ko: z.string(),
+    name_ja: z.string(),
+  })
+
+  const result = input.safeParse({
+    name_ko: formData.get('name_ko'),
+    name_ja: formData.get('name_ja'),
+  })
+
+  if (!result.success) {
+    return {
+      data: null,
+      error: result.error.message,
+    }
+  }
+
+  await insertAuthorData(result.data)
+
+  return {
+    data: true,
+    error: null,
+  }
 }
