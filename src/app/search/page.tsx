@@ -27,7 +27,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
   return (
     <LayoutDefault>
-      <div className="grid gap-4">
+      <div className="flex flex-col gap-4">
         <SearchForm q={q ?? ''} />
         <Books data={result.map((book) => book.item)} />
       </div>
