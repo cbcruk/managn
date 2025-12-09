@@ -4,5 +4,7 @@
     "twc\\(.*?\\).*?`([^`]*)",
     ["twc\\.[^`]+\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
     ["twc\\(.*?\\).*?\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ]
+  ],
+  "python.defaultInterpreterPath": "${workspaceFolder}/admin/venv/bin/python",
+  "python-envs.pythonProjects": []
 }
