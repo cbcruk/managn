@@ -33,7 +33,7 @@ export const insertBookSchema = createInsertSchema(books)
 export const selectBookSchema = createSelectSchema(books)
 
 export const book_authors = sqliteTable('book_authors', {
-  id: integer('id').primaryKey(),
+  id: integer('id').primaryKey({ autoIncrement: true }),
   book_id: integer('book_id').references(() => books.id),
   author_id: integer('author_id').references(() => authors.id),
 })

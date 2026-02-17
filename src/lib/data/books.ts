@@ -192,11 +192,11 @@ export async function insertBook(body: {
   return book
 }
 
-export async function createBookAuthor(body: BookAuthor) {
+export async function createBookAuthor(body: Omit<BookAuthor, 'id'>) {
   await db.insert(schemas.book_authors).values(body)
 }
 
-export async function deleteBookAuthor(body: BookAuthor) {
+export async function deleteBookAuthor(body: Omit<BookAuthor, 'id'>) {
   if (!body.book_id) return
   if (!body.author_id) return
 
