@@ -1,6 +1,11 @@
 from django.db import models
 
 
+class BookStatus(models.TextChoices):
+    RELEASE = "release", "출간"
+    DRAFT = "draft", "초안"
+
+
 class Author(models.Model):
     id = models.AutoField(primary_key=True)
     name_ko = models.TextField(blank=True, null=True, verbose_name="이름 (한국어)")
@@ -18,7 +23,9 @@ class Author(models.Model):
 
 class Book(models.Model):
     id = models.AutoField(primary_key=True)
-    status = models.TextField(blank=True, null=True, verbose_name="상태")
+    status = models.TextField(
+        choices=BookStatus.choices, default=BookStatus.DRAFT, verbose_name="상태"
+    )
     link = models.TextField(blank=True, null=True, verbose_name="링크")
     title_ko = models.TextField(blank=True, null=True, verbose_name="제목 (한국어)")
     title_ja = models.TextField(blank=True, null=True, verbose_name="제목 (일본어)")
@@ -37,9 +44,8 @@ class Book(models.Model):
 
 
 class BookAuthor(models.Model):
-    book = models.ForeignKey(
-        Book, on_delete=models.CASCADE, db_column="book_id", primary_key=True
-    )
+    id = models.AutoField(primary_key=True)
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, db_column="book_id")
     author = models.ForeignKey(Author, on_delete=models.CASCADE, db_column="author_id")
 
     class Meta:
