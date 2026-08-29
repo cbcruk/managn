@@ -27,7 +27,8 @@ export async function getAuthorsWithBooks() {
           'title_ko', books.title_ko,
           'title_ja', books.title_ja,
           'status', books.status,
-          'link', books.link
+          'link', books.link,
+          'cover', books.cover
         )
       )`,
     })

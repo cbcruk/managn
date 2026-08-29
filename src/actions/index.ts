@@ -11,6 +11,7 @@ import {
 import { createImage } from '@/lib/services/image'
 import { revalidatePath } from 'next/cache'
 import { redirect } from 'next/navigation'
+import { BOOK_STATUS_VALUES } from '@/lib/db/schema'
 import { z } from 'zod'
 
 export type State = {
@@ -23,7 +24,7 @@ export async function updateBook(_prevState: State, formData: FormData) {
     id: z.coerce.number(),
     title_ko: z.string(),
     title_ja: z.string(),
-    status: z.string(),
+    status: z.enum(BOOK_STATUS_VALUES),
     link: z.string().optional(),
     added_book_authors: z.string().array().optional(),
     deleted_book_authors: z.string().array().optional(),
@@ -102,7 +103,7 @@ export async function createBook(_prevState: State, formData: FormData) {
   const input = z.object({
     title_ko: z.string(),
     title_ja: z.string(),
-    status: z.string(),
+    status: z.enum(BOOK_STATUS_VALUES),
     link: z.string().optional(),
     added_book_authors: z.string().array().optional(),
     cover: z.instanceof(File).optional(),

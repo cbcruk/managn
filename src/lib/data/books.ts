@@ -1,5 +1,5 @@
 import { db } from '../db/managn'
-import type { Book, BookAuthor } from '../db/schema'
+import type { Book, BookAuthor, BookStatus } from '../db/schema'
 import * as schemas from '../db/schema'
 import { BOOK_STATUS } from '../db/schema'
 import { eq, sql, and, inArray, desc } from 'drizzle-orm'
@@ -18,7 +18,7 @@ export async function getReleasedBooks() {
   return bookRows.map((book) => {
     return {
       ...book,
-      cover: createCoverUrl(book.id),
+      cover: createCoverUrl(book.id, book.cover),
       authors: parseAuthorData(book.authorData),
     }
   })
@@ -50,7 +50,7 @@ export async function getReleasedBooksByAuthor(authorId: number) {
   return bookRows.map((book) => {
     return {
       ...book,
-      cover: createCoverUrl(book.id),
+      cover: createCoverUrl(book.id, book.cover),
       authors: parseAuthorData(book.authorData),
     }
   })
@@ -109,7 +109,7 @@ export async function getReleasedBooksByPageSize(
 
   const books = bookRows.map((book) => ({
     ...book,
-    cover: createCoverUrl(book.id),
+    cover: createCoverUrl(book.id, book.cover),
     authors: parseAuthorData(book.authorData),
   }))
 
@@ -178,7 +178,7 @@ export async function updateBookData(
 export async function insertBook(body: {
   title_ko: string
   title_ja: string
-  status: string
+  status: BookStatus
   link?: string
 }) {
   const book = await db
