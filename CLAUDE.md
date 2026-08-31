@@ -106,8 +106,10 @@ forms, relation widgets, and file uploads.
 - `src/lib/comp/cover-store.ts` — the `FileStore`: converts to WebP, writes to `public/books/`
 - `src/app/api/comp/[[...slug]]/route.ts` — Comp's Hono router mounted in the App Router
 - `src/components/comp/comp-admin.tsx` — `<AdminSite/>`
-- `src/app/comp/comp.css` — the Comp example stylesheet, scoped under
-  `.comp-admin` so its element selectors stay off the rest of the site
+
+Comp ships its own look (it is built on Astryx), so `/comp` imports one
+stylesheet — `@comp/admin/styles.css` — and this app writes no admin CSS. It
+also never imports the design system: `AdminSite` applies the theme itself.
 
 Three declarations are worth explaining:
 

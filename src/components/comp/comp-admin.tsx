@@ -38,7 +38,6 @@ export function CompAdmin(): JSX.Element {
 
   return (
     <AdminSite
-      className="comp-admin"
       client={client}
       collections={collections}
       route={route}
