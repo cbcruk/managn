@@ -18,12 +18,20 @@ export const BOOK_STATUS = {
   DRAFT: 'draft',
 } as const
 
+export const BOOK_STATUS_VALUES = [
+  BOOK_STATUS.RELEASE,
+  BOOK_STATUS.DRAFT,
+] as const
+
+export type BookStatus = (typeof BOOK_STATUS_VALUES)[number]
+
 export const books = sqliteTable('books', {
   id: integer('id').primaryKey(),
-  status: text('status').notNull(),
+  status: text('status', { enum: BOOK_STATUS_VALUES }).notNull(),
   link: text('link'),
   title_ko: text('title_ko').notNull(),
   title_ja: text('title_ja').notNull(),
+  cover: text('cover'),
 })
 
 export type Book = typeof books.$inferSelect

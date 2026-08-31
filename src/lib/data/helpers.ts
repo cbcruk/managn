@@ -23,10 +23,22 @@ const bookFromJsonSchema = z.object({
     .string()
     .nullable()
     .transform((link) => (link === NULL_VALUE ? null : link)),
+  cover: z
+    .string()
+    .nullable()
+    .default(null)
+    .transform((cover) => (cover === NULL_VALUE ? null : cover)),
 })
 
-export function createCoverUrl(bookId: number) {
-  return `/books/${bookId}.webp`
+/**
+ * Where a book's cover is served from.
+ *
+ * The key comes from the `cover` column, which is what an upload stores. Books
+ * that predate the column fall back to the old `{id}.webp` convention their
+ * files still follow, so a missing key means "no cover", not "broken link".
+ */
+export function createCoverUrl(bookId: number, cover?: string | null) {
+  return `/books/${cover ?? `${bookId}.webp`}`
 }
 
 export function parseAuthorData(authorData: string) {
@@ -65,7 +77,7 @@ export function parseBookData(bookData: string) {
       .filter((result) => result.success)
       .map((result) => ({
         ...result.data,
-        cover: createCoverUrl(result.data.id),
+        cover: createCoverUrl(result.data.id, result.data.cover),
       }))
   } catch {
     return []

@@ -19,7 +19,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "drizzle-orm": ["./node_modules/drizzle-orm"],
+      "drizzle-orm/*": ["./node_modules/drizzle-orm/*"],
+      "hono": ["./node_modules/hono"],
+      "hono/*": ["./node_modules/hono/*"],
+      "effect": ["./node_modules/effect"],
+      "effect/*": ["./node_modules/effect/*"]
     }
   },
   "include": [
